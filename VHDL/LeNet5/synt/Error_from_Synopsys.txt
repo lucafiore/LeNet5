@@ -1,0 +1,278 @@
+Compiling Entity Declaration POOLING_LAYER4_DP
+Compiling Architecture STRUCTURAL of POOLING_LAYER4_DP
+
+-------------------
+   122: 	  PORT MAP(clock=>clock, R_LE_RST=>R_LE_RST, R_LE_EN=>R_LE_EN, data1=>mux_a_out(i), data2=>mux_b_out(i), output=>output(i));
+        	                                                                                                                 ^^^^^^
+[Error] Formal port OUTPUT is of mode OUT: actual port OUTPUT must be of mode OUT or INOUT
+
+-------------------
+   146: END structural;
+                       ^
+[Failure] End of compilation: error(s) in design unit STRUCTURAL
+-- Compiling Source File ../VHDL_Conv2/pooling_layer4.vhd
+Compiling Entity Declaration POOLING_LAYER4
+Compiling Architecture STRUCTURAL of POOLING_LAYER4
+
+-------------------
+    80:    TC10=>TC10, DONE=>DONE, output=>output);
+                                           ^^^^^^
+[Error] Formal port OUTPUT is of mode BUFFER: actual port OUTPUT must be of mode BUFFER
+
+-------------------
+    93: END structural;
+                       ^
+[Failure] End of compilation: error(s) in design unit STRUCTURAL
+-- Compiling Source File ../VHDL_Conv2/register_1bit.vhd
+Compiling Entity Declaration REGISTER_1BIT
+Compiling Architecture BEHAVIOR of REGISTER_1BIT
+Error:  ../VHDL_Conv1/register_1bit.vhd:12: You have declared more than one architectures with the same name 'behavior'. (VHD-3)
+-- Compiling Source File ../VHDL_Conv2/register_file.vhd
+
+
+-------------------------------------------------------------------------------
+
+Compiling Package Declaration FC_STRUCT_PKG
+*** Presto compilation terminated with 5 errors. ***
+Running PRESTO HDLC
+Warning:  ../VHDL_Common/LeNet5_top.vhd:536: The initial value for signal 'out_conv2_bias_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:552: The initial value for signal 'zeros_input' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:553: The initial value for signal 'zeros_bias' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:597: The initial value for signal 'in_add_opt_sum_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:600: The initial value for signal 'acc_mac_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Statistics for case statements in always block at line 700 in file
+	'../VHDL_Common/LeNet5_top.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           702            |    auto/auto     |
+===============================================
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[14] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[13] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[12] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[11] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[10] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[9] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[8] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+
+
+-------------------------------------------------------------------------------
+
+Warning:  ../VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[6] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[5] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[4] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[3] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[2] of cell MAC_23' connected to ground. (ELAB-294)
+
+
+---------------------------------------------------------------------------------
+
+Current design is now 'LeNet5_top'.
+Information: Building the design 'CONV1_top' instantiated from design 'LeNet5_top' with
+	the parameters "N_in=32,M_in=8,M_w=8,N_w=5,I_w=6,N_out=28,M_out=8,EXTRA_BIT=0,N_out_max=14". (HDL-193)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:152: The initial value for signal 'TC14_C' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:152: The initial value for signal 'TC14_R' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:153: The initial value for signal 'TC3_SHIFT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:153: The initial value for signal 'TC3_PAR' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:153: The initial value for signal 'TC25' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+
+
+------------------------------------------------------------------------------------
+
+Information: Building the design 'mux14to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=112". (HDL-193)
+Warning:  ../VHDL_Conv2/mux14to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Conv2/mux14to1_nbit.vhd:28: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+
+------------------------------------------------------------------------------------
+
+Information: Building the design 'mux5to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "P=15,S=3". (HDL-193)
+Warning:  ../VHDL_Common/mux5to1_nbit.vhd:25: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+
+Statistics for case statements in always block at line 33 in file
+
+-------------------------------------------------------------------------------------
+
+Information: Building the design 'Conv_layer_1' instantiated from design 'Conv1_with_CU_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N_in=32,M_in=8,M_w=8,N_w=5,I_w=6,N_out=28,M_out=8,EXTRA_BIT=0". (HDL-193)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:155: The initial value for signal 'out_prec' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:163: The initial value for signal 'EN_REG_OUT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+
+
+---------------------------------------------------------------------------------------
+
+Information: Building the design 'CU_conv2'. (HDL-193)
+Warning:  ../VHDL_Conv2/CU_conv2.vhd:88: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  ../VHDL_Conv2/CU_conv2.vhd:122: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 58 in file
+	'../VHDL_Conv2/CU_conv2.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            60            |    auto/auto     |
+===============================================
+Warning:  ../VHDL_Conv2/CU_conv2.vhd:236: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  ../VHDL_Conv2/CU_conv2.vhd:260: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 156 in file
+	'../VHDL_Conv2/CU_conv2.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           186            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_conv2 line 145 in file
+		'../VHDL_Conv2/CU_conv2.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       P_S_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+-----------------------------------------------------------------------------------
+
+Presto compilation completed successfully.
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+
+-----------------------------------------------------------------------------------
+
+Information: Building the design 'max_pooling' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "M_in=8,M_out=8". (HDL-193)
+Error:  ../VHDL_Conv1/max_pooling.vhd:169: Width of the actual at the port 'a' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:169: Width of the actual at the port 'b' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:171: Width of the actual at the port 'a' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:171: Width of the actual at the port 'b' does not match. (8 != 9) (ELAB-353)
+*** Presto compilation terminated with 4 errors. ***
+
+-------------------------------------------------------------------------------------
+
+Information: Building the design 'mux14to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=112". (HDL-193)
+Warning:  ../VHDL_Conv2/mux14to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Conv2/mux14to1_nbit.vhd:28: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'pooling_layer4' instantiated from design 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5' with
+	the parameters "N=8". (HDL-193)
+Warning: Cannot find the design 'pooling_layer4' in the library 'WORK'. (LBR-1)
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "P=8,M=400,S=9". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "P=8,M=84,S=7". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'mux25to1_nbit' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N=8". (HDL-193)
+Warning:  ../VHDL_Conv2/mux25to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Conv2/mux25to1_nbit.vhd:28: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'max_pooling' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "M_in=8,M_out=8". (HDL-193)
+Error:  ../VHDL_Conv1/max_pooling.vhd:169: Width of the actual at the port 'a' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:169: Width of the actual at the port 'b' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:171: Width of the actual at the port 'a' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:171: Width of the actual at the port 'b' does not match. (8 != 9) (ELAB-353)
+*** Presto compilation terminated with 4 errors. ***
+Warning: Unable to resolve reference 'mux14to1_nbit' in 'LeNet5_top'. (LINK-5)
+Warning: Unable to resolve reference 'pooling_layer4' in 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10'. (LINK-5)
+Warning: Unable to resolve reference 'mux25to1_nbit' in 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0'. (LINK-5)
+Warning: Unable to resolve reference 'max_pooling' in 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0'. (LINK-5)
+Warning: Unable to resolve reference 'mux25to1_nbit' in 'Conv_layer3_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0'. (LINK-5)
+
+-------------------------------------------------------------------------------------------
+
+Warning: Design 'LeNet5_top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'MAC_0/Mux_add_2/SEL': 1302 load(s), 1 driver(s)
+Information: Building the design 'mux14to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=112". (HDL-193)
+Warning:  ../VHDL_Conv2/mux14to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Conv2/mux14to1_nbit.vhd:28: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'pooling_layer4' instantiated from design 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5' with
+	the parameters "N=8". (HDL-193)
+Warning: Cannot find the design 'pooling_layer4' in the library 'WORK'. (LBR-1)
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "P=8,M=400,S=9". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "P=8,M=84,S=7". (HDL-193)
+Warning:  ../VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'mux25to1_nbit' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N=8". (HDL-193)
+Warning:  ../VHDL_Conv2/mux25to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../VHDL_Conv2/mux25to1_nbit.vhd:28: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'max_pooling' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "M_in=8,M_out=8". (HDL-193)
+Error:  ../VHDL_Conv1/max_pooling.vhd:169: Width of the actual at the port 'a' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:169: Width of the actual at the port 'b' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:171: Width of the actual at the port 'a' does not match. (8 != 9) (ELAB-353)
+Error:  ../VHDL_Conv1/max_pooling.vhd:171: Width of the actual at the port 'b' does not match. (8 != 9) (ELAB-353)
+*** Presto compilation terminated with 4 errors. ***
+Warning: Unable to resolve reference 'mux14to1_nbit' in 'LeNet5_top'. (LINK-5)
+Warning: Unable to resolve reference 'pooling_layer4' in 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10'. (LINK-5)
+Warning: Unable to resolve reference 'mux25to1_nbit' in 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0'. (LINK-5)
+Warning: Unable to resolve reference 'max_pooling' in 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0'. (LINK-5)
+Warning: Unable to resolve reference 'mux25to1_nbit' in 'Conv_layer3_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0'. (LINK-5)
+Writing ddc file 'LeNet5_top.ddc'.
+Warning: Design 'LeNet5_top' has '8' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating graph... (UID-83)
+Warning: Design 'LeNet5_top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Warning: Design 'LeNet5_top' has '8' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: The specified replacement character (_) is conflicting with the specified allowed or restricted character.   (UCN-4)
+Warning: Design 'LeNet5_top' has '8' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Annotated 'cell' delays are assumed to include load delay. (UID-282)
+Information: Writing timing information to file '/home/lp19.16/Desktop/Huqing/LeNet5/LeNet5_top.sdf'. (WT-3)
+Information: Updating design information... (UID-85)
+Warning: Design 'LeNet5_top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Warning: Design contains black-box components.  These cells will have no timing information. (WT-7)
+Warning: Design 'LeNet5_top' has '8' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Writing verilog file '/home/lp19.16/Desktop/Huqing/LeNet5/fromsynopsys_LeNet5_top.'.
+
+
+
+

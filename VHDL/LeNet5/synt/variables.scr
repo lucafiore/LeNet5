@@ -1,0 +1,5 @@
+variable top_hierarchy "LeNet5_top"
+variable period 20
+variable testbench "LeNet5_tb"
+variable extension ".txt"
+variable loadset 1

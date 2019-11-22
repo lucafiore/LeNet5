@@ -1,0 +1,15 @@
+analyze -library WORK -format vhdl {/home/lp19.16/ese2/synth/fsm_adder.vhd /home/lp19.16/ese2/synth/dpadder.vhd /home/lp19.16/ese2/synth/adder.vhd}
+elaborate ADDER -architecture BEHAVIOURAL -library DEFAULT
+create_clock -name "CLK" -period 1.91 {clock}
+compile -exact_map
+write -hierarchy -format ddc -output /home/lp19.16/ese2/synth/fsma-constr.ddc
+write -hierarchy -format vhdl -output /home/lp19.16/ese2/synth/fsma-constr.vhdl
+report_area > log-constr/fsma-area-constr.txt
+report_fsm > log-constr/fsma-fsm-constr.txt
+report_timing > log-constr/fsma-time-constr.txt
+report_power > log-constr/fsma-pow-constr.txt
+report_power -hier > log-constr/fsma-powcell-constr.txt
+report_power -net > log-constr/fsma-tc-constr.txt
+current_instance FSM
+report_power -net -cell  > log-constr/fsma-powtcfsm-constr.txt
+
