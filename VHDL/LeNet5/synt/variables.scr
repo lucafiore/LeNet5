@@ -1,5 +1,8 @@
-variable top_hierarchy "LeNet5_top"
-variable period 20
+variable top_entity "LeNet5_top"
+variable period 11.4
+variable ext _11d4
 variable testbench "LeNet5_tb"
-variable extension ".txt"
+
+# output directory of syntesys file
+variable out_dir "./synt_out"
 variable loadset 1

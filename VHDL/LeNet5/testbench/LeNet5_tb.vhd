@@ -745,7 +745,7 @@ END PROCESS;
 ------------------------------------------------------------------------
 
 
-DUT : LeNet5_top 
+UUT : LeNet5_top 
 	port map (START_TB,RST_TB_A_n,CLK_TB,
 				 READ_IMG,
 				 EN_READ_W_1,
