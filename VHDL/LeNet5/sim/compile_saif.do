@@ -1,8 +1,8 @@
 #compile all vhd file
 
 vcom -93 -work ./work ../src/VHDL_Packages/*.vhd
-vcom -93 -work ./work ../testbench/VHDL_tb/*.vhd
-vlog -work ./work ../netlist/LeNet5.v
+vcom -93 -work ./work ../testbench/*.vhd
+vlog -work ./work ../netlist/LeNet5_top.v
 
 # Loads the technological library and the SDFs
 vsim -L /software/dk/nangate45/verilog/msim6.2g work.LeNet5_tb -t 1ps

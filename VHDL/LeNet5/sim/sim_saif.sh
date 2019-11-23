@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "--------------- sim_saif  starts ------------------------------------"
 echo "-Elimination and re-creation of work dir"
-rm -r work
+rm -fr work
 echo "-Setting of 6.2g version of modelsim"
 source /software/scripts/init_msim6.2g > /dev/null
 vlib work
