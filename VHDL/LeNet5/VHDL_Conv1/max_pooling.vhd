@@ -66,7 +66,7 @@ END COMPONENT;
 COMPONENT comparator IS
 
   PORT(	 
-			a, b: IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+			a, b: IN STD_LOGIC_VECTOR(8 DOWNTO 0);
 			RESULT: OUT STD_LOGIC
       );
       
