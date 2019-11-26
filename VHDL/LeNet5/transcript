@@ -1,0 +1,1223 @@
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+do compile.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package conv_struct_pkg
+# -- Compiling package fc_struct_pkg
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package math_real
+# -- Loading package conv_struct_pkg
+# -- Compiling entity conv1_top
+# -- Compiling architecture structural of conv1_top
+# -- Compiling entity cu_conv1
+# -- Compiling architecture behaviour of cu_conv1
+# -- Compiling entity conv1_with_cu
+# -- Compiling architecture structural of conv1_with_cu
+# -- Compiling entity conv_layer_1
+# -- Compiling architecture structural of conv_layer_1
+# -- Compiling entity counter_14_c
+# -- Compiling architecture behavior of counter_14_c
+# -- Compiling entity comparator
+# -- Compiling architecture logicfunc of comparator
+# -- Compiling entity flipflop
+# -- Compiling architecture behavior of flipflop
+# -- Compiling entity full_adder
+# -- Compiling architecture behavior of full_adder
+# -- Compiling entity latch_nbit
+# -- Compiling architecture behavior of latch_nbit
+# -- Compiling entity max_pooling
+# -- Compiling architecture structural of max_pooling
+# -- Compiling entity mux25to1_nbit
+# -- Compiling architecture behavior of mux25to1_nbit
+# -- Compiling entity mux2to1
+# -- Compiling architecture logicfunc of mux2to1
+# -- Compiling entity precomputation_conv
+# -- Compiling architecture behavior of precomputation_conv
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
+# -- Compiling entity relu_conv
+# -- Compiling architecture structural of relu_conv
+# -- Compiling entity shift_reg_32x8bit_mux
+# -- Compiling architecture structural of shift_reg_32x8bit_mux
+# -- Compiling entity shift_reg_5x32x8bit_4out
+# -- Compiling architecture structural of shift_reg_5x32x8bit_4out
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package conv_struct_pkg
+# -- Loading package textio
+# -- Compiling entity conv2_top
+# -- Compiling architecture structural of conv2_top
+# -- Compiling entity cu_conv2
+# -- Compiling architecture behaviour of cu_conv2
+# -- Compiling entity conv_layer3
+# -- Compiling architecture structural of conv_layer3
+# -- Compiling entity comparator
+# -- Compiling architecture logicfunc of comparator
+# -- Compiling entity conv2_with_cu
+# -- Compiling architecture structural of conv2_with_cu
+# -- Compiling entity counter
+# -- Compiling architecture structure of counter
+# -- Compiling entity flipflop_rst
+# -- Compiling architecture behavior of flipflop_rst
+# -- Compiling entity latch_nbit
+# -- Compiling architecture behavior of latch_nbit
+# -- Compiling entity mux14to1_nbit
+# -- Compiling architecture behavior of mux14to1_nbit
+# -- Compiling entity mux25to1_nbit
+# -- Compiling architecture behavior of mux25to1_nbit
+# -- Compiling entity mux2to1
+# -- Compiling architecture logicfunc of mux2to1
+# -- Compiling entity one_hot_dec
+# -- Compiling architecture structural of one_hot_dec
+# -- Compiling entity pooling_comparator
+# -- Compiling architecture structural of pooling_comparator
+# -- Compiling entity pooling_layer4
+# -- Compiling architecture structural of pooling_layer4
+# -- Compiling entity pooling_layer4_cu
+# -- Compiling architecture structure of pooling_layer4_cu
+# -- Compiling entity pooling_layer4_dp
+# -- Compiling architecture structural of pooling_layer4_dp
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
+# -- Compiling entity register_file
+# -- Compiling architecture behavioral of register_file
+# -- Compiling entity shift_reg_14xnbit
+# -- Compiling architecture behavior of shift_reg_14xnbit
+# -- Compiling entity shift_reg_5x14xnbit
+# -- Compiling architecture behavior of shift_reg_5x14xnbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc1
+# -- Compiling architecture behaviour of cu_fc1
+# -- Compiling entity fc1_top
+# -- Compiling architecture structural of fc1_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_1
+# -- Compiling architecture structural of fully_connected_layer_1
+# -- Compiling entity decode_3to5
+# -- Compiling architecture behavioral of decode_3to5
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc2
+# -- Compiling architecture behaviour of cu_fc2
+# -- Compiling entity fc2_top
+# -- Compiling architecture structural of fc2_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_2
+# -- Compiling architecture structural of fully_connected_layer_2
+# -- Compiling entity decode_2to4
+# -- Compiling architecture behavioral of decode_2to4
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc3
+# -- Compiling architecture behaviour of cu_fc3
+# -- Compiling entity fc3_top
+# -- Compiling architecture structural of fc3_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_3
+# -- Compiling architecture structural of fully_connected_layer_3
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Loading package conv_struct_pkg
+# -- Loading package textio
+# -- Compiling entity lenet5_tb
+# -- Compiling architecture behaviour of lenet5_tb
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Loading package conv_struct_pkg
+# -- Compiling entity cu_tot
+# -- Compiling architecture behaviour of cu_tot
+# -- Loading package math_real
+# -- Compiling entity counter_n
+# -- Compiling architecture behavior of counter_n
+# -- Compiling entity counter_n_fc
+# -- Compiling architecture behavior of counter_n_fc
+# -- Compiling entity input_registers
+# -- Compiling architecture structural of input_registers
+# -- Compiling entity intermediate_registers_1
+# -- Compiling architecture structural of intermediate_registers_1
+# -- Compiling entity intermediate_registers_2
+# -- Compiling architecture structural of intermediate_registers_2
+# -- Compiling entity lenet5_top
+# -- Compiling architecture structural of lenet5_top
+# -- Compiling entity output_registers
+# -- Compiling architecture structural of output_registers
+# -- Compiling entity clock_gating
+# -- Compiling architecture structural of clock_gating
+# -- Compiling entity latch_n
+# -- Compiling architecture behavior of latch_n
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity mac_block
+# -- Compiling architecture structural of mac_block
+# -- Compiling entity mux2to1_nbit
+# -- Compiling architecture behavior of mux2to1_nbit
+# -- Compiling entity mux4to1_1bit
+# -- Compiling architecture behavior of mux4to1_1bit
+# -- Compiling entity mux4to1_nbit
+# -- Compiling architecture behavior of mux4to1_nbit
+# -- Compiling entity mux5to1_1bit
+# -- Compiling architecture behavior of mux5to1_1bit
+# -- Compiling entity mux5to1_nbit
+# -- Compiling architecture behavior of mux5to1_nbit
+# -- Compiling entity muxmto1_nbit
+# -- Compiling architecture behavior of muxmto1_nbit
+# -- Compiling entity register_nbit
+# -- Compiling architecture behavior of register_nbit
+# -- Compiling entity relu
+# -- Compiling architecture behavior of relu
+# -- Compiling entity saturation
+# -- Compiling architecture structural of saturation
+# vsim work.LeNet5_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: ./VHDL_Conv1/max_pooling.vhd(170): Length of a is 8; length of component port is 9.
+# ** Error: ./VHDL_Conv1/max_pooling.vhd(170): Length of b is 8; length of component port is 9.
+# ** Error: ./VHDL_Conv2/comparator.vhd(18): Vopt Compiler exiting
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO ./compile.do PAUSED at line 13
+do compile.do
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Compiling package conv_struct_pkg
+# -- Compiling package fc_struct_pkg
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package math_real
+# -- Loading package conv_struct_pkg
+# -- Compiling entity conv1_top
+# -- Compiling architecture structural of conv1_top
+# -- Compiling entity cu_conv1
+# -- Compiling architecture behaviour of cu_conv1
+# -- Compiling entity conv1_with_cu
+# -- Compiling architecture structural of conv1_with_cu
+# -- Compiling entity conv_layer_1
+# -- Compiling architecture structural of conv_layer_1
+# -- Compiling entity counter_14_c
+# -- Compiling architecture behavior of counter_14_c
+# -- Compiling entity comparator
+# -- Compiling architecture logicfunc of comparator
+# -- Compiling entity flipflop
+# -- Compiling architecture behavior of flipflop
+# -- Compiling entity full_adder
+# -- Compiling architecture behavior of full_adder
+# -- Compiling entity latch_nbit
+# -- Compiling architecture behavior of latch_nbit
+# -- Compiling entity max_pooling
+# -- Compiling architecture structural of max_pooling
+# -- Compiling entity mux25to1_nbit
+# -- Compiling architecture behavior of mux25to1_nbit
+# -- Compiling entity mux2to1
+# -- Compiling architecture logicfunc of mux2to1
+# -- Compiling entity precomputation_conv
+# -- Compiling architecture behavior of precomputation_conv
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
+# -- Compiling entity relu_conv
+# -- Compiling architecture structural of relu_conv
+# -- Compiling entity shift_reg_32x8bit_mux
+# -- Compiling architecture structural of shift_reg_32x8bit_mux
+# -- Compiling entity shift_reg_5x32x8bit_4out
+# -- Compiling architecture structural of shift_reg_5x32x8bit_4out
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package conv_struct_pkg
+# -- Loading package textio
+# -- Compiling entity conv2_top
+# -- Compiling architecture structural of conv2_top
+# -- Compiling entity cu_conv2
+# -- Compiling architecture behaviour of cu_conv2
+# -- Compiling entity conv_layer3
+# -- Compiling architecture structural of conv_layer3
+# -- Compiling entity comparator
+# -- Compiling architecture logicfunc of comparator
+# -- Compiling entity conv2_with_cu
+# -- Compiling architecture structural of conv2_with_cu
+# -- Compiling entity counter
+# -- Compiling architecture structure of counter
+# -- Compiling entity flipflop_rst
+# -- Compiling architecture behavior of flipflop_rst
+# -- Compiling entity latch_nbit
+# -- Compiling architecture behavior of latch_nbit
+# -- Compiling entity mux14to1_nbit
+# -- Compiling architecture behavior of mux14to1_nbit
+# -- Compiling entity mux25to1_nbit
+# -- Compiling architecture behavior of mux25to1_nbit
+# -- Compiling entity mux2to1
+# -- Compiling architecture logicfunc of mux2to1
+# -- Compiling entity one_hot_dec
+# -- Compiling architecture structural of one_hot_dec
+# -- Compiling entity pooling_comparator
+# -- Compiling architecture structural of pooling_comparator
+# -- Compiling entity pooling_layer4
+# -- Compiling architecture structural of pooling_layer4
+# -- Compiling entity pooling_layer4_cu
+# -- Compiling architecture structure of pooling_layer4_cu
+# -- Compiling entity pooling_layer4_dp
+# -- Compiling architecture structural of pooling_layer4_dp
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
+# -- Compiling entity register_file
+# -- Compiling architecture behavioral of register_file
+# -- Compiling entity shift_reg_14xnbit
+# -- Compiling architecture behavior of shift_reg_14xnbit
+# -- Compiling entity shift_reg_5x14xnbit
+# -- Compiling architecture behavior of shift_reg_5x14xnbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc1
+# -- Compiling architecture behaviour of cu_fc1
+# -- Compiling entity fc1_top
+# -- Compiling architecture structural of fc1_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_1
+# -- Compiling architecture structural of fully_connected_layer_1
+# -- Compiling entity decode_3to5
+# -- Compiling architecture behavioral of decode_3to5
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc2
+# -- Compiling architecture behaviour of cu_fc2
+# -- Compiling entity fc2_top
+# -- Compiling architecture structural of fc2_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_2
+# -- Compiling architecture structural of fully_connected_layer_2
+# -- Compiling entity decode_2to4
+# -- Compiling architecture behavioral of decode_2to4
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc3
+# -- Compiling architecture behaviour of cu_fc3
+# -- Compiling entity fc3_top
+# -- Compiling architecture structural of fc3_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_3
+# -- Compiling architecture structural of fully_connected_layer_3
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Loading package conv_struct_pkg
+# -- Loading package textio
+# -- Compiling entity lenet5_tb
+# -- Compiling architecture behaviour of lenet5_tb
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Loading package conv_struct_pkg
+# -- Compiling entity cu_tot
+# -- Compiling architecture behaviour of cu_tot
+# -- Loading package math_real
+# -- Compiling entity counter_n
+# -- Compiling architecture behavior of counter_n
+# -- Compiling entity counter_n_fc
+# -- Compiling architecture behavior of counter_n_fc
+# -- Compiling entity input_registers
+# -- Compiling architecture structural of input_registers
+# -- Compiling entity intermediate_registers_1
+# -- Compiling architecture structural of intermediate_registers_1
+# -- Compiling entity intermediate_registers_2
+# -- Compiling architecture structural of intermediate_registers_2
+# -- Compiling entity lenet5_top
+# -- Compiling architecture structural of lenet5_top
+# -- Compiling entity output_registers
+# -- Compiling architecture structural of output_registers
+# -- Compiling entity clock_gating
+# -- Compiling architecture structural of clock_gating
+# -- Compiling entity latch_n
+# -- Compiling architecture behavior of latch_n
+# -- Loading package std_logic_arith
+# -- Loading package std_logic_unsigned
+# -- Compiling entity mac_block
+# -- Compiling architecture structural of mac_block
+# -- Compiling entity mux2to1_nbit
+# -- Compiling architecture behavior of mux2to1_nbit
+# -- Compiling entity mux4to1_1bit
+# -- Compiling architecture behavior of mux4to1_1bit
+# -- Compiling entity mux4to1_nbit
+# -- Compiling architecture behavior of mux4to1_nbit
+# -- Compiling entity mux5to1_1bit
+# -- Compiling architecture behavior of mux5to1_1bit
+# -- Compiling entity mux5to1_nbit
+# -- Compiling architecture behavior of mux5to1_nbit
+# -- Compiling entity muxmto1_nbit
+# -- Compiling architecture behavior of muxmto1_nbit
+# -- Compiling entity register_nbit
+# -- Compiling architecture behavior of register_nbit
+# -- Compiling entity relu
+# -- Compiling architecture behavior of relu
+# -- Compiling entity saturation
+# -- Compiling architecture structural of saturation
+# vsim work.LeNet5_tb 
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.fc_struct_pkg
+# Loading work.conv_struct_pkg
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading work.lenet5_tb(behaviour)#1
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.math_real(body)
+# Loading work.lenet5_top(structural)#1
+# Loading work.conv1_top(structural)#1
+# Loading work.conv1_with_cu(structural)#1
+# Loading work.cu_conv1(behaviour)
+# Loading work.conv_layer_1(structural)#1
+# Loading work.shift_reg_5x32x8bit_4out(structural)#1
+# Loading work.shift_reg_32x8bit_mux(structural)#1
+# Loading work.mux2to1_nbit(behavior)#1
+# Loading work.register_nbit(behavior)#1
+# Loading work.shift_reg_32x8bit_mux(structural)#2
+# Loading work.mux25to1_nbit(behavior)#1
+# Loading work.precomputation_conv(behavior)#1
+# Loading work.full_adder(behavior)
+# Loading work.register_1bit(behavior)
+# Loading work.register_nbit(behavior)#2
+# Loading work.max_pooling(structural)#1
+# Loading work.register_nbit(behavior)#3
+# Loading work.mux2to1(logicfunc)
+# Loading work.flipflop(behavior)
+# Loading work.latch_nbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#2
+# Loading work.comparator(logicfunc)
+# Loading work.counter_n(behavior)#1
+# Loading work.counter_14_c(behavior)#1
+# Loading work.counter_n(behavior)#2
+# Loading work.counter_n(behavior)#3
+# Loading work.mux14to1_nbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#3
+# Loading work.conv2_top(structural)#1
+# Loading work.conv2_with_cu(structural)#1
+# Loading work.conv_layer3(structural)#1
+# Loading work.shift_reg_5x14xnbit(behavior)#1
+# Loading work.shift_reg_14xnbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#4
+# Loading work.cu_conv2(behaviour)
+# Loading work.register_nbit(behavior)#4
+# Loading work.pooling_layer4(structural)#1
+# Loading work.pooling_layer4_dp(structural)#1
+# Loading work.pooling_comparator(structural)#1
+# Loading work.register_file(behavioral)#1
+# Loading work.counter(structure)#1
+# Loading work.counter(structure)#2
+# Loading work.counter(structure)#3
+# Loading work.pooling_layer4_cu(structure)
+# Loading work.one_hot_dec(structural)#1
+# Loading work.flipflop_rst(behavior)
+# Loading work.fc1_top(structural)#1
+# Loading work.fully_connected_layer_1(structural)#1
+# Loading work.muxmto1_nbit(behavior)#1
+# Loading work.relu(behavior)#1
+# Loading work.decode_3to5(behavioral)
+# Loading work.counter_n_fc(behavior)#1
+# Loading work.counter_n_fc(behavior)#2
+# Loading work.cu_fc1(behaviour)
+# Loading work.intermediate_registers_1(structural)#1
+# Loading work.fc2_top(structural)#1
+# Loading work.fully_connected_layer_2(structural)#1
+# Loading work.muxmto1_nbit(behavior)#2
+# Loading work.decode_2to4(behavioral)
+# Loading work.counter_n_fc(behavior)#3
+# Loading work.counter_n_fc(behavior)#4
+# Loading work.cu_fc2(behaviour)
+# Loading work.intermediate_registers_2(structural)#1
+# Loading work.fc3_top(structural)#1
+# Loading work.fully_connected_layer_3(structural)#1
+# Loading work.muxmto1_nbit(behavior)#3
+# Loading work.counter_n_fc(behavior)#5
+# Loading work.cu_fc3(behaviour)
+# Loading work.output_registers(structural)#1
+# Loading work.mux5to1_nbit(behavior)#1
+# Loading work.mux5to1_nbit(behavior)#2
+# Loading work.mux5to1_1bit(behavior)#1
+# Loading work.mux4to1_nbit(behavior)#1
+# Loading work.mux4to1_nbit(behavior)#2
+# Loading work.mux4to1_1bit(behavior)#1
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.mac_block(structural)#1
+# Loading work.saturation(structural)#1
+# Loading work.cu_tot(behaviour)
+# Loading work.clock_gating(structural)
+# Loading work.latch_n(behavior)
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_3__23/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_3__22/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_3__21/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_3__23/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_3__22/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_3__21/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_3__23/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_3__22/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_3__21/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_3__23/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_3__22/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_3__21/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_3__23/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_3__22/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_3__21/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_3__23/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_3__22/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_3__21/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__20/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__19/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__18/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__17/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__16/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__15/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__14/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__13/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__12/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__11/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc_4__10/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__20/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__19/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__18/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__17/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__16/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__15/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__14/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__13/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__12/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__11/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc_4__10/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__20/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__19/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__18/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__17/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__16/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__15/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__14/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__13/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__12/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__11/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul_4__10/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__20/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__19/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__18/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__17/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__16/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__15/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__14/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__13/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__12/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__11/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input_4__10/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__20/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__19/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__18/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__17/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__16/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__15/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__14/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__13/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__12/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__11/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths_4__10/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__20/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__19/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__18/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__17/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__16/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__15/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__14/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__13/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__12/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__11/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias_4__10/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__9/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__8/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__7/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__6/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__5/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__4/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__3/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__2/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__1/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_sel_acc__0/mux_sel_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__9/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__8/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__7/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__6/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__5/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__4/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__3/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__2/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__1/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_acc__0/mux_en_acc
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__9/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__8/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__7/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__6/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__5/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__4/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__3/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__2/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__1/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_en_mul__0/mux_en_mul
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__9/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__8/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__7/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__6/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__5/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__4/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__3/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__2/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__1/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_input__0/mux_input
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__9/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__8/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__7/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__6/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__5/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__4/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__3/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__2/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__1/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_weigths__0/mux_weigths
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__9/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__8/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__7/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__6/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__5/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__4/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__3/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__2/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__1/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_mux_bias__0/mux_bias
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc3_layer/fc_layer/mux84to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc3_layer/fc_layer/mux84to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc3_layer/fc_layer/mux84to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc2_layer/fc_layer/mux120to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc2_layer/fc_layer/mux120to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc2_layer/fc_layer/mux120to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc1_layer/fc_layer/mux400to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc1_layer/fc_layer/mux400to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/fc1_layer/fc_layer/mux400to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__7
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__6
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__5
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__5
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__4
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__3
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/gen_8__0
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__2/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__1/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__7/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__6/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/gen_8_of_all__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_2/circuit/datapath/gen_3_times__0/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__5/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__5/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__5/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__4/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__4/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__4/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__3/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__3/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__3/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__2/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__2/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__2/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__1/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__1/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__1/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__0/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__0/mux_14to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/gen_6_mux14__0/mux_14to1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/counter3_parallel
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/counter3_shift
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/counter25
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/counter14_reg_out
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/counter14_c
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/counter14_r
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__3/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__3/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__3/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__2/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__2/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__2/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__1/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__1/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__1/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__0/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__0/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_4_inputs__0/mux25to1_in
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 0  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__5/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__4/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__3/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__2/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__1/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__0/mux25to1_weights
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/conv1/datapath/gen_mux25_weights__0/mux25to1_weights
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/counter14_r
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/counter14_c
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/counter14_reg_out
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/counter25
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/counter3_shift
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 1  Instance: /lenet5_tb/dut/convolutional_1/counter3_parallel
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_r
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_c
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_reg_out
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter25
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter3_shift
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter3_parallel
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_r
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_c
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_reg_out
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter25
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter3_shift
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 10 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter3_parallel
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__7/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__0/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__1/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__2/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__3/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__4/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__5/rf
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_2/max_pooling_2/layer4_dp/gen_8_max_pooling__6/rf
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_r
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_c
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter14_reg_out
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter25
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter3_shift
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 20 ns  Iteration: 2  Instance: /lenet5_tb/dut/convolutional_1/counter3_parallel
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc3_layer/fc_layer/mux84to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc3_layer/fc_layer/mux84to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc3_layer/fc_layer/mux84to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc2_layer/fc_layer/mux120to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc2_layer/fc_layer/mux120to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc2_layer/fc_layer/mux120to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc1_layer/fc_layer/mux400to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc1_layer/fc_layer/mux400to1
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 20 ns  Iteration: 3  Instance: /lenet5_tb/dut/fc1_layer/fc_layer/mux400to1

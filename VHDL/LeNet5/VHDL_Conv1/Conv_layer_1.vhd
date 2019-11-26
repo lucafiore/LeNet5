@@ -51,8 +51,8 @@ END Conv_layer_1;
 ARCHITECTURE structural OF Conv_layer_1 IS
 --------- COMPONENTS ---------
 COMPONENT max_pooling IS
-GENERIC( M_in 						: NATURAL:=9;  -- is the parallelism of each element
-         M_out 					: NATURAL:=9);-- is the parallelism of each element of the 16 output matrixes
+GENERIC( M_in 						: NATURAL:=8;  -- is the parallelism of each element
+         M_out 					: NATURAL:=8);-- is the parallelism of each element of the 16 output matrixes
   PORT(	MAX_EN, PREC, REG_RST: IN STD_LOGIC;
 			clock: IN STD_LOGIC;
 			data1, data2, data3, data4: IN STD_LOGIC_VECTOR(M_in-1 DOWNTO 0);

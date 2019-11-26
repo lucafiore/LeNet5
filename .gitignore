@@ -1,4 +1,6 @@
 #Git will ignore these files:
 
 *.sdf
-
+*.dat
+_info
+*.wlf
