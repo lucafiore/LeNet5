@@ -47,6 +47,8 @@
 # -- Compiling architecture logicfunc of mux2to1
 # -- Compiling entity precomputation_conv
 # -- Compiling architecture behavior of precomputation_conv
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
 # -- Compiling entity relu_conv
 # -- Compiling architecture structural of relu_conv
 # -- Compiling entity shift_reg_32x8bit_mux
@@ -87,12 +89,10 @@
 # -- Compiling architecture structural of pooling_comparator
 # -- Compiling entity pooling_layer4
 # -- Compiling architecture structural of pooling_layer4
-# ** Warning: ../src/VHDL_Conv2/pooling_layer4.vhd(80): Cannot associate port "output" of mode BUFFER with port "output" of mode OUT.
 # -- Compiling entity pooling_layer4_cu
 # -- Compiling architecture structure of pooling_layer4_cu
 # -- Compiling entity pooling_layer4_dp
 # -- Compiling architecture structural of pooling_layer4_dp
-# ** Warning: ../src/VHDL_Conv2/pooling_layer4_dp.vhd(122): Cannot associate port "output" of mode OUT with port "output" of mode BUFFER.
 # -- Compiling entity register_1bit
 # -- Compiling architecture behavior of register_1bit
 # -- Compiling entity register_file
@@ -193,8 +193,6 @@
 # -- Compiling architecture behavior of mux5to1_nbit
 # -- Compiling entity muxmto1_nbit
 # -- Compiling architecture behavior of muxmto1_nbit
-# -- Compiling entity register_1bit
-# -- Compiling architecture behavior of register_1bit
 # -- Compiling entity register_nbit
 # -- Compiling architecture behavior of register_nbit
 # -- Compiling entity relu

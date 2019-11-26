@@ -1,0 +1,1752 @@
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:536: The initial value for signal 'out_conv2_bias_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:552: The initial value for signal 'zeros_input' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:553: The initial value for signal 'zeros_bias' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:597: The initial value for signal 'in_add_opt_sum_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:600: The initial value for signal 'acc_mac_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Statistics for case statements in always block at line 700 in file
+	'../src/VHDL_Common/LeNet5_top.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           702            |    auto/auto     |
+===============================================
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[14] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[13] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[12] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[11] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[10] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[9] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[8] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[7] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[6] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[5] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[4] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[3] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[2] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[1] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[0] of cell MUX_BIAS_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[14] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[13] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[12] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[11] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[10] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[9] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[8] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[7] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[6] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[5] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[4] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[3] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[2] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[1] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:965: Floating pin 'data_in_2[0] of cell MUX_BIAS_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[14] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[13] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[12] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[11] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[10] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[9] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[8] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[7] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[6] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[5] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[4] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[3] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[2] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[1] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1013: Floating pin 'data_in_2[0] of cell MUX_BIAS_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[14] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[13] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[12] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[11] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[10] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[9] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[8] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[7] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[6] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[5] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[4] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[3] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[2] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[1] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[0] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[14] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[13] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[12] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[11] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[10] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[9] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[8] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[7] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[6] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[5] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[4] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[3] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[2] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[1] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[0] of cell MUX_BIAS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[14] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[13] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[12] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[11] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[10] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[9] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[8] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[7] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[6] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[5] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[4] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[3] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[2] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[1] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[0] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[14] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[13] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[12] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[11] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[10] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[9] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[8] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[7] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[6] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[5] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[4] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[3] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[2] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[1] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[0] of cell MUX_BIAS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[14] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[13] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[12] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[11] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[10] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[9] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[8] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[7] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[6] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[5] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[4] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[3] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[2] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[1] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_2[0] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[14] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[13] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[12] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[11] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[10] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[9] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[8] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[7] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[6] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[5] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[4] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[3] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[2] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[1] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1057: Floating pin 'data_in_4[0] of cell MUX_BIAS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[7] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[6] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[5] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[4] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[3] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[2] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[1] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[0] of cell MUX_WEIGTHS_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[7] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[6] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[5] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[4] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[3] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[2] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[1] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[0] of cell MUX_WEIGTHS_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[7] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[6] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[5] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[4] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[3] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[2] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[1] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1063: Floating pin 'data_in_4[0] of cell MUX_WEIGTHS_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[7] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[6] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[5] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[4] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[3] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[2] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[1] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[0] of cell MUX_INPUT_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[7] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[6] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[5] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[4] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[3] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[2] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[1] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[0] of cell MUX_INPUT_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[7] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[6] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[5] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[4] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[3] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[2] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[1] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1069: Floating pin 'data_in_4[0] of cell MUX_INPUT_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[14] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[13] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[12] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[11] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[10] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[9] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[8] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[7] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[6] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[5] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[4] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[3] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[2] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[1] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[0] of cell MAC_8' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[14] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[13] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[12] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[11] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[10] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[9] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[8] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[7] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[6] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[5] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[4] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[3] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[2] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[1] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1100: Floating pin 'in_add_1[0] of cell MAC_9' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_10' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_11' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_12' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_13' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_14' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_15' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_16' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_17' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_18' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_19' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[14] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[13] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[12] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[11] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[10] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[9] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[8] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[7] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[6] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[5] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[4] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[3] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[2] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[1] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1121: Floating pin 'in_add_1[0] of cell MAC_20' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[14] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[13] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[12] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[11] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[10] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[9] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[8] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[7] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[6] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[5] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[4] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[3] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[2] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[1] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[0] of cell MAC_21' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[14] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[13] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[12] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[11] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[10] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[9] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[8] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[7] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[6] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[5] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[4] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[3] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[2] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[1] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[0] of cell MAC_22' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[14] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[13] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[12] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[11] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[10] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[9] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[8] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[7] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[6] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[5] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[4] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[3] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[2] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[1] of cell MAC_23' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Common/LeNet5_top.vhd:1144: Floating pin 'in_add_1[0] of cell MAC_23' connected to ground. (ELAB-294)
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'LeNet5_top'.
+Information: Building the design 'CONV1_top' instantiated from design 'LeNet5_top' with
+	the parameters "N_in=32,M_in=8,M_w=8,N_w=5,I_w=6,N_out=28,M_out=8,EXTRA_BIT=0,N_out_max=14". (HDL-193)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:152: The initial value for signal 'TC14_C' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:152: The initial value for signal 'TC14_R' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:153: The initial value for signal 'TC3_SHIFT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:153: The initial value for signal 'TC3_PAR' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:153: The initial value for signal 'TC25' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:226: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:230: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:234: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:238: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:242: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:246: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[0][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[1][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[2][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[3][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[4][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[5][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[6][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[7][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[8][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[9][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[10][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[11][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[12][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][6]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][7]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][8]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][9]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][10]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][11]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][12]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/CONV1_top.vhd:307: Net 'EN_REG_OUT[13][13]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Presto compilation completed successfully.
+Information: Building the design 'register_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=8". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_nbit_N8 line 26 in file
+		'../src/VHDL_Common/register_nbit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux14to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=112". (HDL-193)
+Warning:  ../src/VHDL_Conv2/mux14to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Presto compilation completed successfully.
+Information: Building the design 'mux2to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=112". (HDL-193)
+Warning:  ../src/VHDL_Common/mux2to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Presto compilation completed successfully.
+Information: Building the design 'mux2to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "N=8". (HDL-193)
+Warning:  ../src/VHDL_Common/mux2to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Presto compilation completed successfully.
+Information: Building the design 'CONV2_top' instantiated from design 'LeNet5_top' with
+	the parameters "N_in=14,M_in=8,M_w=8,N_w=5,N_out=10,M_out=8,D_in=6,D_w=16,EXTRA_BIT=0,N_out_max=5". (HDL-193)
+Warning:  ../src/VHDL_Conv2/CONV2_top.vhd:203: The initial value for signal 'DONE_MAX' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv2/CONV2_top.vhd:203: The initial value for signal 'READ_IMG' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Inferred memory devices in process
+	in routine CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5 line 269 in file
+		'../src/VHDL_Conv2/CONV2_top.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     CNT10_c_reg     | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     CNT10_r_reg     | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5 line 305 in file
+		'../src/VHDL_Conv2/CONV2_top.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      CNT4_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5 line 328 in file
+		'../src/VHDL_Conv2/CONV2_top.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      CNT25_reg      | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5 line 351 in file
+		'../src/VHDL_Conv2/CONV2_top.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      CNT5_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5 line 372 in file
+		'../src/VHDL_Conv2/CONV2_top.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      CNT14_reg      | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'FC1_top' instantiated from design 'LeNet5_top' with
+	the parameters "INPUT_NEURONS=400,OUTPUT_NEURONS=120". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Intermediate_Registers_1' instantiated from design 'LeNet5_top' with
+	the parameters "OUTPUT_NEURONS=120". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'FC2_top' instantiated from design 'LeNet5_top' with
+	the parameters "INPUT_NEURONS=120,OUTPUT_NEURONS=84". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Intermediate_Registers_2' instantiated from design 'LeNet5_top' with
+	the parameters "OUTPUT_NEURONS=84". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'FC3_top' instantiated from design 'LeNet5_top' with
+	the parameters "INPUT_NEURONS=84,OUTPUT_NEURONS=10". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Output_registers' instantiated from design 'LeNet5_top' with
+	the parameters "OUTPUT_NEURONS=10". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux5to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "P=15,S=3". (HDL-193)
+Warning:  ../src/VHDL_Common/mux5to1_nbit.vhd:25: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+
+Statistics for case statements in always block at line 33 in file
+	'../src/VHDL_Common/mux5to1_nbit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            35            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux5to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "P=8,S=3". (HDL-193)
+Warning:  ../src/VHDL_Common/mux5to1_nbit.vhd:25: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+
+Statistics for case statements in always block at line 33 in file
+	'../src/VHDL_Common/mux5to1_nbit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            35            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux5to1_1bit' instantiated from design 'LeNet5_top' with
+	the parameters "S=3". (HDL-193)
+Warning:  ../src/VHDL_Common/mux5to1_1bit.vhd:23: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+
+Statistics for case statements in always block at line 31 in file
+	'../src/VHDL_Common/mux5to1_1bit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux4to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "P=15,S=2". (HDL-193)
+
+Statistics for case statements in always block at line 31 in file
+	'../src/VHDL_Common/mux4to1_nbit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux4to1_nbit' instantiated from design 'LeNet5_top' with
+	the parameters "P=8,S=2". (HDL-193)
+
+Statistics for case statements in always block at line 31 in file
+	'../src/VHDL_Common/mux4to1_nbit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux4to1_1bit' instantiated from design 'LeNet5_top' with
+	the parameters "S=2". (HDL-193)
+
+Statistics for case statements in always block at line 30 in file
+	'../src/VHDL_Common/mux4to1_bit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            32            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mac_block' instantiated from design 'LeNet5_top' with
+	the parameters "N=8,M=0". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'CU_TOT'. (HDL-193)
+
+Statistics for case statements in always block at line 65 in file
+	'../src/VHDL_Common/CU_TOT.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            67            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 126 in file
+	'../src/VHDL_Common/CU_TOT.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           153            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_TOT line 115 in file
+		'../src/VHDL_Common/CU_TOT.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'clock_gating'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'Conv1_with_CU' instantiated from design 'CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14' with
+	the parameters "N_in=32,M_in=8,M_w=8,N_w=5,I_w=6,N_out=28,M_out=8,EXTRA_BIT=0". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'counter_N' instantiated from design 'CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14' with
+	the parameters "n=14". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_n14 line 33 in file
+		'../src/VHDL_Common/Counter_N.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    contatore_reg    | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_14_c' instantiated from design 'CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14' with
+	the parameters "n=14". (HDL-193)
+Warning:  ../src/VHDL_Conv1/Counter_14_c.vhd:23: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_14_c_n14 line 32 in file
+		'../src/VHDL_Conv1/Counter_14_c.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    contatore_reg    | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_N' instantiated from design 'CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14' with
+	the parameters "n=27". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_n27 line 33 in file
+		'../src/VHDL_Common/Counter_N.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    contatore_reg    | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_N' instantiated from design 'CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14' with
+	the parameters "n=3". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_n3 line 33 in file
+		'../src/VHDL_Common/Counter_N.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    contatore_reg    | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'conv2_with_CU' instantiated from design 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5' with
+	the parameters "N_in=14,M_in=8,M_w=8,N_out=10,M_out=8,D_in=6,D_w=16,EXTRA_BIT=0". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_nbit' instantiated from design 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5' with
+	the parameters "N=15". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_nbit_N15 line 26 in file
+		'../src/VHDL_Common/register_nbit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |  15   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'pooling_layer4' instantiated from design 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5' with
+	the parameters "N=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_1bit'. (HDL-193)
+
+Inferred memory devices in process
+	in routine register_1bit line 15 in file
+		'../src/VHDL_Conv2/register_1bit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'Fully_Connected_Layer_1' instantiated from design 'FC1_top_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "INPUT_NEURONS=400,OUTPUT_NEURONS=120". (HDL-193)
+Warning:  ../src/VHDL_FC1/Fully_connected_Layer_1.vhd:150: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_FC1/Fully_connected_Layer_1.vhd:154: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Presto compilation completed successfully.
+Information: Building the design 'CU_FC1'. (HDL-193)
+
+Statistics for case statements in always block at line 54 in file
+	'../src/VHDL_FC1/CU_FC1.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            56            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 99 in file
+	'../src/VHDL_FC1/CU_FC1.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           122            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_FC1 line 88 in file
+		'../src/VHDL_FC1/CU_FC1.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       P_S_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'Fully_Connected_Layer_2' instantiated from design 'FC2_top_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "INPUT_NEURONS=120,OUTPUT_NEURONS=84". (HDL-193)
+Warning:  ../src/VHDL_FC2/Fully_connected_Layer_2.vhd:151: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Warning:  ../src/VHDL_FC2/Fully_connected_Layer_2.vhd:155: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Presto compilation completed successfully.
+Information: Building the design 'CU_FC2'. (HDL-193)
+
+Statistics for case statements in always block at line 54 in file
+	'../src/VHDL_FC2/CU_FC2.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            56            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 99 in file
+	'../src/VHDL_FC2/CU_FC2.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           123            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_FC2 line 88 in file
+		'../src/VHDL_FC2/CU_FC2.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       P_S_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'Fully_Connected_Layer_3' instantiated from design 'FC3_top_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "INPUT_NEURONS=84,OUTPUT_NEURONS=10". (HDL-193)
+Warning:  ../src/VHDL_FC3/Fully_connected_Layer_3.vhd:116: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+Presto compilation completed successfully.
+Information: Building the design 'CU_FC3'. (HDL-193)
+
+Statistics for case statements in always block at line 52 in file
+	'../src/VHDL_FC3/CU_FC3.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            54            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 95 in file
+	'../src/VHDL_FC3/CU_FC3.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           116            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_FC3 line 84 in file
+		'../src/VHDL_FC3/CU_FC3.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|       P_S_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'mux2to1_nbit' instantiated from design 'mac_block_N8_M0' with
+	the parameters "N=15". (HDL-193)
+Warning:  ../src/VHDL_Common/mux2to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Presto compilation completed successfully.
+Information: Building the design 'saturation' instantiated from design 'mac_block_N8_M0' with
+	the parameters "N=15". (HDL-193)
+
+Statistics for case statements in always block at line 41 in file
+	'../src/VHDL_Common/saturation.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            41            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'latch_n'. (HDL-193)
+
+Inferred memory devices in process
+	in routine latch_n line 25 in file
+		'../src/VHDL_Common/latch_n.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    data_out_reg     | Latch |   1   |  N  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Information: Building the design 'CU_conv1'. (HDL-193)
+
+Statistics for case statements in always block at line 54 in file
+	'../src/VHDL_Conv1/CU_conv1.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            56            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 120 in file
+	'../src/VHDL_Conv1/CU_conv1.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           141            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_conv1 line 109 in file
+		'../src/VHDL_Conv1/CU_conv1.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|       P_S_reg       | Flip-flop |   1   |  N  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'Conv_layer_1' instantiated from design 'Conv1_with_CU_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N_in=32,M_in=8,M_w=8,N_w=5,I_w=6,N_out=28,M_out=8,EXTRA_BIT=0". (HDL-193)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:155: The initial value for signal 'out_prec' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:163: The initial value for signal 'EN_REG_OUT' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[0]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[1]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[2]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[3]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[4]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:253: Net 'precomputation[5]' or a directly connected net is driven by more than one process or block. (ELAB-365)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_0_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_0_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_0_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_0_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_0_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_0_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_1_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_1_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_1_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_1_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_1_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_1_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_2_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_2_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_2_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_2_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_2_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_2_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_3_0' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_3_1' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_3_2' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_3_3' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_3_4' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[7] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[6] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[5] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[4] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[3] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[2] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[1] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Warning:  ../src/VHDL_Conv1/Conv_layer_1.vhd:255: Floating pin 'in_0[0] of cell Mux_to_pooling_3_5' connected to ground. (ELAB-294)
+Presto compilation completed successfully.
+Information: Building the design 'Conv_layer3' instantiated from design 'conv2_with_CU_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0' with
+	the parameters "N_in=14,M_in=8,M_w=8,N_out=10,M_out=8,D_in=6,D_w=16,EXTRA_BIT=0". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'CU_conv2'. (HDL-193)
+Warning:  ../src/VHDL_Conv2/CU_conv2.vhd:88: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  ../src/VHDL_Conv2/CU_conv2.vhd:122: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 58 in file
+	'../src/VHDL_Conv2/CU_conv2.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            60            |    auto/auto     |
+===============================================
+Warning:  ../src/VHDL_Conv2/CU_conv2.vhd:236: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+Warning:  ../src/VHDL_Conv2/CU_conv2.vhd:260: Statement unreachable (Branch condition impossible to meet).  (VER-61)
+
+Statistics for case statements in always block at line 156 in file
+	'../src/VHDL_Conv2/CU_conv2.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|           186            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine CU_conv2 line 145 in file
+		'../src/VHDL_Conv2/CU_conv2.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       P_S_reg       | Flip-flop |   3   |  Y  | N  | N  | Y  | N  | N  | N  |
+|       P_S_reg       | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'pooling_layer4_dp' instantiated from design 'pooling_layer4_N8' with
+	the parameters "N=8,M_in=8,M_out=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'pooling_layer4_cu'. (HDL-193)
+
+Statistics for case statements in always block at line 22 in file
+	'../src/VHDL_Conv2/pooling_layer4_cu.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            27            |    auto/auto     |
+===============================================
+
+Statistics for case statements in always block at line 72 in file
+	'../src/VHDL_Conv2/pooling_layer4_cu.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            75            |    auto/auto     |
+===============================================
+
+Inferred memory devices in process
+	in routine pooling_layer4_cu line 22 in file
+		'../src/VHDL_Conv2/pooling_layer4_cu.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| stato_presente_reg  | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'one_hot_dec' instantiated from design 'pooling_layer4_N8' with
+	the parameters "N=25". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "P=8,M=400,S=9". (HDL-193)
+Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "P=8,M=400,S=9". (HDL-193)
+Information: Building the design 'relu' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "N=8". (HDL-193)
+Warning:  ../src/VHDL_Common/relu.vhd:33: The initial value for signal 'zeros' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Presto compilation completed successfully.
+Information: Building the design 'decode_3to5'. (HDL-193)
+
+Statistics for case statements in always block at line 28 in file
+	'../src/VHDL_FC1/decode_3to5.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            32            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_N_FC' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "n=400". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N_FC.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_FC_n400 line 33 in file
+		'../src/VHDL_Common/Counter_N_FC.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       tc_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    contatore_reg    | Flip-flop |   9   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_N_FC' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "n=5". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N_FC.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_FC_n5 line 33 in file
+		'../src/VHDL_Common/Counter_N_FC.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       tc_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    contatore_reg    | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Information: Building the design 'decode_2to4'. (HDL-193)
+Warning:  ../src/VHDL_FC2/decode_2to4.vhd:33: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
+
+Statistics for case statements in always block at line 29 in file
+	'../src/VHDL_FC2/decode_2to4.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_N_FC' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "n=120". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N_FC.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_FC_n120 line 33 in file
+		'../src/VHDL_Common/Counter_N_FC.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       tc_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    contatore_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter_N_FC' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "n=4". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N_FC.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_FC_n4 line 33 in file
+		'../src/VHDL_Common/Counter_N_FC.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       tc_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    contatore_reg    | Flip-flop |   2   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "P=8,M=84,S=7". (HDL-193)
+Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "P=8,M=84,S=7". (HDL-193)
+Information: Building the design 'counter_N_FC' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "n=84". (HDL-193)
+Warning:  ../src/VHDL_Common/Counter_N_FC.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
+
+Inferred memory devices in process
+	in routine counter_N_FC_n84 line 33 in file
+		'../src/VHDL_Common/Counter_N_FC.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|       tc_reg        | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+|    contatore_reg    | Flip-flop |   7   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'shift_reg_5x32x8bit_4out' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N_in=32,N_w=5,M=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux25to1_nbit' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N=8". (HDL-193)
+Warning:  ../src/VHDL_Conv2/mux25to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Presto compilation completed successfully.
+Information: Building the design 'precomputation_conv' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N=25". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_nbit' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "N=6". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_nbit_N6 line 26 in file
+		'../src/VHDL_Common/register_nbit.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    data_out_reg     | Flip-flop |   6   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'max_pooling' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
+	the parameters "M_in=8,M_out=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'shift_reg_5x14xNbit' instantiated from design 'Conv_layer3_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0' with
+	the parameters "N=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'pooling_comparator' instantiated from design 'pooling_layer4_dp_N8_M_in8_M_out8' with
+	the parameters "M=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'register_file' instantiated from design 'pooling_layer4_dp_N8_M_in8_M_out8' with
+	the parameters "N=8,M=5,L=3". (HDL-193)
+
+Inferred memory devices in process
+	in routine register_file_N8_M5_L3 line 36 in file
+		'../src/VHDL_Conv2/register_file.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     output_reg      | Flip-flop |   8   |  Y  | N  | N  | N  | N  | N  | N  |
+|    registers_reg    | Flip-flop |  40   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter' instantiated from design 'pooling_layer4_dp_N8_M_in8_M_out8' with
+	the parameters "N=8,M=3". (HDL-193)
+
+Inferred memory devices in process
+	in routine counter_N8_M3 line 18 in file
+		'../src/VHDL_Conv2/counter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     output_reg      | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+|       cnt_reg       | Flip-flop |   3   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter' instantiated from design 'pooling_layer4_dp_N8_M_in8_M_out8' with
+	the parameters "N=16,M=4". (HDL-193)
+
+Inferred memory devices in process
+	in routine counter_N16_M4 line 18 in file
+		'../src/VHDL_Conv2/counter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     output_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       cnt_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'counter' instantiated from design 'pooling_layer4_dp_N8_M_in8_M_out8' with
+	the parameters "N=10,M=4". (HDL-193)
+
+Inferred memory devices in process
+	in routine counter_N10_M4 line 18 in file
+		'../src/VHDL_Conv2/counter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     output_reg      | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+|       cnt_reg       | Flip-flop |   4   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'flipflop_rst'. (HDL-193)
+
+Inferred memory devices in process
+	in routine flipflop_rst line 15 in file
+		'../src/VHDL_Conv2/flipflop_rst.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     output_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'shift_reg_32x8bit_mux' instantiated from design 'shift_reg_5x32x8bit_4out_N_in32_N_w5_M8' with
+	the parameters "N_in=32,M=8". (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'full_adder'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'mux2to1'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'flipflop'. (HDL-193)
+
+Inferred memory devices in process
+	in routine flipflop line 17 in file
+		'../src/VHDL_Conv1/flipflop.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|     output_reg      | Flip-flop |   1   |  N  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'latch_nbit' instantiated from design 'max_pooling_M_in8_M_out8' with
+	the parameters "N=8". (HDL-193)
+
+Inferred memory devices in process
+	in routine latch_nbit_N8 line 26 in file
+		'../src/VHDL_Conv2/latch_nbit.vhd'.
+===========================================================================
+|    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
+===========================================================================
+|    data_out_reg     | Latch |   8   |  Y  | N  | N  | N  | -  | -  | -  |
+===========================================================================
+Presto compilation completed successfully.
+Information: Building the design 'comparator'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'shift_reg_14xNbit' instantiated from design 'shift_reg_5x14xNbit_N8' with
+	the parameters "N=8". (HDL-193)
+Presto compilation completed successfully.
+Warning: Design 'LeNet5_top' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1

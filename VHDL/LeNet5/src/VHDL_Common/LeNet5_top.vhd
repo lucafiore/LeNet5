@@ -533,7 +533,7 @@ SIGNAL out_conv1_bias         : INPUT_MAC_B;
 SIGNAL out_conv1_bias_24      : bias_mac_struct_FC1;
 
 SIGNAL out_conv2_bias       	: input_mac_b_2;
-SIGNAL out_conv2_bias_24		: bias_mac_struct_FC1; -- := ( others => (others => '0') );
+SIGNAL out_conv2_bias_24		: bias_mac_struct_FC1 := ( others => (others => '0') );
 
 SIGNAL out_fc1_bias	   		: bias_mac_struct_FC1;
 SIGNAL out_fc2_bias	   		: bias_mac_struct_FC2;
@@ -549,8 +549,8 @@ SIGNAL output_reg_pipe_fc1		: STD_LOGIC_VECTOR(INPUT_SIZE-1 DOWNTO 0); --Output 
 SIGNAL output_reg_pipe_fc2		: STD_LOGIC_VECTOR(INPUT_SIZE-1 DOWNTO 0); --Output of the layer (1 numbers)
 SIGNAL output_reg_pipe_fc3		: STD_LOGIC_VECTOR(INPUT_SIZE-1 DOWNTO 0); --Output of the layer (1 numbers)
 
-SIGNAL zeros_input 				: STD_LOGIC_VECTOR(INPUT_SIZE-1 DOWNTO 0); -- := ( others => '0' );
-SIGNAL zeros_bias					: STD_LOGIC_VECTOR(2*INPUT_SIZE-2 DOWNTO 0); -- := ( others => '0' );
+SIGNAL zeros_input 				: STD_LOGIC_VECTOR(INPUT_SIZE-1 DOWNTO 0) := ( others => '0' );
+SIGNAL zeros_bias					: STD_LOGIC_VECTOR(2*INPUT_SIZE-2 DOWNTO 0) := ( others => '0' );
 
 -- output of MAC mux --
 SIGNAL out_mux_weights	   	: weights_struct_FC1;
@@ -594,10 +594,10 @@ SIGNAL matrix_weights_conv2 		: matrix_5x5xMw_2;
 
 -- Signals (only conv2) --
 SIGNAL in_add_opt_sum			: input_mac_b_2;
-SIGNAL in_add_opt_sum_24		: bias_mac_struct_FC1; -- := ( others => (others => '0') );
+SIGNAL in_add_opt_sum_24		: bias_mac_struct_FC1 := ( others => (others => '0') );
 
 SIGNAL acc_mac				      : output_acc_2;
-SIGNAL acc_mac_24					: bias_mac_struct_FC1; -- := ( others => (others => '0') );
+SIGNAL acc_mac_24					: bias_mac_struct_FC1 := ( others => (others => '0') );
 SIGNAL acc_mac_0				   : input_mac_b_2;
 SIGNAL SEL_ROW						: STD_LOGIC_VECTOR(3 DOWNTO 0);
 SIGNAL SEL_IMG 					: STD_LOGIC;

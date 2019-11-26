@@ -23,9 +23,9 @@ ENTITY pooling_layer4_dp IS
   PORT(	 
 			clock, SEL, RST_ALL, W_R, CNT5_EN, CNT10_RST, CNT_CLN_EN, REG_C_EN, DATA_READY, R_LE_RST, R_LE_EN: IN STD_LOGIC;
 			data_in: IN output_conv_2;
-			TC2: BUFFER STD_LOGIC;
+			TC2: OUT STD_LOGIC;
 			EVEN, TC10, DONE: OUT STD_LOGIC;
-			output: BUFFER output_conv_2
+			output: OUT output_conv_2
       );
 END pooling_layer4_dp;
 
@@ -89,18 +89,18 @@ END COMPONENT;
 
 
 ------------------------------------SIGNAL------------------------------------------
-SIGNAL reg_a_out, reg_b_out, reg_c_out, mux_a_out, mux_b_out, rf_out: output_conv_2;
+SIGNAL reg_a_out, reg_b_out, reg_c_out, mux_a_out, mux_b_out, rf_out, output_in: output_conv_2;
 SIGNAL cnt5_out: STD_LOGIC_VECTOR(2 DOWNTO 0);
 SIGNAL cnt10_out, cnt_cln_out: STD_LOGIC_VECTOR(3 DOWNTO 0);
-SIGNAL REG_A_EN, REG_B_EN, CNT5_RST: STD_LOGIC;
+SIGNAL TC2_IN, REG_A_EN, REG_B_EN, CNT5_RST: STD_LOGIC;
 
 ----------------------------BEGIN--------------------------------------
 BEGIN
 
 
 	
-REG_A_EN<=(NOT(TC2)) AND (DATA_READY);
-REG_B_EN<=TC2 AND (DATA_READY);
+REG_A_EN<=(NOT(TC2_IN)) AND (DATA_READY);
+REG_B_EN<=TC2_IN AND (DATA_READY);
 
 GEN_8_MAX_POOLING: FOR i IN 0 TO 7 GENERATE
 	Reg_a: register_nbit
@@ -111,7 +111,7 @@ GEN_8_MAX_POOLING: FOR i IN 0 TO 7 GENERATE
 	  PORT MAP(data_in=>data_in(i), EN=>REG_B_EN, CLK=>clock, RST=>RST_ALL, data_out=>reg_b_out(i));
 	Reg_c: register_nbit
 	GENERIC MAP(M_in)
-	  PORT MAP(data_in=>output(i), EN=>REG_C_EN, CLK=>clock, RST=>RST_ALL, data_out=>reg_c_out(i));
+	  PORT MAP(data_in=>output_in(i), EN=>REG_C_EN, CLK=>clock, RST=>RST_ALL, data_out=>reg_c_out(i));
 
 	Mux_a: mux2to1_nbit
 	  PORT MAP(in_0=>reg_a_out(i), in_1=>rf_out(i), SEL=>SEL, q=>mux_a_out(i));
@@ -119,10 +119,10 @@ GEN_8_MAX_POOLING: FOR i IN 0 TO 7 GENERATE
 	  PORT MAP(in_0=>reg_b_out(i), in_1=>reg_c_out(i), SEL=>SEL, q=>mux_b_out(i));
 
 	pooling_comparator_block: pooling_comparator
-	  PORT MAP(clock=>clock, R_LE_RST=>R_LE_RST, R_LE_EN=>R_LE_EN, data1=>mux_a_out(i), data2=>mux_b_out(i), output=>output(i));
+	  PORT MAP(clock=>clock, R_LE_RST=>R_LE_RST, R_LE_EN=>R_LE_EN, data1=>mux_a_out(i), data2=>mux_b_out(i), output=>output_in(i));
 	  
 	Rf: register_file
-	  PORT MAP(input=>output(i), W_R=>W_R, ADD=>cnt5_out, CLK=>clock, output=>rf_out(i));
+	  PORT MAP(input=>output_in(i), W_R=>W_R, ADD=>cnt5_out, CLK=>clock, output=>rf_out(i));
 END GENERATE GEN_8_MAX_POOLING;
 
 
@@ -135,12 +135,15 @@ CNT10: counter
 GENERIC MAP( 16, 4)
   PORT MAP(Clock=>clock, Enable=>DATA_READY, Reset=>CNT10_RST, output=>cnt10_out);
 TC10<=cnt10_out(3) AND (NOT(cnt10_out(2))) AND cnt10_out(1) AND (NOT(cnt10_out(0)));
-TC2<=cnt10_out(0);
+TC2_IN<=cnt10_out(0);
 
 CNT_CLN: counter
 GENERIC MAP( 10, 4)
   PORT MAP(Clock=>clock, Enable=>CNT_CLN_EN, Reset=>RST_ALL, output=>cnt_cln_out);
 DONE<=cnt_cln_out(3) AND (NOT(cnt_cln_out(2))) AND (NOT(cnt_cln_out(1))) AND cnt_cln_out(0);
 EVEN<=cnt_cln_out(0);
+
+TC2 <= TC2_IN;
+output <= output_in;
   
 END structural;

@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "---------------  synt.sh starts ------------------"
 echo "-Elimination of work directory and we creation of a new one"
-rm -r work
+rm -rf work
 mkdir work
 
 echo "-Inizialization of synopsys" 

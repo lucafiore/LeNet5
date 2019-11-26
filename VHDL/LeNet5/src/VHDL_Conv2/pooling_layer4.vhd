@@ -40,9 +40,9 @@ COMPONENT pooling_layer4_dp IS
   PORT(	 
 			clock, SEL, RST_ALL, W_R, CNT5_EN, CNT10_RST, CNT_CLN_EN, REG_C_EN, DATA_READY, R_LE_RST, R_LE_EN: IN STD_LOGIC;
 			data_in: IN output_conv_2;
-			TC2: BUFFER STD_LOGIC;
+			TC2: OUT STD_LOGIC;
 			EVEN, TC10, DONE: OUT STD_LOGIC;
-			output: BUFFER output_conv_2
+			output: OUT output_conv_2
       );
 END COMPONENT;
 

@@ -6,8 +6,8 @@ USE ieee.numeric_std.all;
 ENTITY max_pooling IS
 
   GENERIC(
-      M_in 						: NATURAL:=9;  -- is the parallelism of each element
-      M_out 					: NATURAL:=9);-- is the parallelism of each element of the 16 output matrixes
+      M_in 						: NATURAL:=8;  -- is the parallelism of each element
+      M_out 					: NATURAL:=8);-- is the parallelism of each element of the 16 output matrixes
 
   PORT(	 
       MAX_EN, PREC, REG_RST: IN STD_LOGIC;
