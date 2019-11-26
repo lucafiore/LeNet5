@@ -87,10 +87,14 @@
 # -- Compiling architecture structural of pooling_comparator
 # -- Compiling entity pooling_layer4
 # -- Compiling architecture structural of pooling_layer4
+# ** Warning: ../src/VHDL_Conv2/pooling_layer4.vhd(80): Cannot associate port "output" of mode BUFFER with port "output" of mode OUT.
 # -- Compiling entity pooling_layer4_cu
 # -- Compiling architecture structure of pooling_layer4_cu
 # -- Compiling entity pooling_layer4_dp
 # -- Compiling architecture structural of pooling_layer4_dp
+# ** Warning: ../src/VHDL_Conv2/pooling_layer4_dp.vhd(122): Cannot associate port "output" of mode OUT with port "output" of mode BUFFER.
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
 # -- Compiling entity register_file
 # -- Compiling architecture behavioral of register_file
 # -- Compiling entity shift_reg_14xnbit
