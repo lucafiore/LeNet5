@@ -1,4 +1,4 @@
--- MUX 14 to 1 Nbit
+-- LeNet5 top file
 -- high-speed/low-power group
 -- Fiore, Neri, Zheng
 -- 
