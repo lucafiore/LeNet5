@@ -17,3 +17,5 @@ add wave *
 #run -all
 run 400 us
 quit -f
+
+

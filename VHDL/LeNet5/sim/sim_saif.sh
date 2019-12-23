@@ -14,4 +14,5 @@ rm wlf*
 echo -e "--------------- end\n\n"
 # converto in saif
 source /software/scripts/init_synopsys_64.18
-vcd2saif -input ../vcd/IIR_filter.vcd -output ../saif/IIR_filter.saif
+vcd2saif -input ../vcd/LeNet5.vcd -output ../saif/LeNet5.saif
+

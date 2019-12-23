@@ -61,7 +61,7 @@ GENERIC(P   : NATURAL:=4;  -- Parallelism of input
         M   : NATURAL:=4; -- Number of input elements
         S   : NATURAL:=2);  -- Parallelism of selector ( ceil(log2(M)) )
 PORT(	data_in   : IN STD_LOGIC_VECTOR(M*P-1 DOWNTO 0);
-			SEL				  : IN STD_LOGIC_VECTOR(S-1 DOWNTO 0):= (OTHERS => '0');
+			SEL				  : IN STD_LOGIC_VECTOR(S-1 DOWNTO 0);
 			q			 		: OUT STD_LOGIC_VECTOR(P-1 DOWNTO 0));
 END COMPONENT muxMto1_nbit;
 

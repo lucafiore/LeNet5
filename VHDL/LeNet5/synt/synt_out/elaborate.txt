@@ -1,7 +1,3 @@
-Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
-Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
-  Loading link library 'NangateOpenCellLibrary'
-  Loading link library 'gtech'
 Running PRESTO HDLC
 Warning:  ../src/VHDL_Common/LeNet5_top.vhd:536: The initial value for signal 'out_conv2_bias_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
 Warning:  ../src/VHDL_Common/LeNet5_top.vhd:552: The initial value for signal 'zeros_input' is not supported for synthesis. Presto ignores it.  (ELAB-130)
@@ -1073,7 +1069,7 @@ Information: Building the design 'register_1bit'. (HDL-193)
 
 Inferred memory devices in process
 	in routine register_1bit line 15 in file
-		'../src/VHDL_Conv2/register_1bit.vhd'.
+		'../src/VHDL_Common/register_1bit.vhd'.
 ===============================================================================
 |    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===============================================================================
@@ -1505,11 +1501,7 @@ Information: Building the design 'one_hot_dec' instantiated from design 'pooling
 Presto compilation completed successfully.
 Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
 	the parameters "P=8,M=400,S=9". (HDL-193)
-Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
-Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
-*** Presto compilation terminated with 1 errors. ***
-Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
-	the parameters "P=8,M=400,S=9". (HDL-193)
+Presto compilation completed successfully.
 Information: Building the design 'relu' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
 	the parameters "N=8". (HDL-193)
 Warning:  ../src/VHDL_Common/relu.vhd:33: The initial value for signal 'zeros' is not supported for synthesis. Presto ignores it.  (ELAB-130)
@@ -1554,11 +1546,7 @@ Inferred memory devices in process
 Presto compilation completed successfully.
 Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
 	the parameters "P=8,M=120,S=7". (HDL-193)
-Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
-Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
-*** Presto compilation terminated with 1 errors. ***
-Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
-	the parameters "P=8,M=120,S=7". (HDL-193)
+Presto compilation completed successfully.
 Information: Building the design 'decode_2to4'. (HDL-193)
 Warning:  ../src/VHDL_FC2/decode_2to4.vhd:33: DEFAULT branch of CASE statement cannot be reached. (ELAB-311)
 
@@ -1600,11 +1588,7 @@ Inferred memory devices in process
 Presto compilation completed successfully.
 Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
 	the parameters "P=8,M=84,S=7". (HDL-193)
-Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
-Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
-*** Presto compilation terminated with 1 errors. ***
-Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
-	the parameters "P=8,M=84,S=7". (HDL-193)
+Presto compilation completed successfully.
 Information: Building the design 'counter_N_FC' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
 	the parameters "n=84". (HDL-193)
 Warning:  ../src/VHDL_Common/Counter_N_FC.vhd:24: Real types with ranges are not supported and will be ignored. (ELAB-1002)
@@ -1624,7 +1608,7 @@ Information: Building the design 'shift_reg_5x32x8bit_4out' instantiated from de
 Presto compilation completed successfully.
 Information: Building the design 'mux25to1_nbit' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
 	the parameters "N=8". (HDL-193)
-Warning:  ../src/VHDL_Conv2/mux25to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Warning:  ../src/VHDL_Common/mux25to1_nbit.vhd:18: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
 Presto compilation completed successfully.
 Information: Building the design 'precomputation_conv' instantiated from design 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0' with
 	the parameters "N=25". (HDL-193)
@@ -1736,7 +1720,7 @@ Information: Building the design 'latch_nbit' instantiated from design 'max_pool
 
 Inferred memory devices in process
 	in routine latch_nbit_N8 line 26 in file
-		'../src/VHDL_Conv2/latch_nbit.vhd'.
+		'../src/VHDL_Common/latch_nbit.vhd'.
 ===========================================================================
 |    Register Name    | Type  | Width | Bus | MB | AR | AS | SR | SS | ST |
 ===========================================================================
@@ -1748,5 +1732,4 @@ Presto compilation completed successfully.
 Information: Building the design 'shift_reg_14xNbit' instantiated from design 'shift_reg_5x14xNbit_N8' with
 	the parameters "N=8". (HDL-193)
 Presto compilation completed successfully.
-Warning: Design 'LeNet5_top' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
 1

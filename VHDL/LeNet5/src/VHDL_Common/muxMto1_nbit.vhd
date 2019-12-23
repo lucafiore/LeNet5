@@ -17,21 +17,36 @@ GENERIC(P   : NATURAL:=4;  -- Parallelism of input
         M   : NATURAL:=4; -- Number of input elements
         S   : NATURAL:=2);  -- Parallelism of selector ( ceil(log2(M)) )
 PORT(	data_in   : IN STD_LOGIC_VECTOR(M*P-1 DOWNTO 0);
-			SEL				  : IN STD_LOGIC_VECTOR(S-1 DOWNTO 0):= (OTHERS => '0');
+			SEL				  : IN STD_LOGIC_VECTOR(S-1 DOWNTO 0);
 			q			 		: OUT STD_LOGIC_VECTOR(P-1 DOWNTO 0));
 END muxMto1_nbit;
 
 ARCHITECTURE behavior OF muxMto1_nbit IS
+
+TYPE matrix IS ARRAY(0 TO M-1) OF STD_LOGIC_VECTOR(P-1 DOWNTO 0);
+SIGNAL data_matrix: matrix;
+
 BEGIN
 
 
-PROCESS(SEL,data_in)
-BEGIN
-	IF (TO_INTEGER(UNSIGNED(SEL))> M-1) THEN
-		q <= (OTHERS=>'0');
-	ELSE
-		q <= data_in((TO_INTEGER(UNSIGNED(SEL))+1)*P-1 DOWNTO TO_INTEGER(UNSIGNED(SEL))*P);
-	END IF;
-END PROCESS;
+
+--PROCESS(SEL,data_in)
+
+--VARIABLE q_v : STD_LOGIC_VECTOR(P-1 DOWNTO 0):=(OTHERS=>'0');
+
+--BEGIN
+
+	--IF (TO_INTEGER(UNSIGNED(SEL))> M-1) THEN
+	--	q_v := (OTHERS=>'0');
+--	ELSE
+--		q_v := data_in((TO_INTEGER(UNSIGNED(SEL))+1)*P-1 DOWNTO TO_INTEGER(UNSIGNED(SEL))*P);
+--	END IF;
+--	q <= q_v;
+--END PROCESS;
+
+gen: FOR i IN 0 TO P-1 GENERATE
+	q(i)<=data_matrix(TO_INTEGER(UNSIGNED(SEL)))(i);
+END GENERATE;
+
 
 END behavior;

@@ -21,7 +21,7 @@ ENTITY LeNet5_top IS
 PORT(		
 		START           	: IN STD_LOGIC;
 		RST_A_n         	: IN STD_LOGIC;
-		CLK    	 			: IN STD_LOGIC; 
+		CLK    	 		: IN STD_LOGIC; 
 
 		-- port useful for testbench
 		-- output of the inner CU of the layer to the testbench
@@ -230,7 +230,7 @@ PORT( 		in_row_image			: IN input_3_img_2;
 				bias						: IN input_bias_2;
 				EN_MPY					: OUT STD_LOGIC;
 				EN_ACC    				: OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
-				SEL_ADD1, SEL_ACC 	: OUT STD_LOGIC;
+				SEL_ADD1, SEL_ACC 			: OUT STD_LOGIC;
 				in_mac_1					: OUT input_mac_img_2;
 				in_mac_2					: OUT input_mac_w_2;
 				in_add_opt_sum			: OUT input_mac_b_2;

@@ -1,0 +1,129 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LeNet5_top
+Version: O-2018.06-SP4
+Date   : Sat Dec  7 14:06:19 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CONVOLUTIONAL_2/CNT14_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Reg_shreg_13/data_out_reg[4]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LeNet5_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                                   Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  CONVOLUTIONAL_2/CNT14_reg[1]/CK (DFFR_X1)               0.00 #     0.00 r
+  CONVOLUTIONAL_2/CNT14_reg[1]/Q (DFFR_X1)                0.09       0.09 f
+  CONVOLUTIONAL_2/U7/Z (BUF_X4)                           0.06       0.14 f
+  CONVOLUTIONAL_2/SEL_ROW[1] (CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5)
+                                                          0.00       0.14 f
+  MUX_14TO1_1/SEL[1] (mux14to1_nbit_N112_5)               0.00       0.14 f
+  MUX_14TO1_1/U750/ZN (NAND2_X1)                          0.05       0.20 r
+  MUX_14TO1_1/U675/ZN (OAI21_X1)                          0.04       0.24 f
+  MUX_14TO1_1/mult_28/A[1] (mux14to1_nbit_N112_5_DW02_mult_0)
+                                                          0.00       0.24 f
+  MUX_14TO1_1/mult_28/S0_4/CO (FA_X1)                     0.10       0.34 f    mo 
+  MUX_14TO1_1/mult_28/S2_2_4/CO (FA_X1)                   0.11       0.45 f    mo 
+  MUX_14TO1_1/mult_28/S2_3_4/CO (FA_X1)                   0.11       0.56 f    mo 
+  MUX_14TO1_1/mult_28/S2_4_4/S (FA_X1)                    0.14       0.70 r    mo 
+  MUX_14TO1_1/mult_28/U6/ZN (XNOR2_X1)                    0.06       0.75 r
+  MUX_14TO1_1/mult_28/U5/ZN (XNOR2_X1)                    0.06       0.82 r
+  MUX_14TO1_1/mult_28/U22/ZN (OR2_X1)                     0.05       0.86 r
+  MUX_14TO1_1/mult_28/U18/ZN (NAND2_X1)                   0.03       0.89 f
+  MUX_14TO1_1/mult_28/U17/ZN (XNOR2_X1)                   0.06       0.95 f
+  MUX_14TO1_1/mult_28/PRODUCT[8] (mux14to1_nbit_N112_5_DW02_mult_0)
+                                                          0.00       0.95 f
+  MUX_14TO1_1/U766/ZN (INV_X1)                            0.03       0.98 r
+  MUX_14TO1_1/U767/ZN (NAND2_X1)                          0.03       1.01 f
+  MUX_14TO1_1/U726/ZN (NOR2_X1)                           0.05       1.07 r
+  MUX_14TO1_1/U725/ZN (XNOR2_X1)                          0.04       1.10 f
+  MUX_14TO1_1/U135/ZN (AND2_X1)                           0.05       1.16 f
+  MUX_14TO1_1/U76/ZN (NAND2_X1)                           0.04       1.19 r
+  MUX_14TO1_1/U77/ZN (INV_X2)                             0.04       1.24 f
+  MUX_14TO1_1/U27/Z (BUF_X2)                              0.06       1.30 f
+  MUX_14TO1_1/U1844/ZN (AOI222_X1)                        0.12       1.41 r
+  MUX_14TO1_1/U1845/ZN (NAND2_X1)                         0.04       1.45 f
+  MUX_14TO1_1/U519/ZN (NAND2_X1)                          0.03       1.49 r
+  MUX_14TO1_1/U522/ZN (AND3_X1)                           0.05       1.54 r
+  MUX_14TO1_1/U2189/ZN (OAI211_X1)                        0.04       1.58 f
+  MUX_14TO1_1/U2372/ZN (INV_X1)                           0.03       1.61 r
+  MUX_14TO1_1/U2980/ZN (OAI22_X1)                         0.03       1.64 f
+  MUX_14TO1_1/U518/ZN (NOR3_X1)                           0.04       1.69 r
+  MUX_14TO1_1/U677/ZN (AND4_X1)                           0.07       1.76 r
+  MUX_14TO1_1/U3125/ZN (OAI22_X1)                         0.03       1.79 f
+  MUX_14TO1_1/U3126/ZN (AOI221_X1)                        0.09       1.88 r
+  MUX_14TO1_1/U3127/ZN (NAND2_X1)                         0.03       1.91 f
+  MUX_14TO1_1/q[108] (mux14to1_nbit_N112_5)               0.00       1.91 f
+  MUX_2TO1_1/in_0[108] (mux2to1_nbit_N112_2)              0.00       1.91 f
+  MUX_2TO1_1/U146/ZN (AOI22_X1)                           0.05       1.95 r
+  MUX_2TO1_1/U147/ZN (INV_X1)                             0.02       1.98 f
+  MUX_2TO1_1/q[108] (mux2to1_nbit_N112_2)                 0.00       1.98 f
+  CONVOLUTIONAL_2/in_row_image[1][108] (CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5)
+                                                          0.00       1.98 f
+  CONVOLUTIONAL_2/CIRCUIT/in_row_image[1][108] (conv2_with_CU_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0)
+                                                          0.00       1.98 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/in_row_image[1][108] (Conv_layer3_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0)
+                                                          0.00       1.98 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/parallel_in[108] (shift_reg_5x14xNbit_N8_2)
+                                                          0.00       1.98 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/parallel_in[108] (shift_reg_14xNbit_N8_10)
+                                                          0.00       1.98 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Mux_shreg_13/in_1[4] (mux2to1_nbit_N8_127)
+                                                          0.00       1.98 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Mux_shreg_13/U12/ZN (AOI22_X1)
+                                                          0.04       2.02 r
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Mux_shreg_13/U13/ZN (INV_X1)
+                                                          0.02       2.04 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Mux_shreg_13/q[4] (mux2to1_nbit_N8_127)
+                                                          0.00       2.04 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Reg_shreg_13/data_in[4] (register_nbit_N8_127)
+                                                          0.00       2.04 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Reg_shreg_13/U15/ZN (AOI22_X1)
+                                                          0.05       2.10 r
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Reg_shreg_13/U16/ZN (INV_X1)
+                                                          0.02       2.12 f
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Reg_shreg_13/data_out_reg[4]/D (DFF_X1)
+                                                          0.01       2.13 f
+  data arrival time                                                  2.13
+
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                      -0.07      -0.07
+  CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_1/Sh_reg/Reg_shreg_13/data_out_reg[4]/CK (DFF_X1)
+                                                          0.00      -0.07 r
+  library setup time                                     -0.04      -0.11
+  data required time                                                -0.11
+  -----------------------------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -2.13
+  -----------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -2.23
+
+
+1
