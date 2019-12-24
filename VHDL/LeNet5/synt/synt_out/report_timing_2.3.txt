@@ -1,0 +1,78 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'LeNet5_top' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LeNet5_top
+Version: O-2018.06-SP4
+Date   : Tue Dec 24 16:34:24 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: matrix_weights_CONV1[1][1][31]
+              (input port clocked by MY_CLK)
+  Endpoint: CONVOLUTIONAL_1/CONV1/CU/P_S_reg[1]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LeNet5_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  input external delay                                    0.50       0.50 f
+  matrix_weights_CONV1[1][1][31] (in)                     0.00       0.50 f
+  U46553/ZN (NOR2_X1)                                     0.09       0.59 r
+  U46971/ZN (NOR2_X2)                                     0.06       0.66 f
+  U46554/ZN (XNOR2_X1)                                    0.11       0.77 r
+  U47208/ZN (XNOR2_X1)                                    0.07       0.84 f
+  U53078/ZN (INV_X2)                                      0.08       0.92 r
+  U53144/ZN (AOI222_X1)                                   0.05       0.97 f
+  U53149/ZN (AOI221_X1)                                   0.16       1.14 r
+  U53150/ZN (XNOR2_X1)                                    0.09       1.22 r
+  U53210/ZN (XNOR2_X1)                                    0.07       1.29 r
+  U53211/ZN (XNOR2_X1)                                    0.07       1.36 r
+  U53212/ZN (NOR2_X1)                                     0.03       1.39 f
+  U53259/S (FA_X1)                                        0.14       1.54 r
+  U47859/ZN (OAI21_X1)                                    0.03       1.57 f
+  U53240/ZN (NAND2_X1)                                    0.04       1.61 r
+  U53251/ZN (XNOR2_X1)                                    0.06       1.67 r
+  U53257/ZN (XNOR2_X1)                                    0.07       1.74 r
+  U53268/ZN (XNOR2_X1)                                    0.07       1.81 r
+  U53272/ZN (AND2_X1)                                     0.05       1.85 r
+  U53275/ZN (AOI222_X1)                                   0.04       1.89 f
+  U53277/ZN (NAND2_X1)                                    0.03       1.93 r
+  U45049/ZN (AND4_X1)                                     0.07       2.00 r
+  U46708/ZN (NAND3_X1)                                    0.04       2.04 f
+  U46709/ZN (OAI21_X1)                                    0.05       2.08 r
+  U53866/ZN (NAND2_X1)                                    0.03       2.11 f
+  U53875/ZN (OAI21_X1)                                    0.04       2.15 r
+  U53881/ZN (NAND2_X1)                                    0.03       2.18 f
+  CONVOLUTIONAL_1/CONV1/CU/P_S_reg[1]/D (DFFR_X1)         0.01       2.19 f
+  data arrival time                                                  2.19
+
+  clock MY_CLK (rise edge)                                2.30       2.30
+  clock network delay (ideal)                             0.00       2.30
+  clock uncertainty                                      -0.07       2.23
+  CONVOLUTIONAL_1/CONV1/CU/P_S_reg[1]/CK (DFFR_X1)        0.00       2.23 r
+  library setup time                                     -0.04       2.19
+  data required time                                                 2.19
+  --------------------------------------------------------------------------
+  data required time                                                 2.19
+  data arrival time                                                 -2.19
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

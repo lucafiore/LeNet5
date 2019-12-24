@@ -1,0 +1,42 @@
+library verilog;
+use verilog.vl_types.all;
+entity LeNet5_top is
+    port(
+        START           : in     vl_logic;
+        RST_A_n         : in     vl_logic;
+        CLK             : in     vl_logic;
+        READ_IMG        : out    vl_logic;
+        EN_READ_W_1     : out    vl_logic;
+        EN_READ_B_1     : out    vl_logic;
+        EN_READ_W_2     : out    vl_logic;
+        EN_READ_B_2     : out    vl_logic;
+        EN_READ_W_3     : out    vl_logic;
+        EN_READ_B_3     : out    vl_logic;
+        in_row_image1   : in     vl_logic_vector(255 downto 0);
+        in_row_image2   : in     vl_logic_vector(255 downto 0);
+        matrix_weights_CONV1: in     vl_logic_vector(1199 downto 0);
+        bias_mac_CONV1  : in     vl_logic_vector(47 downto 0);
+        matrix_weights_step1: in     vl_logic_vector(4799 downto 0);
+        matrix_weights_step2: in     vl_logic_vector(4799 downto 0);
+        matrix_weights_step3: in     vl_logic_vector(4799 downto 0);
+        matrix_weights_step4: in     vl_logic_vector(4799 downto 0);
+        bias_memory     : in     vl_logic_vector(127 downto 0);
+        input_weights_1 : in     vl_logic_vector(191 downto 0);
+        input_bias_1    : in     vl_logic_vector(191 downto 0);
+        input_weights_2 : in     vl_logic_vector(167 downto 0);
+        input_bias_FC2  : in     vl_logic_vector(167 downto 0);
+        input_weights_3 : in     vl_logic_vector(79 downto 0);
+        input_bias_3    : in     vl_logic_vector(79 downto 0);
+        DONE_CONV1      : out    vl_logic;
+        DONE_CONV2      : out    vl_logic;
+        DONE_FC1        : out    vl_logic;
+        DONE_FC2        : out    vl_logic;
+        DONE_FC3        : out    vl_logic;
+        DONE_TOT        : out    vl_logic;
+        output_conv1    : out    vl_logic_vector(9407 downto 0);
+        output_conv2    : out    vl_logic_vector(3199 downto 0);
+        output_fc1      : out    vl_logic_vector(959 downto 0);
+        output_fc2      : out    vl_logic_vector(671 downto 0);
+        output_TOT      : out    vl_logic_vector(79 downto 0)
+    );
+end LeNet5_top;
