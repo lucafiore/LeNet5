@@ -10,9 +10,9 @@ vsim -c -do compile_saif.do > ../saif/log/vsim_log.txt
 cat ../saif/log/vsim_log.txt | grep -i error
 cat ../saif/log/vsim_log.txt | grep -i warning
 echo "-Elimination of wlf file"
-rm wlf*
+rm *.wlf
 echo -e "--------------- end\n\n"
 # converto in saif
 source /software/scripts/init_synopsys_64.18
-vcd2saif -input ../vcd/LeNet5.vcd -output ../saif/LeNet5.saif
+vcd2saif -input ../vcd/LeNet5.vcd -output ../saif/LeNet5_top.saif
 

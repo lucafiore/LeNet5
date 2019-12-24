@@ -1,6 +1,6 @@
 variable top_entity "LeNet5_top"
-variable period 0
-variable ext _0
+variable period 2.3
+variable ext _2.3
 variable testbench "LeNet5_tb"
 
 # output directory of syntesys file

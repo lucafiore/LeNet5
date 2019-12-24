@@ -49,7 +49,7 @@ report_timing > $out_dir/report_timing$ext.txt
 
 report_area > $out_dir/report_area$ext.txt
 
-#report_power > $out_dir/report_power$ext.txt
+report_power > $out_dir/report_power$ext.txt
 
 # salvo la sintesi corrente
 write_partition -type post -destination synt_db

@@ -1,3 +1,7 @@
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
 Running PRESTO HDLC
 Warning:  ../src/VHDL_Common/LeNet5_top.vhd:536: The initial value for signal 'out_conv2_bias_24' is not supported for synthesis. Presto ignores it.  (ELAB-130)
 Warning:  ../src/VHDL_Common/LeNet5_top.vhd:552: The initial value for signal 'zeros_input' is not supported for synthesis. Presto ignores it.  (ELAB-130)

@@ -177,7 +177,7 @@ END COMPONENT LeNet5_top;
 	SIGNAL output_fc1		: STD_LOGIC_VECTOR(OUTPUT_NEURONS_FC1*OUTPUT_SIZE-1 DOWNTO 0);
 	SIGNAL output_fc2		: STD_LOGIC_VECTOR(OUTPUT_NEURONS_FC2*OUTPUT_SIZE-1 DOWNTO 0);
 	SIGNAL output_TOT		: STD_LOGIC_VECTOR(OUTPUT_NEURONS_FC3*OUTPUT_SIZE-1 DOWNTO 0);
-	CONSTANT T_CLK : TIME:= 20 ns;
+	CONSTANT T_CLK : TIME:= 2.2 ns;
 ---------------------------------------------------------
 
 begin
@@ -780,8 +780,7 @@ UUT : LeNet5_top
 				 output_conv2,
 				 output_fc1,
 				 output_fc2,
-				 output_TOT
-				 );
+				 output_TOT);
 
 end architecture behaviour;
 

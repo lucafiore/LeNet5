@@ -2,241 +2,9 @@ m255
 13
 cModel Technology
 d/home/lp19.17/Desktop/LeNet5/VHDL/LeNet5/sim
-Eclock_gating
-w1574796759
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/clock_gating.vhd
-F../src/VHDL_Common/clock_gating.vhd
-l0
-L16
-VOJ<[^Gg1J=F0I5`SfSV:^3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work clock_gating OJ<[^Gg1J=F0I5`SfSV:^3
-31
-M1 ieee std_logic_1164
-l35
-L23
-V9>ULh1Kn6YY20KoDLN;c^0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecomparator
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/comparator.vhd
-F../src/VHDL_Conv2/comparator.vhd
-l0
-L9
-VYX`nTWMBSTbZYcXJ:ifCO2
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Alogicfunc
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work comparator YX`nTWMBSTbZYcXJ:ifCO2
-31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l22
-L18
-VnFBHc9h2kDXW<4z;iHVo:0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Econv1_top
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/CONV1_top.vhd
-F../src/VHDL_Conv1/CONV1_top.vhd
-l0
-L21
-VGLn3P2Oac6;:i3^8ba]FV1
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work conv1_top GLn3P2Oac6;:i3^8ba]FV1
-31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 ieee math_real
-M1 work conv_struct_pkg
-l187
-L53
-V^QE7eD:oHi?QZ8:a`7^@l2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Econv1_with_cu
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/Conv1_with_CU.vhd
-F../src/VHDL_Conv1/Conv1_with_CU.vhd
-l0
-L22
-VXkaU9V<3c7796YVJjSjFJ0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work conv1_with_cu XkaU9V<3c7796YVJjSjFJ0
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l135
-L59
-V5FkU^R[zA2VJP]k>`MDHW1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Econv2_top
-w1574796759
-DP std textio K]Z^fghZ6B=BjnK5NomDT3
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/CONV2_top.vhd
-F../src/VHDL_Conv2/CONV2_top.vhd
-l0
-L22
-VNnegheZ7W5RR<_5bA_GHo2
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP std textio K]Z^fghZ6B=BjnK5NomDT3
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work conv2_top NnegheZ7W5RR<_5bA_GHo2
-31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 work conv_struct_pkg
-M1 std textio
-l231
-L62
-VSNTFB;eZoeX^Ggg_5;NTW2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Econv2_with_cu
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/conv2_with_CU.vhd
-F../src/VHDL_Conv2/conv2_with_CU.vhd
-l0
-L21
-VKiSZ=h20:9_7k>0o2iVHf0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work conv2_with_cu KiSZ=h20:9_7k>0o2iVHf0
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l127
-L62
-Vb_ELiVHz5a;G3Uf]3_=Vi3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Econv_layer3
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/Conv_layer3.vhd
-F../src/VHDL_Conv2/Conv_layer3.vhd
-l0
-L21
-V01W@>TSY::`78<ekabNiA3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work conv_layer3 01W@>TSY::`78<ekabNiA3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l112
-L50
-V3nK<Nj5MdKc07j<bj_DXb2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Econv_layer_1
-w1574797631
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/Conv_layer_1.vhd
-F../src/VHDL_Conv1/Conv_layer_1.vhd
-l0
-L20
-VSdIXa[8Q09e>1AJ]Z94zT2
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work conv_layer_1 SdIXa[8Q09e>1AJ]Z94zT2
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l167
-L51
-V56;MLTA1Q2D>LF0YCSohN2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
 Pconv_struct_pkg
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
 w1574796759
 8../src/VHDL_Packages/Conv_pkg.vhd
 F../src/VHDL_Packages/Conv_pkg.vhd
@@ -244,446 +12,14 @@ l0
 L18
 V=W>V1@iFA?>Zb]Qh5WhSN3
 OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecounter
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/counter.vhd
-F../src/VHDL_Conv2/counter.vhd
-l0
-L5
-VZ[H]kV;mF@@YF;2KY40GC3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructure
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work counter Z[H]kV;mF@@YF;2KY40GC3
 31
 M2 ieee std_logic_1164
 M1 ieee numeric_std
-l16
-L14
-VJ1k2LDRb:9?3L>;nW6f481
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecounter_14_c
-w1574796759
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/Counter_14_c.vhd
-F../src/VHDL_Conv1/Counter_14_c.vhd
-l0
-L19
-V7i>16G`S@SDof<N=8laNL3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work counter_14_c 7i>16G`S@SDof<N=8laNL3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ieee math_real
-l30
-L27
-VZZ7SXHQEL[eG8hW[`RJ043
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecounter_n
-w1574796759
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/Counter_N.vhd
-F../src/VHDL_Common/Counter_N.vhd
-l0
-L20
-VgbDAa0aRd@ULMX:5Yk=gN1
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work counter_n gbDAa0aRd@ULMX:5Yk=gN1
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ieee math_real
-l31
-L28
-VO9P28NJ3RQ0L1=HfDYiaO1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecounter_n_fc
-w1574796759
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/Counter_N_FC.vhd
-F../src/VHDL_Common/Counter_N_FC.vhd
-l0
-L20
-Vo>US69fVYQ]U5a<m_Kofe3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work counter_n_fc o>US69fVYQ]U5a<m_Kofe3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 ieee math_real
-l31
-L28
-VGGBWG?TK@Y8XbA8C]9ZRL3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecu_conv1
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/CU_conv1.vhd
-F../src/VHDL_Conv1/CU_conv1.vhd
-l0
-L19
-VAME5m?04?lM0Z4U>86M4f3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehaviour
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work cu_conv1 AME5m?04?lM0Z4U>86M4f3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l51
-L45
-V12cGU7O=f>[2_1UY<L[DN1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecu_conv2
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/CU_conv2.vhd
-F../src/VHDL_Conv2/CU_conv2.vhd
-l0
-L19
-VG=Q3O=KhZ@O<0;Dz5Fd@n0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehaviour
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work cu_conv2 G=Q3O=KhZ@O<0;Dz5Fd@n0
-31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l54
-L45
-Vjg29`;j;Y:DjQlQY@3C5A0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecu_fc1
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC1/CU_FC1.vhd
-F../src/VHDL_FC1/CU_FC1.vhd
-l0
-L18
-VXa9:QZYb;=2HnUCOmf4RQ3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehaviour
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work cu_fc1 Xa9:QZYb;=2HnUCOmf4RQ3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l51
-L45
-VY>H=n>:anaJ3YGW`zYzX:2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecu_fc2
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC2/CU_FC2.vhd
-F../src/VHDL_FC2/CU_FC2.vhd
-l0
-L18
-VXhUNY:b2hEVGa@oa5QT_a1
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehaviour
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work cu_fc2 XhUNY:b2hEVGa@oa5QT_a1
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l51
-L45
-VT1J;MLSYDCHGKmB2PhIDO0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecu_fc3
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC3/CU_FC3.vhd
-F../src/VHDL_FC3/CU_FC3.vhd
-l0
-L18
-V216iHGGjoVmbYN<bn6gZI0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehaviour
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work cu_fc3 216iHGGjoVmbYN<bn6gZI0
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l49
-L43
-V4o_e6?zzW:Z?lS[RZBLdQ0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Ecu_tot
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/CU_TOT.vhd
-F../src/VHDL_Common/CU_TOT.vhd
-l0
-L20
-VGG5II]`dWbUkPc6n==HjL3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehaviour
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work cu_tot GG5II]`dWbUkPc6n==HjL3
-31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 work fc_struct_pkg
-M1 work conv_struct_pkg
-l62
-L56
-VB_?[`WlYSW[FXXHb>fl@42
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Edecode_2to4
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC2/decode_2to4.vhd
-F../src/VHDL_FC2/decode_2to4.vhd
-l0
-L20
-VT7GzgHlh4=SP9n4h:B;1]3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavioral
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work decode_2to4 T7GzgHlh4=SP9n4h:B;1]3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l28
-L27
-V<mXiZiIHI9ke]HN<Hl9=60
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Edecode_3to5
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC1/decode_3to5.vhd
-F../src/VHDL_FC1/decode_3to5.vhd
-l0
-L20
-V9zMLMi_RoJDn9Kh>D22Jc1
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavioral
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work decode_3to5 9zMLMi_RoJDn9Kh>D22Jc1
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l27
-L26
-VY:[CaCfaEMmFMQ9TPmIQe2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efc1_top
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC1/FC1_top.vhd
-F../src/VHDL_FC1/FC1_top.vhd
-l0
-L18
-V6dL56`=?mDKzBbZo`3A=g3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work fc1_top 6dL56`=?mDKzBbZo`3A=g3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l129
-L53
-VYG^]oadc9Fn7l^>9zP<;_1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efc2_top
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC2/FC2_top.vhd
-F../src/VHDL_FC2/FC2_top.vhd
-l0
-L18
-Vael]XN]EL4UUjlzQN_<hc3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work fc2_top ael]XN]EL4UUjlzQN_<hc3
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l126
-L52
-VVZK5m5=YzGahShSAn=Pz;3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efc3_top
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC3/FC3_top.vhd
-F../src/VHDL_FC3/FC3_top.vhd
-l0
-L18
-Vd2R`9aELIzKUgaaOLkFGA1
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work fc3_top d2R`9aELIzKUgaaOLkFGA1
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l122
-L52
-VkozZi`N<>KGL[k`gB@@z`3
-OE;C;6.2g;35
 o-93 -work ./work
 tExplicit 1
 Pfc_struct_pkg
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
 w1574796759
 8../src/VHDL_Packages/FC_pkg.vhd
 F../src/VHDL_Packages/FC_pkg.vhd
@@ -691,317 +27,13 @@ l0
 L17
 VYK67OemPd:PF7;`eiDAH90
 OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eflipflop
-w1574796759
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/flipflop.vhd
-F../src/VHDL_Conv1/flipflop.vhd
-l0
-L5
-VOQ9UGWm[d9Kl6ai[1KV_F0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work flipflop OQ9UGWm[d9Kl6ai[1KV_F0
-31
-M1 ieee std_logic_1164
-l15
-L14
-Vj]Z@7[Yd4?b>_ilE26iH12
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eflipflop_rst
-w1574796759
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/flipflop_rst.vhd
-F../src/VHDL_Conv2/flipflop_rst.vhd
-l0
-L4
-V^gLdfOk?^feiWHmGUh?5@3
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work flipflop_rst ^gLdfOk?^feiWHmGUh?5@3
-31
-M1 ieee std_logic_1164
-l13
-L12
-VYkn;l?NWaHBOnYE>SQ]cP2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efull_adder
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/full_adder.vhd
-F../src/VHDL_Conv1/full_adder.vhd
-l0
-L5
-VbBP9V5`9:XbP2YdjWhhR>0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work full_adder bBP9V5`9:XbP2YdjWhhR>0
 31
 M2 ieee std_logic_1164
 M1 ieee numeric_std
-l14
-L10
-VkVYiD[C_gT9^Q4@Rb]Kb33
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efully_connected_layer_1
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC1/Fully_connected_Layer_1.vhd
-F../src/VHDL_FC1/Fully_connected_Layer_1.vhd
-l0
-L19
-VhkO1:W0kGI5CRiWj3k37e0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work fully_connected_layer_1 hkO1:W0kGI5CRiWj3k37e0
-31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 ieee math_real
-M1 work fc_struct_pkg
-l107
-L47
-VR9m:F1mJ;@E0;3I78Lb1o0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efully_connected_layer_2
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC2/Fully_connected_Layer_2.vhd
-F../src/VHDL_FC2/Fully_connected_Layer_2.vhd
-l0
-L20
-VR6:fIOGORc2E[_7NBB1[72
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work fully_connected_layer_2 R6:fIOGORc2E[_7NBB1[72
-31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 ieee math_real
-M1 work fc_struct_pkg
-l108
-L48
-V3kJ<K3IfNIH3o]g:MAQ<<2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Efully_connected_layer_3
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_FC3/Fully_connected_Layer_3.vhd
-F../src/VHDL_FC3/Fully_connected_Layer_3.vhd
-l0
-L19
-VUGzPI_>1L5Nn3z>=7Omz43
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work fully_connected_layer_3 UGzPI_>1L5Nn3z>=7Omz43
-31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 ieee math_real
-M1 work fc_struct_pkg
-l85
-L44
-VMUKJfU?jI]R_kNWK<:RD83
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Einput_registers
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/Input_registers.vhd
-F../src/VHDL_Common/Input_registers.vhd
-l0
-L20
-VAiNeNz2KRH2l_<Wi3g`382
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work input_registers AiNeNz2KRH2l_<Wi3g`382
-l48
-L31
-VG2<L6I=N<^]4^8KNDGfcE0
-OE;C;6.2g;35
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-o-93 -work ./work
-tExplicit 1
-Eintermediate_registers_1
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/Intermediate_Registers_1.vhd
-F../src/VHDL_Common/Intermediate_Registers_1.vhd
-l0
-L20
-Va7Mj?2h97Z38D;dX08ZbM0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work intermediate_registers_1 a7Mj?2h97Z38D;dX08ZbM0
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l48
-L31
-VzB;aL2[@O1YWeO8Kz;eX^0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eintermediate_registers_2
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/Intermediate_Registers_2.vhd
-F../src/VHDL_Common/Intermediate_Registers_2.vhd
-l0
-L20
-VP2co9An3:jDdiQX]ReKU;2
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work intermediate_registers_2 P2co9An3:jDdiQX]ReKU;2
-31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l48
-L31
-VAcVbQVgmJcAh?Ec04VWV72
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Elatch_n
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/latch_n.vhd
-F../src/VHDL_Common/latch_n.vhd
-l0
-L14
-V]=Qz]nEk@VKFoz?I7m18>1
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work latch_n ]=Qz]nEk@VKFoz?I7m18>1
-31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l24
-L23
-VezlT4>4dDEoY^Q88:X]W62
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Elatch_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/latch_nbit.vhd
-F../src/VHDL_Conv2/latch_nbit.vhd
-l0
-L14
-VYOIdnH;8el=Z_=AV>oOlE0
-OE;C;6.2g;35
-31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work latch_nbit YOIdnH;8el=Z_=AV>oOlE0
-31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l25
-L24
-V7<a3]4hzJgY18[8:U@MPB3
-OE;C;6.2g;35
 o-93 -work ./work
 tExplicit 1
 Elenet5_tb
-w1574798185
+w1577197528
 DP std textio K]Z^fghZ6B=BjnK5NomDT3
 DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
 DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
@@ -1023,796 +55,5852 @@ DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
 DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
 DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
 DE work lenet5_tb d;Og4OT:0bU`P?07Kg[l60
+l183
+L24
+VjP>URFFma392Zo9OkoJZO0
+OE;C;6.2g;35
 31
 M5 ieee std_logic_1164
 M4 work fc_struct_pkg
 M3 ieee numeric_std
 M2 work conv_struct_pkg
 M1 std textio
-l183
-L24
-VZ`nYLYI]ljO5Xn7h^4@[Y0
-OE;C;6.2g;35
 o-93 -work ./work
 tExplicit 1
-Elenet5_top
-w1574796759
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/LeNet5_top.vhd
-F../src/VHDL_Common/LeNet5_top.vhd
-l0
-L20
-VNSl:<6kDmLhz1JG:zTAKJ0
-OE;C;6.2g;35
+vLeNet5_top
+I_XY_akD_X9diom0h@zPH_1
+VlblddhH`H9U20e5Z[QaCe0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 4040
+VlblddhH`H9U20e5Z[QaCe0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee math_real zjAF7SKfg_RPI0GT^n1N`1
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work lenet5_top NSl:<6kDmLhz1JG:zTAKJ0
+o-work ./work
+n@le@net5_top
+vmuxMto1_nbit_P8_M120_S7
+I5JP]JzIRnN3Q<lU37ig5T1
+V2UH>UOb:VWH3b`VzQ<Y4=1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 17
+V2UH>UOb:VWH3b`VzQ<Y4=1
+OE;L;6.2g;35
+r1
 31
-M5 ieee std_logic_1164
-M4 ieee numeric_std
-M3 ieee math_real
-M2 work fc_struct_pkg
-M1 work conv_struct_pkg
-l621
-L85
-VXoM1fZVUDaZg`O]idTZAh3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emac_block
-w1574796759
-DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
-DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/mac_block.vhd
-F../src/VHDL_Common/mac_block.vhd
-l0
-L25
-VHV3LB=`RV:z1V>A4DWH?V2
-OE;C;6.2g;35
+o-work ./work
+nmux@mto1_nbit_@p8_@m120_@s7
+vmuxMto1_nbit_P8_M400_S9
+IR@YM<MmMo`5R3Bn[En3fo1
+V=BDz4a7`REnC`bBb^kTU83
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 8
+V=BDz4a7`REnC`bBb^kTU83
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
-DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mac_block HV3LB=`RV:z1V>A4DWH?V2
+o-work ./work
+nmux@mto1_nbit_@p8_@m400_@s9
+vmuxMto1_nbit_P8_M84_S7
+IOV^43[9dZIe7:O0FiZaMD3
+V;`=Sm=5Bfc0UCHBd6nShj1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 26
+V;`=Sm=5Bfc0UCHBd6nShj1
+OE;L;6.2g;35
+r1
 31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 ieee std_logic_unsigned
-M1 ieee std_logic_arith
-l83
-L43
-VIL4;@jV8SHzedOc6dJ7QG1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emax_pooling
-w1574797928
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/max_pooling.vhd
-F../src/VHDL_Conv1/max_pooling.vhd
-l0
-L6
-VG@1aRUSaFYOJkPKfiFXf70
-OE;C;6.2g;35
+o-work ./work
+nmux@mto1_nbit_@p8_@m84_@s7
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_0
+IF]00_D4eMi<NV]V8KN`z@1
+VfoSC>`TmZFSUHK^Z@ncYI2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 35
+VfoSC>`TmZFSUHK^Z@ncYI2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work max_pooling G@1aRUSaFYOJkPKfiFXf70
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_0
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_1
+ID8iR@n:7cj>RSmizSZV_b1
+VIhiDS8Xi8c6jSk]^z0UT@3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 4031
+VIhiDS8Xi8c6jSk]^z0UT@3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l95
-L24
-VM6g_^nn3QBzgXKJ06B@Tg1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux14to1_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/mux14to1_nbit.vhd
-F../src/VHDL_Conv2/mux14to1_nbit.vhd
-l0
-L15
-VR=l7a?OgJ6=h<n8@f=m0C3
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_1
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_10
+IW1`PH4NznGEXi_XD?=YZ[0
+Vo;W0k<R@3SAzDm6AOo@2f3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3950
+Vo;W0k<R@3SAzDm6AOo@2f3
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux14to1_nbit R=l7a?OgJ6=h<n8@f=m0C3
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_10
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_100
+IXIT0GMMz3c:1GNf7;l:XQ0
+VFJ?1fD]VK8V9TW^f``Z`O0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3140
+VFJ?1fD]VK8V9TW^f``Z`O0
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l23
-L22
-VN_aXLbZHAOT0JJ3YjC]5j0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux25to1_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/mux25to1_nbit.vhd
-F../src/VHDL_Conv2/mux25to1_nbit.vhd
-l0
-L15
-VTamdAEN_[mb7IcDTHhEoj1
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_100
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_101
+Ig3gII<JnET^oDQETFfE:X0
+VVjMob7fzMMh[9WQ_AZ0Bi3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3131
+VVjMob7fzMMh[9WQ_AZ0Bi3
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux25to1_nbit TamdAEN_[mb7IcDTHhEoj1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_101
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_102
+I[>WHSTDbh7kc4emd2gbQb3
+VP3<K>2c>XfKbFRbQi:_L42
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3122
+VP3<K>2c>XfKbFRbQi:_L42
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l23
-L22
-Vn37TF8OHEjgIDaMLAR6cG0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux2to1
-w1574796759
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/mux2to1.vhd
-F../src/VHDL_Conv2/mux2to1.vhd
-l0
-L6
-V9MY6?`nYhYXL>gUzUznHN0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_102
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_103
+I:HSZ?0`kU^d16a]T@Xng51
+V6b6=MJCf9WB3RSi7[7J551
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3113
+V6b6=MJCf9WB3RSi7[7J551
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Alogicfunc
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux2to1 9MY6?`nYhYXL>gUzUznHN0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_103
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_104
+IC2Q8i2h[LCWoeQJbE_[IS2
+VQ]oHRl7i<[^[V4Q3nZ4252
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3104
+VQ]oHRl7i<[^[V4Q3nZ4252
+OE;L;6.2g;35
+r1
 31
-M1 ieee std_logic_1164
-l18
-L15
-Vc;O;6U]6O^TXeRJf6dI]]2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux2to1_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/mux2to1_nbit.vhd
-F../src/VHDL_Common/mux2to1_nbit.vhd
-l0
-L15
-VkbEj8jFSTXMH3G24iZL431
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_104
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_105
+Il:BfD8NgZ_m59h^6U]TfC0
+VQMZ:n<AiA<3^fCJ`CV>TA1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3095
+VQMZ:n<AiA<3^fCJ`CV>TA1
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux2to1_nbit kbEj8jFSTXMH3G24iZL431
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_105
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_106
+Ig49DeZezHKKXd_Vk2M7CX3
+VdXLGl7To64`XM]OinjGdP0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3086
+VdXLGl7To64`XM]OinjGdP0
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l23
-L22
-VSe3jM@Q]eQkbQ?CdcK1Lg2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux4to1_1bit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/mux4to1_bit.vhd
-F../src/VHDL_Common/mux4to1_bit.vhd
-l0
-L15
-VblK6XgKY6bQQzAW8ljb;11
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_106
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_107
+I5i0?o5SJXjY^14>YzSBo12
+V>J=Z[7NIZ[UCU1KmN00D<3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3077
+V>J=Z[7NIZ[UCU1KmN00D<3
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux4to1_1bit blK6XgKY6bQQzAW8ljb;11
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_107
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_108
+IVbf^lLzZ`NK_SLki7R`YM3
+VjT54;SPbAN5>c4>h2DbE]3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3068
+VjT54;SPbAN5>c4>h2DbE]3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l28
-L26
-V]dze9Mk?m6kYd>`1gR1PD2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux4to1_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/mux4to1_nbit.vhd
-F../src/VHDL_Common/mux4to1_nbit.vhd
-l0
-L15
-VVCE:S?[PQE^il3;cAneoU3
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_108
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_109
+IcK[Jh[X4KOiXW<KGC2=663
+VN5eJQ2n8i<726E`1chCB41
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3059
+VN5eJQ2n8i<726E`1chCB41
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux4to1_nbit VCE:S?[PQE^il3;cAneoU3
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_109
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_11
+ISZPanhzd9AO0[P`O=IbMf3
+ViLX:4:CNJd2S1@_F6WYch1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3941
+ViLX:4:CNJd2S1@_F6WYch1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l29
-L27
-VBaVUm[ACA`ca^P5FCBbb?0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux5to1_1bit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/mux5to1_1bit.vhd
-F../src/VHDL_Common/mux5to1_1bit.vhd
-l0
-L15
-VACW[cZ2[kX_CA`A96oGDX3
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_11
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_110
+IYNAH@1CkHLM<VzF3ea1A>0
+Vi=36kI<?17`kjiO9Bl1<F0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3050
+Vi=36kI<?17`kjiO9Bl1<F0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux5to1_1bit ACW[cZ2[kX_CA`A96oGDX3
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_110
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_111
+InR0h>VZ[X7RmA^=hmKEU91
+Vk<4M>EMDSmfR9U2Fn_o7@1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3041
+Vk<4M>EMDSmfR9U2Fn_o7@1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l28
-L27
-VH9Q:>=3[Bnl3Wh81TL0801
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emux5to1_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/mux5to1_nbit.vhd
-F../src/VHDL_Common/mux5to1_nbit.vhd
-l0
-L15
-VH;Y7WXca=3PjFL8PCf]Fz2
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_111
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_112
+I[7=i`fdK0MAR=29>m>aZ83
+VF`[=2UB4;<YWG0GH=_9=o1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3032
+VF`[=2UB4;<YWG0GH=_9=o1
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work mux5to1_nbit H;Y7WXca=3PjFL8PCf]Fz2
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_112
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_113
+I;z;hcXB_VcZVk?13LU>`;3
+VDS@I:CoBMoI998A2bh10B3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3023
+VDS@I:CoBMoI998A2bh10B3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l30
-L29
-Vg]LIDVZ4;^n9n[QX7zV?23
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Emuxmto1_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/muxMto1_nbit.vhd
-F../src/VHDL_Common/muxMto1_nbit.vhd
-l0
-L15
-VOW@ABmX^zd1To`z8_<E?P0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_113
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_114
+I[YSm4`zoRCT5lGGFdChK43
+VKQW3=NkcL]49F2URbl1C_0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3014
+VKQW3=NkcL]49F2URbl1C_0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work muxmto1_nbit OW@ABmX^zd1To`z8_<E?P0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_114
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_115
+IcF__Ja^<cnKK`E;SdJ_KM0
+VRP4=?LZFDHE30Vei@@M`E1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3005
+VRP4=?LZFDHE30Vei@@M`E1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l25
-L24
-V<PXO^`cSVH>Mn_JaY^cdM3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eone_hot_dec
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/one_hot_dec.vhd
-F../src/VHDL_Conv2/one_hot_dec.vhd
-l0
-L16
-VmeoVIhP2GOz5BjGi2CDl[1
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_115
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_116
+I3l@j[I=]SjajAIFAH_CRA3
+VB6jF4X7eemHh>K>kLG]E72
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2996
+VB6jF4X7eemHh>K>kLG]E72
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work one_hot_dec meoVIhP2GOz5BjGi2CDl[1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_116
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_117
+IRF_E;XikY[^1UZ_hKLZL=2
+VSfRKN2d@F6bc>GI@c]Gi=3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2987
+VSfRKN2d@F6bc>GI@c]Gi=3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l41
-L26
-VM6O;KSE>:m1546FTAJV4L0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eoutput_registers
-w1574796759
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/Output_registers.vhd
-F../src/VHDL_Common/Output_registers.vhd
-l0
-L20
-V<h]naE<zC;G4mZ7_S:^ZB2
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_117
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_118
+I[V4Jmo;jXNWEdNenhQX:I1
+VeXJ=eW3D@1]VERF[D1AR41
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2978
+VeXJ=eW3D@1]VERF[D1AR41
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work output_registers <h]naE<zC;G4mZ7_S:^ZB2
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_118
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_119
+IXD9[Cmz1KjIIiR2^^iCX42
+Vm?0JD_oeZTcL[<W543gME2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2969
+Vm?0JD_oeZTcL[<W543gME2
+OE;L;6.2g;35
+r1
 31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work fc_struct_pkg
-l48
-L31
-Vdf`BB3MF2N6H[>@RF8aDD0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Epooling_comparator
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/pooling_comparator.vhd
-F../src/VHDL_Conv2/pooling_comparator.vhd
-l0
-L15
-VI73z_dVTm8k;Ff]SC4jBI0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_119
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_12
+IJejEo]:>@YmT12;TaC]kW0
+V7ZKB5TVEVVQ<MaFcZIh?C3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3932
+V7ZKB5TVEVVQ<MaFcZIh?C3
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work pooling_comparator I73z_dVTm8k;Ff]SC4jBI0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_12
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_120
+IAj[glIl<RcFP?R2fc5?mY1
+VZD3=8TI`G]o@S41gn=:2@3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2960
+VZD3=8TI`G]o@S41gn=:2@3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l96
-L30
-V=7B=7X3Wb;^^HZFUKNd_e0
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Epooling_layer4
-w1574797068
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/pooling_layer4.vhd
-F../src/VHDL_Conv2/pooling_layer4.vhd
-l0
-L19
-V?:;Y7Q[F@S75Ca1O1Mf_N1
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_120
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_121
+I[1`?I^o5aXB]Z3`iX927`1
+VmzEm6F`_HbFjCElf2HaF;0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2951
+VmzEm6F`_HbFjCElf2HaF;0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work pooling_layer4 ?:;Y7Q[F@S75Ca1O1Mf_N1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_121
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_122
+IQL?O]3Wam00dNEc;ef^;j1
+VQaEoAUcQYhSE8WL:bln:01
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2942
+VQaEoAUcQYhSE8WL:bln:01
+OE;L;6.2g;35
+r1
 31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l71
-L32
-VRF;SDJh4QbO7]^EX8J;433
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Epooling_layer4_cu
-w1574796759
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-8../src/VHDL_Conv2/pooling_layer4_cu.vhd
-F../src/VHDL_Conv2/pooling_layer4_cu.vhd
-l0
-L5
-VzY63NJ<EmB]WzRJ4]5P_k3
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_122
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_123
+IiAc=OEgQDkTPfGCX6m?L:3
+VUE^iek@L0o=4Vak2YNbTj2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2933
+VUE^iek@L0o=4Vak2YNbTj2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructure
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DE work pooling_layer4_cu zY63NJ<EmB]WzRJ4]5P_k3
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_123
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_124
+IAo;R5gnYchR5<idMA;=<S1
+V1`Cm5^5^9>1a@fkQ9=34^1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2924
+V1`Cm5^5^9>1a@fkQ9=34^1
+OE;L;6.2g;35
+r1
 31
-M2 ieee numeric_std
-M1 ieee std_logic_1164
-l20
-L14
-V?CL[o>3AOj1ncOW:[A`8<1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Epooling_layer4_dp
-w1574797068
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/pooling_layer4_dp.vhd
-F../src/VHDL_Conv2/pooling_layer4_dp.vhd
-l0
-L18
-VzdW<1HF?:0>^BnUW6B9>L0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_124
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_125
+I]`JPA^fc@XYM]`:fjBYje1
+VUjmW4^==1o?@]2_dj7_>=0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2915
+VUjmW4^==1o?@]2_dj7_>=0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work pooling_layer4_dp zdW<1HF?:0>^BnUW6B9>L0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_125
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_126
+IJFEkO6omXa>=W0k4D@70F3
+V4f[Ze:;^zE^Ab=`<A<BV12
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2906
+V4f[Ze:;^zE^Ab=`<A<BV12
+OE;L;6.2g;35
+r1
 31
-M3 ieee std_logic_1164
-M2 ieee numeric_std
-M1 work conv_struct_pkg
-l98
-L35
-VYl`cHDYGXOz4@5lI?FJnD2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eprecomputation_conv
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/precomputation_conv.vhd
-F../src/VHDL_Conv1/precomputation_conv.vhd
-l0
-L15
-V>znN^zIHKiI0_?Y:Bi3Cf0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_126
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_127
+IN_JK53aA7:Yid2i6Ja`WA3
+VK9Nc[]Q>HX70:[VlWfP;k2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2897
+VK9Nc[]Q>HX70:[VlWfP;k2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work precomputation_conv >znN^zIHKiI0_?Y:Bi3Cf0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_127
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_128
+Io=_iH]>W3oV[29RDmeaZO1
+VeZ`lP3<X=WodU4o8fPLQm1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2888
+VeZ`lP3<X=WodU4o8fPLQm1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l101
-L22
-Vl`ET0f?^K<CFG5d>XSG@P1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eregister_1bit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/register_1bit.vhd
-F../src/VHDL_Conv2/register_1bit.vhd
-l0
-L5
-V48bH8A^FQkQA;g>dkRzmC3
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_128
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_129
+I8:e3B^I6VFSBST4lEKb5k1
+VXfdD9zz[c`QhBB[b0n9kZ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2879
+VXfdD9zz[c`QhBB[b0n9kZ1
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work register_1bit 48bH8A^FQkQA;g>dkRzmC3
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_129
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_13
+IKTeMHIT?IGI;;`=f2AZ=[3
+VTkz>4;eB03[KNf?5dO[bC3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3923
+VTkz>4;eB03[KNf?5dO[bC3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l13
-L12
-Vc[;Ob_W72RCek6obZZ3T?2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eregister_file
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/register_file.vhd
-F../src/VHDL_Conv2/register_file.vhd
-l0
-L15
-VD4X3oIzFYMG03j<^Izbna1
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_13
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_130
+IB1hS5;5]JSPIZ[5DdWZbm0
+V9ligNiUE6Az^ebg_N>CGW2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2870
+V9ligNiUE6Az^ebg_N>CGW2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavioral
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work register_file D4X3oIzFYMG03j<^Izbna1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_130
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_131
+IXF:a]hGXRFcAl[FFL9z;`3
+V^8cgLOU7gFR@4GHFnnBk>1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2861
+V^8cgLOU7gFR@4GHFnnBk>1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l35
-L32
-V@SdmUkBRIM@mH2:NF68PL3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eregister_nbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/register_nbit.vhd
-F../src/VHDL_Common/register_nbit.vhd
-l0
-L16
-V?Q[YoM;:o0a;df<hgl]Al0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_131
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_132
+I9ARlgZi`DXbNz==O7JeeK1
+Vo]ogbZ2eKOMRAl?;V^GeI3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2852
+Vo]ogbZ2eKOMRAl?;V^GeI3
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work register_nbit ?Q[YoM;:o0a;df<hgl]Al0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_132
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_133
+IokNn7cW9@12]ihz@J1o=j0
+VMdPzAP5_OP[VU1]_^Q<K@2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2843
+VMdPzAP5_OP[VU1]_^Q<K@2
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l24
-L23
-V_^BPHYY]l9VE`=CNNHh160
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Erelu
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/relu.vhd
-F../src/VHDL_Common/relu.vhd
-l0
-L15
-VaKXUfTNDP7Sl4h>l625MA0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_133
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_134
+IC<f<0K[H5OaZJQ>Y22OKN1
+V[iOnmR[50A?WmjA`UnbGe2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2834
+V[iOnmR[50A?WmjA`UnbGe2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work relu aKXUfTNDP7Sl4h>l625MA0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_134
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_135
+I:OEYZ2=^8[Bz0i<GC7h:30
+Va3CMoIfnRUO0Sh0ZHjfRi1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2825
+Va3CMoIfnRUO0Sh0ZHjfRi1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l37
-L22
-Vj0dA7M^TUF[ngCW8[hX5A1
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Erelu_conv
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/relu_conv.vhd
-F../src/VHDL_Conv1/relu_conv.vhd
-l0
-L15
-VLQn::66SKAX[67OXdg`d11
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_135
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_136
+IQIV67GnaMfocnFnSaYUo?3
+VD:VfBF>O5BA8V8NLF5`@Y1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2816
+VD:VfBF>O5BA8V8NLF5`@Y1
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work relu_conv LQn::66SKAX[67OXdg`d11
-l36
-L21
-V3`65^bbBnVZKNDM6U;YAO2
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_136
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_137
+IPRld@0W<En9SkC212>z9R0
+VVlMe5ZO:Db^YHen0P0KWF1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2807
+VVlMe5ZO:Db^YHen0P0KWF1
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-o-93 -work ./work
-tExplicit 1
-Esaturation
-w1574796759
-DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
-DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Common/saturation.vhd
-F../src/VHDL_Common/saturation.vhd
-l0
-L17
-VLh;J62:JhI_E`akTUC9]b0
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_137
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_138
+I4>0`5TeM:TTkgGdFiK@WA0
+V_h>hM:ZV2F<QY1EZK46MS2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2798
+V_h>hM:ZV2F<QY1EZK46MS2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee std_logic_arith GJbAT?7@hRQU9IQ702DT]2
-DP ieee std_logic_unsigned hEMVMlaNCR^<OOoVNV;m90
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work saturation Lh;J62:JhI_E`akTUC9]b0
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_138
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_139
+IYl?]b>9ZC>MV0@kF5=JXi2
+VS?nXhX1RLZ06[nAh=56P^1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2789
+VS?nXhX1RLZ06[nAh=56P^1
+OE;L;6.2g;35
+r1
 31
-M4 ieee std_logic_1164
-M3 ieee numeric_std
-M2 ieee std_logic_unsigned
-M1 ieee std_logic_arith
-l31
-L25
-VBNdjU19U?j3I03TlD7@:C3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eshift_reg_14xnbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/shift_reg_14xNbit.vhd
-F../src/VHDL_Conv2/shift_reg_14xNbit.vhd
-l0
-L16
-V;>96Q@E?GVCzJCTmdoG]30
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_139
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_14
+INnTem1U:kTlYL9EVDYK4P0
+VL>0Jf<Y9Ye2@;LhE`];dg0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3914
+VL>0Jf<Y9Ye2@;LhE`];dg0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work shift_reg_14xnbit ;>96Q@E?GVCzJCTmdoG]30
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_14
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_140
+IHD2IBbQfP3J;PfIS[2IO11
+VDJE_SzBKNPEANFB7oY@CW3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2780
+VDJE_SzBKNPEANFB7oY@CW3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l50
-L26
-VA5QD8ee0i5UWEQ2YQ^K622
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eshift_reg_32x8bit_mux
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/shift_reg_32x8bit_mux.vhd
-F../src/VHDL_Conv1/shift_reg_32x8bit_mux.vhd
-l0
-L21
-VSe;PjFm@cLocWZjS=g@Kj1
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_140
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_141
+InAaWamTdNoNoc9_B`10RV0
+VaUWU;bLmh:GSRIiO7B]iZ0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2771
+VaUWU;bLmh:GSRIiO7B]iZ0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work shift_reg_32x8bit_mux Se;PjFm@cLocWZjS=g@Kj1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_141
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_142
+IAzEC?@QlLQhFD0jZ0]l=T1
+VmXeIff4?b;<Q[V8oY]8Zb3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2762
+VmXeIff4?b;<Q[V8oY]8Zb3
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l56
-L32
-V8;Bd@h4VC0`fMfnBLHoeA2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eshift_reg_5x14xnbit
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv2/shift_reg_5x14xNbit.vhd
-F../src/VHDL_Conv2/shift_reg_5x14xNbit.vhd
-l0
-L15
-VaboKeM>aG]b6jVn9U5l8J3
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_142
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_143
+I`RBjM7_`Oe@G=43Vaa?N52
+VkH[=@6:ckDnDZz@On?amF2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2753
+VkH[=@6:ckDnDZz@On?amF2
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Abehavior
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work shift_reg_5x14xnbit aboKeM>aG]b6jVn9U5l8J3
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_143
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_144
+I:DBMGB9]@]3Y7Q>NKW@f>1
+V4V2GdP]a=TlhElL3DHG6R2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2744
+V4V2GdP]a=TlhElL3DHG6R2
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l48
-L29
-V<el<^hBiYe2:fe:onlIVE2
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
-Eshift_reg_5x32x8bit_4out
-w1574796759
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-8../src/VHDL_Conv1/shift_reg_5x32x8bit_4out.vhd
-F../src/VHDL_Conv1/shift_reg_5x32x8bit_4out.vhd
-l0
-L15
-VT[246n;dGj]S1b]Yn2@UI1
-OE;C;6.2g;35
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_144
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_145
+I6LXdkV;90AmLocfZTFfmj0
+ViCzC:2QTon`SLcfIKKX5S0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2735
+ViCzC:2QTon`SLcfIKKX5S0
+OE;L;6.2g;35
+r1
 31
-o-93 -work ./work
-tExplicit 1
-Astructural
-DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
-DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
-DE work shift_reg_5x32x8bit_4out T[246n;dGj]S1b]Yn2@UI1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_145
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_146
+IQVQRdMfE_ZNaA@[CU4M671
+VE^J6M:957VK=gomUzIPbo0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2726
+VE^J6M:957VK=gomUzIPbo0
+OE;L;6.2g;35
+r1
 31
-M2 ieee std_logic_1164
-M1 ieee numeric_std
-l55
-L34
-V>LaNEm1WTd8>6_OPzMJ;:3
-OE;C;6.2g;35
-o-93 -work ./work
-tExplicit 1
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_146
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_147
+IEh^BgoWPUSgL>0kEHPje^3
+VR:1NAE8^Paa]ZVkFbn7DX1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2717
+VR:1NAE8^Paa]ZVkFbn7DX1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_147
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_148
+IJm5=i;8ij=2c>OcG5eU3e0
+VMQL_oAkCm;I;06O_>CnE=2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2708
+VMQL_oAkCm;I;06O_>CnE=2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_148
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_149
+I00HiUIPCm9E3jX<Z7IoUY3
+VQ9_kTU7K:S2^e0hXL2]=M3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2699
+VQ9_kTU7K:S2^e0hXL2]=M3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_149
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_15
+IL9SWLe@Y5:cNnbS[zI:nV3
+V]YgaSU?:ROOF[5Q5h7ij[1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3905
+V]YgaSU?:ROOF[5Q5h7ij[1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_15
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_150
+Ib1X=OVe9N77kk[fQ4Pi>b2
+VZC3c=CgQ=o`l0_SM2]H490
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2690
+VZC3c=CgQ=o`l0_SM2]H490
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_150
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_151
+I^^R?eF`OShoZ]SQgk2ZZb3
+Vb@zk6^]^YRf4QI<ZEgc^@2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2681
+Vb@zk6^]^YRf4QI<ZEgc^@2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_151
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_152
+Io9d6VH95S=aMhC^9zDIS63
+VFCnP]7WQk3Ug9OBDGBP>B3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2672
+VFCnP]7WQk3Ug9OBDGBP>B3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_152
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_153
+IX?XaPbn[zWAe9]nA?Cmn92
+VaOG0:F:[dVP1EaQcCWV5P3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2663
+VaOG0:F:[dVP1EaQcCWV5P3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_153
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_154
+IAj2ji2N2ERXm2fkz<98>b3
+V1kX[0Y1LJ?Y@<<bF:I;d?1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2654
+V1kX[0Y1LJ?Y@<<bF:I;d?1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_154
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_155
+IG41f0K9@M@Cc<^J=HHIKN2
+VT4djcbWYG8LM9YVG_6gHe0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2645
+VT4djcbWYG8LM9YVG_6gHe0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_155
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_156
+IlBR:gcdJJ80][h1IMiMII0
+V<89GE]o?XBm91QXkZR[:92
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2636
+V<89GE]o?XBm91QXkZR[:92
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_156
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_157
+I`TP;jB_haB:764<@NgRL41
+V0QJ20>P2dX2;_PcKaNGFX2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2627
+V0QJ20>P2dX2;_PcKaNGFX2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_157
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_158
+I5_^9^0:EVbABT00Hod=ZI3
+VeDj6;bDAVfcXb2=zZ68Mn3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2618
+VeDj6;bDAVfcXb2=zZ68Mn3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_158
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_159
+IfRW4iXOUX`RR=??V9jam?0
+Vk26>jN[zMPcheE0>UKz7<0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2609
+Vk26>jN[zMPcheE0>UKz7<0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_159
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_16
+I1lX?4zW86U_PT86TRS^i@1
+Vj]hBVMb[gadJNSA5<YzbF2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3896
+Vj]hBVMb[gadJNSA5<YzbF2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_16
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_160
+I`VjM9M5EM<D9Xhjj:UiPf3
+VYg9_b60g;Ijl;P[35Oe9B2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2600
+VYg9_b60g;Ijl;P[35Oe9B2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_160
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_161
+IOIe^e^odki71BVD6kIgXa3
+V_]dLczLa0]aZjm7Mdi3l53
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2591
+V_]dLczLa0]aZjm7Mdi3l53
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_161
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_162
+I7:O]UFRZjOM;7k<KOnH>62
+V3Mi?Z:KNk5YT3iWZoAJCE0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2582
+V3Mi?Z:KNk5YT3iWZoAJCE0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_162
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_163
+IBYoQ?nhD[B^ePfCNzJP2C2
+V4VQ:[HdMBfDO14eQDX<e`1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2573
+V4VQ:[HdMBfDO14eQDX<e`1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_163
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_164
+IiXMYkDg[4`0n7f_T4IQ[82
+VEDz@I80JU4UEHZVH7bkSm3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2564
+VEDz@I80JU4UEHZVH7bkSm3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_164
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_165
+IW2Qld]@TCO1BV;_e`5zH03
+Vobzgdm2GKICI4>lO?:J=b0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2555
+Vobzgdm2GKICI4>lO?:J=b0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_165
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_166
+I36g<]`b^P;bJfakf[KYDd1
+VkcK8]nMB5ABn[IX;PODB=3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2546
+VkcK8]nMB5ABn[IX;PODB=3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_166
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_167
+IeeXACHg063IU<ff^m9fmF0
+VN]@^m@`YG]j_l0h@X0NQQ2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2537
+VN]@^m@`YG]j_l0h@X0NQQ2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_167
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_168
+IFI^XnlmX7O<4l0hLl0PzE3
+V`7JhKg_c=Dg?zdfm?HbDM2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2528
+V`7JhKg_c=Dg?zdfm?HbDM2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_168
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_169
+IHH]bMUab0D_oK[QCjLBe02
+V4@QZF;HMb0]^EW;?W`JZG1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2519
+V4@QZF;HMb0]^EW;?W`JZG1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_169
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_17
+Im18jdhIHzzc@koE^IHF<A1
+VPeHfMNggK0P_IAX`CgQ2X2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3887
+VPeHfMNggK0P_IAX`CgQ2X2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_17
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_170
+IDz3niZ4_N;TZ[?MIDO9M?0
+V?jbTN_6jK;7IH7domdm2N3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2510
+V?jbTN_6jK;7IH7domdm2N3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_170
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_171
+I^:AS7^L3HE]@1j`P8o7IR1
+VF9k0GfYb5n9iUakbMZ<7I3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2501
+VF9k0GfYb5n9iUakbMZ<7I3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_171
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_172
+IeUM>=Elg7c:4iEf:NX`Ri0
+VhVInk8C>0;ZZoP2f?PBGz0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2492
+VhVInk8C>0;ZZoP2f?PBGz0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_172
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_173
+Ie]FGUaWc]A0SY6:?AP:=c1
+Vm`ZiE`KamoZ<F4fD?<?P11
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2483
+Vm`ZiE`KamoZ<F4fD?<?P11
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_173
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_174
+I5gz0i@N67H1MUCYPXmhl43
+VbZNHc6@IiS9j469oacYFZ3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2474
+VbZNHc6@IiS9j469oacYFZ3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_174
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_175
+InKKEkP[HYDYNkGDRX>3_31
+Vk==kE8T[:Db:XKYMBkZ123
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2465
+Vk==kE8T[:Db:XKYMBkZ123
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_175
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_176
+I=fPFcCQ>`7FAATg[=M@_F2
+VTd`od?1i]JGV?]LjbLC[E2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2456
+VTd`od?1i]JGV?]LjbLC[E2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_176
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_177
+IULAf<Ni>Q2aJb1>g27Ak93
+VcUKKSC82[@RjBDJM688Zg0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2447
+VcUKKSC82[@RjBDJM688Zg0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_177
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_178
+I:>L3m@[Z]Y:_@2VA]NagO1
+V:h3@XDZIJjWeL53Y1<<gG0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2438
+V:h3@XDZIJjWeL53Y1<<gG0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_178
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_179
+IjOYNCjNcnInO7Icn46ZnF2
+V:HfBRABNd7>G3Bk:mbOfM0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2429
+V:HfBRABNd7>G3Bk:mbOfM0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_179
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_18
+IH^R5fXOo5WFRH:2^<1Th80
+VnJ2;CPfNY_ZILYZ8SU^[b2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3878
+VnJ2;CPfNY_ZILYZ8SU^[b2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_18
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_180
+I05M@T1b4fIW:n_GAKB==b0
+VBlh?QeRKLITR5nODdKg<J0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2420
+VBlh?QeRKLITR5nODdKg<J0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_180
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_181
+I[4fLAIUQB4N:9KAY0;UZZ2
+VS;f33L76JbEg=40AOjjHf0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2411
+VS;f33L76JbEg=40AOjjHf0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_181
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_182
+I@`I9_KlM070Xa^QjjlXVf1
+VeizJfj5;Y^?38X[m`:oYN2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2402
+VeizJfj5;Y^?38X[m`:oYN2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_182
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_183
+I7fR@<kSB`B^QeK@h;e>?L0
+V=oGzAWA6f;ZJnA_]GSzJ53
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2393
+V=oGzAWA6f;ZJnA_]GSzJ53
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_183
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_184
+I0hoYo_DPk6VCJi:Z[N2:33
+VhAkTg@Dc66[DzAc5b0ZJ41
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2384
+VhAkTg@Dc66[DzAc5b0ZJ41
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_184
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_185
+IiD1GV9_>Flo:X>VdYncBc3
+Vo_`>_0OjGEL_cD`M<`V4?1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2375
+Vo_`>_0OjGEL_cD`M<`V4?1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_185
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_186
+IQTPz:7kgX][RO1YoCjnQZ1
+VodK2aVbdX5n[ONzIGYmcV0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2366
+VodK2aVbdX5n[ONzIGYmcV0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_186
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_187
+I7=3XZlZ2aibN5mn0l_c7M0
+VN^Y>AS5VzW0b?0]@JS4Sz3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2357
+VN^Y>AS5VzW0b?0]@JS4Sz3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_187
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_188
+IPBh4eFc@@3aPR9Bod^K>D1
+VBJklQ1WmKMXK0TPCF=RLm1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2348
+VBJklQ1WmKMXK0TPCF=RLm1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_188
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_189
+I<]7jFXkal[85_KGI`]?g00
+V>MdjXg0Qn[a7?AkPIVG[W2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2339
+V>MdjXg0Qn[a7?AkPIVG[W2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_189
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_19
+I4F>UfOTc1To6z3FFT2z=Z2
+V57G>YMOjg1PhjbRFBWdhz3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3869
+V57G>YMOjg1PhjbRFBWdhz3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_19
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_190
+I^YI38Zl[n8HRZF_85MZcG2
+VPLefFjZHiU39c@ce6CHMc3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2330
+VPLefFjZHiU39c@ce6CHMc3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_190
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_191
+IUzB]@gFXXe9hP8ja[W^4C2
+V<76n03]Uog<8fOmFTFDn62
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2321
+V<76n03]Uog<8fOmFTFDn62
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_191
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_192
+IaQSS7h[f4TcogB6@T_?9f0
+Vf;;k9=a7z1H]OP6j>4>[f2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2312
+Vf;;k9=a7z1H]OP6j>4>[f2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_192
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_193
+I:F09JbnZPl26N?QgUBbXS3
+Ve^aSFAVS;^W9L4?fBznfH3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2303
+Ve^aSFAVS;^W9L4?fBznfH3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_193
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_194
+IK6e:BWA<hPf7FzSA7I[z90
+VE37zS?7]lESDklkA49;eR3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2294
+VE37zS?7]lESDklkA49;eR3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_194
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_195
+IUI;FZdJ8MmKlRi]Dh_Fz:0
+VL0J]^3jAa9?L37_7kH0QV0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2285
+VL0J]^3jAa9?L37_7kH0QV0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_195
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_196
+IzfmJ`_lYobm1S3MC9Eh?G2
+VTgnDh@XRgE4_CZ[BKKcH40
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2276
+VTgnDh@XRgE4_CZ[BKKcH40
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_196
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_197
+ISfD15nGONOEaSc:][n@eF3
+VgAXYDiAM0]i;OM<80obo50
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2267
+VgAXYDiAM0]i;OM<80obo50
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_197
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_198
+IFMUcWiX5hW_cV[W4j8L@52
+Vj2QeC53ML<oKdCkA:em4^0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2258
+Vj2QeC53ML<oKdCkA:em4^0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_198
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_199
+IWDQgP:YL?9OEXSjL?MHRC0
+V;l4Bg_MdZIFhkG1_j]^?K0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2249
+V;l4Bg_MdZIFhkG1_j]^?K0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_199
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_2
+IXmBZ1E?_Rd[D_53DK6:TK1
+VdgH;W>Q4HM0:]2lJ3kR6Y3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 4022
+VdgH;W>Q4HM0:]2lJ3kR6Y3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_2
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_20
+IoYd0Tee6ZLB:Wd^MJ2k[k3
+VUQ^?d04S38TAh4DnVoPVf2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3860
+VUQ^?d04S38TAh4DnVoPVf2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_20
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_200
+I0ok>PSWEcXYdGi[bLccHG2
+VYn5ID@nKXImG1_^GgTW0T0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2240
+VYn5ID@nKXImG1_^GgTW0T0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_200
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_201
+IZfSb3KKRbo=9IK^0@aQCO1
+VO6A>zOBkZOfI6V0N?C8MQ3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2231
+VO6A>zOBkZOfI6V0N?C8MQ3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_201
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_202
+I3n`z3H@3g[0VolYG7eRhC2
+V:e<O=J>l@1^fj=g2P@kd?3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2222
+V:e<O=J>l@1^fj=g2P@kd?3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_202
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_203
+IGkD6kHSAhWCI1Xd]]d6kB2
+V6R^8Hcb8[L<Q6fK8>?30I1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2213
+V6R^8Hcb8[L<Q6fK8>?30I1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_203
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_204
+I=8j[zB@EPT;bm_ND0f88G3
+V>UC][f79MD5eZU:aN9GBi3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2204
+V>UC][f79MD5eZU:aN9GBi3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_204
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_205
+IifC6DOXGPf83n3[^U<4ee0
+Vjo`gAMMzI@=03HziTS2182
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2195
+Vjo`gAMMzI@=03HziTS2182
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_205
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_206
+I?PTYbYk8?VF_84bMkE_X61
+V`M^Noi@Zf1YM`fd]cNE6a2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2186
+V`M^Noi@Zf1YM`fd]cNE6a2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_206
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_207
+I5QYl`UIL=C8<4z8SR;g271
+VE?8i3EZm3JV[1YOEd?gci2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2177
+VE?8i3EZm3JV[1YOEd?gci2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_207
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_208
+Ie05fL>38akAC3f>S4L4W@2
+V0Jj@UX8GUd[zddY=^Ib652
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2168
+V0Jj@UX8GUd[zddY=^Ib652
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_208
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_209
+IIU`A075k=iO6omK7m4HhG3
+VSF^9BZfabcELQ]gc>`L=I3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2159
+VSF^9BZfabcELQ]gc>`L=I3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_209
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_21
+I4JP:hZf0WZ7cWN?jk=Pl40
+V=hOPm5IH=nhedX<07Sd<;3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3851
+V=hOPm5IH=nhedX<07Sd<;3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_21
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_210
+IZKU>nRRIEZX4AAT1TUeAB2
+VNe2WaYFS0n8i3TYG[_C;g1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2150
+VNe2WaYFS0n8i3TYG[_C;g1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_210
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_211
+IUj>0BAdz9Z=YP1V9Nh;lj2
+VW8K>Yg`P]B@^BQEa02X?X1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2141
+VW8K>Yg`P]B@^BQEa02X?X1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_211
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_212
+I=VMcSXo:g=6KazVAhccL^3
+VHAMHZ[@;iSU6zfUd9`h0Q1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2132
+VHAMHZ[@;iSU6zfUd9`h0Q1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_212
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_213
+IHKEfWoUl4QImB77Rm21L62
+V1;6lJ:Scol`9[eL;E4Fdn2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2123
+V1;6lJ:Scol`9[eL;E4Fdn2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_213
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_214
+I3gEEFMZQPi8^Ko^Bnd;YD1
+V3RbJBMcS=Ql<Kz0Z5Wc2j3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2114
+V3RbJBMcS=Ql<Kz0Z5Wc2j3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_214
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_215
+ISOcUFOBWLBV^2m3AU5iL`1
+V;bljHjSR0E@[HdJID<Oi_0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2105
+V;bljHjSR0E@[HdJID<Oi_0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_215
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_216
+IL87eiOhK]AKEUG3zAHV]M1
+V4k_zPE2dZj6ESgOhR5BG]2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2096
+V4k_zPE2dZj6ESgOhR5BG]2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_216
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_217
+I_lcfEnY4be8o7<h?[02@12
+VRCl4?9oVN6C<XIZ_Ga5RE3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2087
+VRCl4?9oVN6C<XIZ_Ga5RE3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_217
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_218
+IWgZoRjeU@ng;J0UoCT^CU2
+VaV5KaV0ca2;lm_VoZ=X:a1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2078
+VaV5KaV0ca2;lm_VoZ=X:a1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_218
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_219
+IC;:F0a^2e1[19YZ`5H=iJ0
+V[FaL0P5Z^z:IX[LV<@BjK0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2069
+V[FaL0P5Z^z:IX[LV<@BjK0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_219
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_22
+IWNzENUa6SRJVf4@ZCiI:L3
+V:0gEbI]8:@Hj2SA4f4GWD2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3842
+V:0gEbI]8:@Hj2SA4f4GWD2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_22
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_220
+I=feBXb]jV=_^UQ[OdETd01
+VfF<aiX<0ULQ?zXh387>bj3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2060
+VfF<aiX<0ULQ?zXh387>bj3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_220
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_221
+IloUHY1]1k3dh^gfY1BY]?3
+V;`]m31HZX8lnZTVJBz[?]3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2051
+V;`]m31HZX8lnZTVJBz[?]3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_221
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_222
+I_Ge3>DJhfUjJhHHbnSf1f3
+VZ;YJ5]LaXJ[k5WRP_0m6G2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2042
+VZ;YJ5]LaXJ[k5WRP_0m6G2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_222
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_223
+IfQ[=EZ`iK98jd_ZGI]MEz0
+V2LSkHYa3[5iS<<i@<n90l2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2033
+V2LSkHYa3[5iS<<i@<n90l2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_223
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_224
+IZ^iNf?M78Rl>OF[hS@e4g1
+V3dao9jfdAP_V5dRjlA_JW3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2024
+V3dao9jfdAP_V5dRjlA_JW3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_224
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_225
+I_EPYLn97z>:NV@Be5Y@7]1
+V`bWQ9SU<SQo1NhS2n]6ZA0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2015
+V`bWQ9SU<SQo1NhS2n]6ZA0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_225
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_226
+I=B]BhlYC;QWWj4Ez1jh4V2
+V1cmJ:`LONmRBKoiVg9ozn3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 2006
+V1cmJ:`LONmRBKoiVg9ozn3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_226
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_227
+I[V6][eEzlNlOn>O1YDH692
+V9E>D7QCGk_@olHeSQ2ke10
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1997
+V9E>D7QCGk_@olHeSQ2ke10
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_227
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_228
+I`@7iLO]QK8A2B:9g2?<g=1
+VT<<JDi>LJH1CFePSaZTj93
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1988
+VT<<JDi>LJH1CFePSaZTj93
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_228
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_229
+IC`_GkOZ=jCH7ei7k;<@D23
+V0<1S1c[a`hjc63a0[CAY53
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1979
+V0<1S1c[a`hjc63a0[CAY53
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_229
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_23
+IOo;1kZXeP0d?0NR=TKkR91
+V]>=T4Fa?hg=lTK`9;4k`Q1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3833
+V]>=T4Fa?hg=lTK`9;4k`Q1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_23
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_230
+I:b6ET]R:86D:>jZSLZkBc3
+V_10eOJOM]omiYHYE7QRUD1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1970
+V_10eOJOM]omiYHYE7QRUD1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_230
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_231
+IB6hni2:PTAT5H=90hVTS^0
+Vj8BRYhV^a<6GMh?mV;OR@2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1961
+Vj8BRYhV^a<6GMh?mV;OR@2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_231
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_232
+IEcC2UZ]TSS1GH`XdOSYWC2
+V?3QV`8oNOG]mhI9lj:6^>3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1952
+V?3QV`8oNOG]mhI9lj:6^>3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_232
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_233
+I:eIde=jL]3Vd7`4i@AaK70
+VDdg6@XP3NjQj4;nNeU2NR2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1943
+VDdg6@XP3NjQj4;nNeU2NR2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_233
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_234
+I?Z:aN9Bzo:gSH:5N=?k1[3
+VcH=6hLk44fJb<HIIbG[J43
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1934
+VcH=6hLk44fJb<HIIbG[J43
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_234
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_235
+IX6oklPDzlVB05D^zeoFi01
+VNnCg;^SY0Oh^UKb:THDH32
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1925
+VNnCg;^SY0Oh^UKb:THDH32
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_235
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_236
+I58UAYDEWjRIK7CBI[H4dZ3
+V_3mY]QFA1[<NonoE0Z[@Q1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1916
+V_3mY]QFA1[<NonoE0Z[@Q1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_236
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_237
+I65Qh;[YUjFCn:3O30^flg1
+Vf;On;5WL<bgJ<QKEH7QTX3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1907
+Vf;On;5WL<bgJ<QKEH7QTX3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_237
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_238
+IFX8Sho4?E3?]M=ejL^1YW1
+VB6o256U7h@V23]=JdglC=2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1898
+VB6o256U7h@V23]=JdglC=2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_238
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_239
+IF=NMVJnZn1Mfj43R>>meO0
+VAG<]GKgi4d<X<nD3gC@?D0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1889
+VAG<]GKgi4d<X<nD3gC@?D0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_239
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_24
+IknD^H?<:8ICl7VNZ<OiBI0
+VOg8S?bO=2zj`DdncnW5S^1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3824
+VOg8S?bO=2zj`DdncnW5S^1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_24
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_240
+IhQg;SkUUUJhEDD4a>S]TI0
+VeE0d0e]b5_g;jGJ^`a:oB2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1880
+VeE0d0e]b5_g;jGJ^`a:oB2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_240
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_241
+I_kZ5dMf;WI7KCYS<GU:mO2
+Vj4<<`dKN[`;3^_<k<=In]0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1871
+Vj4<<`dKN[`;3^_<k<=In]0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_241
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_242
+IezC0fa5We=;=Q>0d_AcIi3
+VRW[jU3C`M4Z8l@_cn@DL=0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1862
+VRW[jU3C`M4Z8l@_cn@DL=0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_242
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_243
+IhZPoV>NESSZ2=J63LHcRd0
+V7HK2TYa5<9cDibZOKa:OP2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1853
+V7HK2TYa5<9cDibZOKa:OP2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_243
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_244
+I;;X>YPN]OlhPFlS<2gUP30
+V9GOGd7I53PcFjYZ3dHjEl0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1844
+V9GOGd7I53PcFjYZ3dHjEl0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_244
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_245
+I7DLVaILT<_JV:?6i3VRlO0
+VZS2Yd3l:oEd]O:1>n]X1T1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1835
+VZS2Yd3l:oEd]O:1>n]X1T1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_245
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_246
+IgzzV4WzkHPMci7jzFS:_g1
+V0ZYFQl8DgF4GFH>3GLP<I1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1826
+V0ZYFQl8DgF4GFH>3GLP<I1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_246
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_247
+I`8X_9HRK?9mUD0W888c9>1
+V:i11K668h6PRB0ZhZd3HT3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1817
+V:i11K668h6PRB0ZhZd3HT3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_247
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_248
+IVLPCleIlzfj?;2CB0em@20
+Vi78E@k;3XEhlaHPIEhaN02
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1808
+Vi78E@k;3XEhlaHPIEhaN02
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_248
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_249
+Ige^eg0>K<USI:_0hjKDVU3
+ViLC:m=h<URg_^MnoMi1BU1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1799
+ViLC:m=h<URg_^MnoMi1BU1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_249
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_25
+I^?S9?OVHd^3ZKW9hL?CnM3
+VC;`F0=`>zXSzXeY1O@DUc0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3815
+VC;`F0=`>zXSzXeY1O@DUc0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_25
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_250
+IHX>I3=4?X_T0AF`N6h8@32
+Vo<V5KjZ]cCFHGCHj]a8QB3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1790
+Vo<V5KjZ]cCFHGCHj]a8QB3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_250
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_251
+I5K`]2g<];ARQmUk;?B^=a2
+VjUM:Obi`dP>9oRiRoPR481
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1781
+VjUM:Obi`dP>9oRiRoPR481
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_251
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_252
+IoDABIFA53Jfhi7QBMD74T2
+VNzJe]1<A=c<V3EJiGLmiS1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1772
+VNzJe]1<A=c<V3EJiGLmiS1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_252
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_253
+I4R?=Wjn0@X7D<@a;<6<JS3
+Vl8<>GVlJQHR0SmX0`BWcc3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1763
+Vl8<>GVlJQHR0SmX0`BWcc3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_253
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_254
+IcEJHJVlJCZ[DhQ[kF@X?b2
+V<G6gS99?Diiijd4nV==5:3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1754
+V<G6gS99?Diiijd4nV==5:3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_254
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_255
+IFz@WT6HCeV0HERQ`?5FaY1
+VGlV2_9Jj17M@2;Rn9R?772
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1745
+VGlV2_9Jj17M@2;Rn9R?772
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_255
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_256
+IkcCPYff5o44>KU=mXlYTQ2
+V`RNX[3@l;48LnYFf@i>JD1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1736
+V`RNX[3@l;48LnYFf@i>JD1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_256
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_257
+I3f_K3Z]JoCPKi2c40<n@N3
+Vnj[F5n[@>W`CMeP3z;e`A1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1727
+Vnj[F5n[@>W`CMeP3z;e`A1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_257
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_258
+I`bA4Be;bmAZJ9UK=U:__o2
+V=68;;i[hPKT:;6Q;L7Z651
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1718
+V=68;;i[hPKT:;6Q;L7Z651
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_258
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_259
+IICO6CL1V3bnW9FCH=GKm61
+VlB1WiEQ>mcmmRCC4XfmJG1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1709
+VlB1WiEQ>mcmmRCC4XfmJG1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_259
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_26
+I^EjRQ]BoeF:81mz@`?Ua@1
+Vkg[=V:f^OjTekOmhHPW910
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3806
+Vkg[=V:f^OjTekOmhHPW910
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_26
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_260
+Igz^oV?]j7>WP=C:@dYQZ:1
+Vl4La=<HHBNPJgjYgY;[k03
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1700
+Vl4La=<HHBNPJgjYgY;[k03
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_260
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_261
+Ie1GYJD2zJ:O3An5fH8eF@3
+VaFaNKQSFkh7=hhB3CbMn90
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1691
+VaFaNKQSFkh7=hhB3CbMn90
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_261
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_262
+I00[KThk[7m3^[QzT4G5od3
+Ve`:=0oScT=V42K_`^gh:d3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1682
+Ve`:=0oScT=V42K_`^gh:d3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_262
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_263
+IJQ3RG7zU`ghnh24JWVdeK2
+V`db8?50kT8HEXAkJ>fCiR3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1673
+V`db8?50kT8HEXAkJ>fCiR3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_263
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_264
+I4V6QlX`X:hoY^W=^7R;Z`2
+VXo=LzzUG>CQE77VWaF_KQ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1664
+VXo=LzzUG>CQE77VWaF_KQ1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_264
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_265
+ISLTdfhe760mPfMNCHo][^2
+VW7`;Nh2lhmO`IeJk9K]3>2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1655
+VW7`;Nh2lhmO`IeJk9K]3>2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_265
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_266
+IliJa35=7oAj79X9kI7Lgc2
+VL^F2WR;g]Q<HAjMmbg:<31
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1646
+VL^F2WR;g]Q<HAjMmbg:<31
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_266
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_267
+I`PBQ25PgZ2@[miA5h2CMT2
+V=B]RGaLi8B0H6Y2S[:flf1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1637
+V=B]RGaLi8B0H6Y2S[:flf1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_267
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_268
+IHZHccX@Lb2LkND0le4XZ83
+V:LdZ871WV`KFa<?dcHJg20
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1628
+V:LdZ871WV`KFa<?dcHJg20
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_268
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_269
+I=zYMY0mILH_^N4e2UK`J_2
+Vdb^F`9IMFXZVcM@F76S5`0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1619
+Vdb^F`9IMFXZVcM@F76S5`0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_269
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_27
+INF`NE@_:H`TEjhHR<m^OJ1
+Vn_z[ZzezUFE>FUY2YJMEl0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3797
+Vn_z[ZzezUFE>FUY2YJMEl0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_27
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_270
+I2gM8mm6MlZO=<06`b][WE1
+VYidTG2zbT]UV`B54gfYfz2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1610
+VYidTG2zbT]UV`B54gfYfz2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_270
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_271
+I^<<K?ANc8?j<2hH9AbfQl2
+V?]GMJh[W6RFcCASlf@2``2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1601
+V?]GMJh[W6RFcCASlf@2``2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_271
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_272
+I=]@a1TgZYJP2h73<Z[RBA1
+V`Ai<j?VI73cCK:73]LH^T1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1592
+V`Ai<j?VI73cCK:73]LH^T1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_272
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_273
+I65NN[Nk6@]65:F=aNnGMQ0
+Vg9407Yj2nZV1jCC`Cz77<3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1583
+Vg9407Yj2nZV1jCC`Cz77<3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_273
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_274
+IN4_1`dZE<nS[D<i[8Zhe`3
+VH_3kkJ=59:JfI^=ZO2WSU3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1574
+VH_3kkJ=59:JfI^=ZO2WSU3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_274
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_275
+IS==e4SdQgl1XWcQgaP^B30
+V>4Z4Y6o3?z:JgfY:5;REc2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1565
+V>4Z4Y6o3?z:JgfY:5;REc2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_275
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_276
+I1`AT<M9B;;UaVljGlD8g31
+VT8`Q@;kKdP_^;;E<kB?I?2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1556
+VT8`Q@;kKdP_^;;E<kB?I?2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_276
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_277
+Ig09M[;HLTg^]S_7fTaO8z1
+VKVC;f57>ZcB01K?@I0P^^0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1547
+VKVC;f57>ZcB01K?@I0P^^0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_277
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_278
+IGGNMXoPDF<S4NXeFfKXBg0
+V`C4Ho@S?eNB0Ed5^G1J<]0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1538
+V`C4Ho@S?eNB0Ed5^G1J<]0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_278
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_279
+I^U?4[RAZf1_<0GW_Q@LeP1
+V2XKK>oJWP[ijJ=HN]3_CJ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1529
+V2XKK>oJWP[ijJ=HN]3_CJ1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_279
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_28
+I7Y:loQ<AeH3C=L@GmN<k91
+VV`>B_TVQKT77DHAj<_nzR1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3788
+VV`>B_TVQKT77DHAj<_nzR1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_28
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_280
+I<<cREbPcEzA1^MjaWAUea1
+V3@D<`cL33eAialef=IM>E3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1520
+V3@D<`cL33eAialef=IM>E3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_280
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_281
+I2^bz?FUOM_N3YNIj:`2U`1
+V:3gTK_EBWL^]5128[oX1z0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1511
+V:3gTK_EBWL^]5128[oX1z0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_281
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_282
+I?>5j6YUG;=J:0mZPRU3O]0
+VQWRkLbegkG]90Kg7_]1Cl3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1502
+VQWRkLbegkG]90Kg7_]1Cl3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_282
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_283
+I:4NIYX4kb?398?O>a0g=T0
+V7C<MWGU>_XBSCUD@4F^H43
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1493
+V7C<MWGU>_XBSCUD@4F^H43
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_283
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_284
+IUBfNcYGDOznDj^`SI3fG70
+V8K6U_[ha_4oOcVWa_8ZY52
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1484
+V8K6U_[ha_4oOcVWa_8ZY52
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_284
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_285
+IWc[n7_ig8:_GZ0b@IMOom0
+V;9T`UW``oaR@e5<HWnbVB2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1475
+V;9T`UW``oaR@e5<HWnbVB2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_285
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_286
+I_[fUCH;O>Y[m?zT>A5B>O3
+V9bRYhFdCHW82`XLXLEoDZ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1466
+V9bRYhFdCHW82`XLXLEoDZ1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_286
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_287
+I4c;_VIDk;75B60jnC`W_^1
+VVgeKJAl59P;S9biI6G=Z51
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1457
+VVgeKJAl59P;S9biI6G=Z51
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_287
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_288
+IGHdLMcQLNehOd?Zk]>8YI2
+V>?38bneFic^@:7jA:hU4b1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1448
+V>?38bneFic^@:7jA:hU4b1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_288
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_289
+IP[N9KmUDP>R85dQi8XE2g2
+VjHznKib`Xf`YLJLY14iI`1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1439
+VjHznKib`Xf`YLJLY14iI`1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_289
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_29
+IhHJAfXJXdLPPhjWXXT<o<0
+VC9QRZAG9FM@MfV=b6bnAN1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3779
+VC9QRZAG9FM@MfV=b6bnAN1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_29
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_290
+I=;Ig=:l5aiWX<?>o74b[:0
+V=oS]PVIBHmi>hQ@8>BcRZ3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1430
+V=oS]PVIBHmi>hQ@8>BcRZ3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_290
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_291
+I<gaE]`?J;Pj4NmHDa@3@_0
+VW]LzZ]@@K]=S;:IN7nRX^3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1421
+VW]LzZ]@@K]=S;:IN7nRX^3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_291
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_292
+I5LeT1Wo[ZjaAe_iGMAPNk3
+V0;?6<9BE5aTGm3[<U3zol1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1412
+V0;?6<9BE5aTGm3[<U3zol1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_292
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_293
+IlID<RdXLJaI777;Z9GIWi3
+VC2I_;?[9W0S3Dd6HnjN7c2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1403
+VC2I_;?[9W0S3Dd6HnjN7c2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_293
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_294
+IFFDKMfURVW]39EYbRB9i31
+Vz:OGm8fBAz>KXnn[:Oh[b1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1394
+Vz:OGm8fBAz>KXnn[:Oh[b1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_294
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_295
+IhM7ma3H5ePab[AOBFUU>U2
+V@Az4GEZJ@6a?FbM0]YlOo1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1385
+V@Az4GEZJ@6a?FbM0]YlOo1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_295
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_296
+IMNkg?E[^SaPzDKZVbeJ>30
+Vaa@Ia<^4gRc7J8YJ=38`;3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1376
+Vaa@Ia<^4gRc7J8YJ=38`;3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_296
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_297
+I]CTEkQOz8X<amBj3S0:9H0
+VZ^aP0EE8nWnJPn>UHYZ]?1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1367
+VZ^aP0EE8nWnJPn>UHYZ]?1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_297
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_298
+IB_^2PaTRicFDz4jaP^kjM2
+VNQQ_PaY<DmMkaaTJ`[ciK0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1358
+VNQQ_PaY<DmMkaaTJ`[ciK0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_298
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_299
+IZnoc:9;RJl<?hM7QQm[=E0
+V=YRTWNo=lE0OY]O3c0:Nn0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1349
+V=YRTWNo=lE0OY]O3c0:Nn0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_299
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_3
+I7N_7<2S:YEDdiC4a<6;kQ2
+V1=UFm5kU_2QnNfNgaVUjZ3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 4013
+V1=UFm5kU_2QnNfNgaVUjZ3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_3
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_30
+IMGRK=^B`dgd=3:TD_1d^71
+V<0K04H<2Uzb]YkIS<^;3T1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3770
+V<0K04H<2Uzb]YkIS<^;3T1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_30
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_300
+I`U1XOXkfMTQP2>8a;8kX33
+VCz<>7H[<=k]4YOId9dg;@3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1340
+VCz<>7H[<=k]4YOId9dg;@3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_300
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_301
+IRLfl73TUgdZaEjLP[@PV41
+V]gQNB4_>Wc;@Pnlm<;3cG3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1331
+V]gQNB4_>Wc;@Pnlm<;3cG3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_301
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_302
+InJeNMH9=2]1=o<?=2<YYg3
+V2G6V=T]1IZ8jWFST3^0;K1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1322
+V2G6V=T]1IZ8jWFST3^0;K1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_302
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_303
+Ik?U<9IEZ3=hf3_Jn0@8>L0
+VJCG5@TheM5c?EgiSb9Tf61
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1313
+VJCG5@TheM5c?EgiSb9Tf61
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_303
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_304
+IaSzd:M943H`D`X1hzU[4b3
+VgT`RSYHOJ1dZ0>kO@05]:0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1304
+VgT`RSYHOJ1dZ0>kO@05]:0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_304
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_305
+I8gbMefW6M6XcmNJ5i=<=h1
+VCf109lQJm=iK_HSC^MZC:1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1295
+VCf109lQJm=iK_HSC^MZC:1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_305
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_306
+I?6lbj6VjSO;TSLcWMU@SK3
+VSa1RZk7IhmajSZ>F[XHG]1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1286
+VSa1RZk7IhmajSZ>F[XHG]1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_306
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_307
+IEWn5K[zYXg1fAJ8h^bo;b2
+V7Q@Ji479[UzlW6I9RaX_H3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1277
+V7Q@Ji479[UzlW6I9RaX_H3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_307
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_308
+Ie1MCT29@Jj0?9RDh7Nk1n2
+VdWgOAa]cTf1bD4c8cX[I:0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1268
+VdWgOAa]cTf1bD4c8cX[I:0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_308
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_309
+IH`8Ooa[?[RXO>=@@aU@@k1
+V[HO9N5FgBBMNPkh0X=X3W2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1259
+V[HO9N5FgBBMNPkh0X=X3W2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_309
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_31
+Ilf<mB4_N7XndGz;0O2Bzz3
+VKd5kKb7V8cei`jeDk<;122
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3761
+VKd5kKb7V8cei`jeDk<;122
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_31
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_310
+Ioe:7DF;2bDKU=]H>8gFjL0
+VUeTNbFJMk7VXGgiGg=jeV1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1250
+VUeTNbFJMk7VXGgiGg=jeV1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_310
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_311
+IbajjO4XCom`5EWFadQ1E62
+V4a^jk0m`T]Slmz9@VAGg@0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1241
+V4a^jk0m`T]Slmz9@VAGg@0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_311
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_312
+I3ICd?g2n3?=d1LmFK9EQ53
+VDZcJ3eAd@oeK>P_?hbkBn2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1232
+VDZcJ3eAd@oeK>P_?hbkBn2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_312
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_313
+I8K^IT@3PU_^S<^<5olTD50
+Vc2bMH4i=WSe@]L8<IkP6K1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1223
+Vc2bMH4i=WSe@]L8<IkP6K1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_313
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_314
+ImjImH=84zJ[jIO]`Wo6H;1
+VMJ2oVRCdMQ37AoRG>dR8X2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1214
+VMJ2oVRCdMQ37AoRG>dR8X2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_314
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_315
+IAhX9Z?7b6Wg`ljnYmdTaR0
+VDdjIFa`TN4FjE^mRP7KIS2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1205
+VDdjIFa`TN4FjE^mRP7KIS2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_315
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_316
+I6UQ1F`9l[2>BU@e7_B1:O1
+Vb[Tc`DS0YDSIMVS`7ng350
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1196
+Vb[Tc`DS0YDSIMVS`7ng350
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_316
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_317
+I_dRk^g<a_8c^1hkcf`YT_2
+V=O_K_[d=kXCSEV2h`J54B0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1187
+V=O_K_[d=kXCSEV2h`J54B0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_317
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_318
+I6Uhz`Gihco]nHhGWNWi;;3
+VNl`<d<F0c1471h]ld=kAj1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1178
+VNl`<d<F0c1471h]ld=kAj1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_318
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_319
+ICi[B]DOef90P08HNa5oQ>0
+V46;9GASo6ELRlY4=KLUAL3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1169
+V46;9GASo6ELRlY4=KLUAL3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_319
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_32
+IaXa34<24RiQ?OT82O_0?O2
+Vc>Fb;<Ei^NaobU?:gg7550
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3752
+Vc>Fb;<Ei^NaobU?:gg7550
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_32
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_320
+Ic6en@>aF0VYf_=Zb^<GF40
+V<ie2WILI@61mMXQPd43en0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1160
+V<ie2WILI@61mMXQPd43en0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_320
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_321
+I[g:TM:hTGH2O?32eC]9n43
+VFCzL:UbQCl0Xl_28goKED1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1151
+VFCzL:UbQCl0Xl_28goKED1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_321
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_322
+IN<DgA27DO6[AIb51z9^he2
+VdKI>R>AWXR_kJ]Se1m2eh2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1142
+VdKI>R>AWXR_kJ]Se1m2eh2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_322
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_323
+IcUQOTf:YCG@8zDTeGIb3m2
+V27L:N1jU4U?A=Q6<DKMLh2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1133
+V27L:N1jU4U?A=Q6<DKMLh2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_323
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_324
+IEZ6E3o_1O=16CW]J4mCN]2
+VJk1W>:K@2zT45_PcUEX1n3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1124
+VJk1W>:K@2zT45_PcUEX1n3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_324
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_325
+IXd<VXF;OzF0aZY221^MNj0
+V0YW;NfM6KXmP0;:bGEi8K3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1115
+V0YW;NfM6KXmP0;:bGEi8K3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_325
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_326
+IGWhBl];?8@@B8OZjChFYc0
+Vj>L_R?Nb82mRb`aUnUL5S0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1106
+Vj>L_R?Nb82mRb`aUnUL5S0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_326
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_327
+IJS7W17AzQGhM6AR7Nf7>M0
+VNU;]]:I8?Z]?OGMIoz9HI2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1097
+VNU;]]:I8?Z]?OGMIoz9HI2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_327
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_328
+ILnLnVAZC]i8AP=QCN@]:Z3
+V:jZRAG8dd3nTL7?o[f=lB2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1088
+V:jZRAG8dd3nTL7?o[f=lB2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_328
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_329
+IaJIJoCkkda1bi:kETbnfJ3
+VU=oEnaoa5i]eRgk04MaOL2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1079
+VU=oEnaoa5i]eRgk04MaOL2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_329
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_33
+IO11X>ci<P:Q2<gDZMdc1<2
+V>EkW^]R9Oh2A;N8iKhgS?0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3743
+V>EkW^]R9Oh2A;N8iKhgS?0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_33
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_330
+Iic3dm4hD4I[AW>0=ghKV73
+VhBCk8RRzBWMdRTKF>KXdY1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1070
+VhBCk8RRzBWMdRTKF>KXdY1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_330
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_331
+IT[KK;[;TlfPR=9Idc1G@=1
+VScBdEAV0P=e?zKU`4i@b20
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1061
+VScBdEAV0P=e?zKU`4i@b20
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_331
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_332
+Ik`z;EZ1?680KF]H@l4f@E0
+V`:BX8_?nbTjeQWJkKl?e02
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1052
+V`:BX8_?nbTjeQWJkKl?e02
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_332
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_333
+I]58S:BDcj?C;@MDM8hLL=2
+V`DE@a]gnFkF:@Bof7AhkK2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1043
+V`DE@a]gnFkF:@Bof7AhkK2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_333
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_334
+ImWJB;C6[Obon3K40zL1Em1
+V_iB4;]5zY8E1k9?b4[DfF2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1034
+V_iB4;]5zY8E1k9?b4[DfF2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_334
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_335
+IlN;6FoH0h>fVnOOiR_N;?3
+VbE@<YLi9GfV1J;<:=Se`C3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1025
+VbE@<YLi9GfV1J;<:=Se`C3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_335
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_336
+Ifi92BjW;GDgJFbBTZSAKV2
+V948hK]i`?>7N_jEc5kX`j1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1016
+V948hK]i`?>7N_jEc5kX`j1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_336
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_337
+I14WWYQM941j0DKVAkC=Gg2
+VX1FI2m2_NVPORWbJi>MMk3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 1007
+VX1FI2m2_NVPORWbJi>MMk3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_337
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_338
+I6c^d<Moo4NhBHKVG0MfGc2
+VCfO8lhcaRThTL`5YXMZKi1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 998
+VCfO8lhcaRThTL`5YXMZKi1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_338
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_339
+IBFScYLGiKdH[DjmT[cPIl2
+V1R]iMK0d[IzEDh9b4GBEg1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 989
+V1R]iMK0d[IzEDh9b4GBEg1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_339
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_34
+Ih3La]=H4B>@N4C_8BEknV0
+VC5lC<1TC^EOgG7bFAog4m0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3734
+VC5lC<1TC^EOgG7bFAog4m0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_34
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_340
+ILULeS]6dk5FzbP?>?H<ia3
+Vz04_AWo:3>PDnm1_AOMoo3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 980
+Vz04_AWo:3>PDnm1_AOMoo3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_340
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_341
+IU0@ekF4i_jzJ8YS[L_mIz3
+VRi0cc^lN_G91Lf5E1HP^A3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 971
+VRi0cc^lN_G91Lf5E1HP^A3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_341
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_342
+IL3GK7K1T@47;1O=EemL9b0
+VHfAV^e_f=bdaZG50h_Go23
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 962
+VHfAV^e_f=bdaZG50h_Go23
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_342
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_343
+IHgAQh1;3<>;40ll5ILeCn1
+VhVjm[hfGFi20?Zm`;]afN2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 953
+VhVjm[hfGFi20?Zm`;]afN2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_343
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_344
+I=9FR1FfoK0hoGJc9ZHbk[3
+Vee4nA=JP<moHzVnIM9h]a1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 944
+Vee4nA=JP<moHzVnIM9h]a1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_344
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_345
+IkMe?b58dB[VmDgkiOiG7Q3
+V[mZ`Z^J59C]_?zdFV975X2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 935
+V[mZ`Z^J59C]_?zdFV975X2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_345
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_346
+IHS0chHGPP2fk50>9hF@LD1
+V44IJnSj50^8ZF1d>K1DWM3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 926
+V44IJnSj50^8ZF1d>K1DWM3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_346
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_347
+IR=c6@jo8zc^2TiFLB?=eh1
+VPP^82EIEK73ib;L?U547I2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 917
+VPP^82EIEK73ib;L?U547I2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_347
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_348
+IF74hn4kJC4<4Fa0<dl^513
+VPCi1WeVFj[K;QBRiYoG0`0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 908
+VPCi1WeVFj[K;QBRiYoG0`0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_348
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_349
+ILM2Vb49bB>UO`6@=20FPI1
+V2ofFFNgGz<CWThCzkNHWl2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 899
+V2ofFFNgGz<CWThCzkNHWl2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_349
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_35
+IE24cVT3aMeODac7I`_C>03
+V7m9`fh6fK]0VbOB]2KFh12
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3725
+V7m9`fh6fK]0VbOB]2KFh12
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_35
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_350
+I0f20U8bGE=iS^lGn7cU543
+VlU75jEB@bYjO4[R]OaLKA3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 890
+VlU75jEB@bYjO4[R]OaLKA3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_350
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_351
+I;VRKjSC9V=OkKb5S=LLDG0
+Vl@NC?UH^AmK`FZ=@HGT643
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 881
+Vl@NC?UH^AmK`FZ=@HGT643
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_351
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_352
+I==dOoA037e@zj3OO0mVXc3
+VFSEc0ARLIbmfJfl2Ynjlm2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 872
+VFSEc0ARLIbmfJfl2Ynjlm2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_352
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_353
+IDQ7T:?S^dZNPI:hgnSaif0
+V1Lgc]VH0mY9fe=7laTa<S3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 863
+V1Lgc]VH0mY9fe=7laTa<S3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_353
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_354
+IKMzEUAKWkIbFT9QRnHEJo3
+V9Ql>mL_Oni]VOdOReCRKf2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 854
+V9Ql>mL_Oni]VOdOReCRKf2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_354
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_355
+IchDS>8ceOjY=;SAzC`i3g3
+V8@WSbzI6B2zK0mk;3XfPY3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 845
+V8@WSbzI6B2zK0mk;3XfPY3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_355
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_356
+IQHz[^LQLEGHnFkb0lNETz0
+VU9beh>EJU2zOViKUU2OXh2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 836
+VU9beh>EJU2zOViKUU2OXh2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_356
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_357
+Ikf0jXneL?YLWOUdkIh2?53
+VLhMUV7GbB6`RcCA<HF_`42
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 827
+VLhMUV7GbB6`RcCA<HF_`42
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_357
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_358
+IYU;NO`oPXk7mCiP_5Z[e_0
+V9hC_m_el9Y_2TlMVB2kLk2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 818
+V9hC_m_el9Y_2TlMVB2kLk2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_358
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_359
+IiC7SniM_iS6[Tf5:QPmcP3
+VTDK0zJGBDF9AD2mHeFKAI1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 809
+VTDK0zJGBDF9AD2mHeFKAI1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_359
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_36
+ITJf3Wh6<Q^If>XaG`z<mB0
+V>DWLHSEkQMGUQ30T:b9T30
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3716
+V>DWLHSEkQMGUQ30T:b9T30
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_36
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_360
+Ih`h>?R3HmMMn4NknYLTOC0
+V1ElonMJiz]Q?n;=9heoKG0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 800
+V1ElonMJiz]Q?n;=9heoKG0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_360
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_361
+I2]<6zM3lilbFh[[]Y;h^b2
+VLi3df^kLK9K@3<HJ6WkBz3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 791
+VLi3df^kLK9K@3<HJ6WkBz3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_361
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_362
+IPm[0_faFfkdC7X1O0R[Vk0
+VP08bR5:5k^;M[BdlhVo:a2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 782
+VP08bR5:5k^;M[BdlhVo:a2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_362
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_363
+IY8B?H<KXY^d226U>n:Sn01
+V>ZQI8AM8_zjziF:aalL:o2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 773
+V>ZQI8AM8_zjziF:aalL:o2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_363
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_364
+IX]?coLMi_c4ZS`[cEjM]M0
+V]iA[36HQSWEFbh:?zzIQZ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 764
+V]iA[36HQSWEFbh:?zzIQZ1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_364
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_365
+ImEPPWYUPhVXhoM;j?^EQg3
+VJAaA`kTf9g=2D`73?1?2j0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 755
+VJAaA`kTf9g=2D`73?1?2j0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_365
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_366
+IfA<P1DYkV4d?e?GnF@LAK2
+Vz?i=>@L6`TR7EQojE:jC13
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 746
+Vz?i=>@L6`TR7EQojE:jC13
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_366
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_367
+I1<TP1^m@0MRlAh77A??8[1
+V8beBP<`>dT[HY5DEbGUj92
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 737
+V8beBP<`>dT[HY5DEbGUj92
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_367
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_368
+I=zI6KQbiE6]m;i;g1FPl:3
+VJOo:>^1C>?WmP0K[H0@_b0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 728
+VJOo:>^1C>?WmP0K[H0@_b0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_368
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_369
+I0fQSAFX5Q6^obKfnl5il_2
+VX0H<4_@TJo=Ba66;>T1TR1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 719
+VX0H<4_@TJo=Ba66;>T1TR1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_369
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_37
+I;FF=LMIj?eXUl6mfSbfF=3
+VXGRil7WPWmUcIM1SoSU9U2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3707
+VXGRil7WPWmUcIM1SoSU9U2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_37
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_370
+IL7GIOd:2NcoOZ1Ag61LS?2
+V;ZJz9J[kXOVD2[_IjCf]a1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 710
+V;ZJz9J[kXOVD2[_IjCf]a1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_370
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_371
+IR]_8cziiZKXN=zN_UfnCW2
+V[glKF8bWbTX;GQ@Y<eo^52
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 701
+V[glKF8bWbTX;GQ@Y<eo^52
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_371
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_372
+IEJGGL`WZ2N615dL;I9>5]2
+VF^o[^5^9G5T]j_WZ>=9OG0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 692
+VF^o[^5^9G5T]j_WZ>=9OG0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_372
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_373
+IX>oP6b5RV?i;MRGgchV_z1
+Vo]EM2>YGCY@ZI8od?CZKV0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 683
+Vo]EM2>YGCY@ZI8od?CZKV0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_373
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_374
+I_M8DaBTOBb32cL<cfH[O;1
+V=X=7==8IgA=GnVWkfj35K3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 674
+V=X=7==8IgA=GnVWkfj35K3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_374
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_375
+I4:JOn8`BLT8JRBL[7_0>32
+Vm08BdQ]EQUkETjQlKWbh`1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 665
+Vm08BdQ]EQUkETjQlKWbh`1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_375
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_376
+I6SNEON?5ca_k7Z;>;@b310
+VFm6Q^j?EWNafG18=o>4I92
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 656
+VFm6Q^j?EWNafG18=o>4I92
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_376
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_377
+IDPoV7OEc6PDiFg@c_UIN20
+VYjmZnJA0aYSeX<mR1UFWU3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 647
+VYjmZnJA0aYSeX<mR1UFWU3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_377
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_378
+I_hm`eg^gM^mA2b:3l:mjn1
+V82CZSHVBTSa[`cDIfik4=2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 638
+V82CZSHVBTSa[`cDIfik4=2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_378
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_379
+IiR9g4<?noclH]oc_m=BHW1
+VP7Gd0Ic=Z3dizTn2BioF43
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 629
+VP7Gd0Ic=Z3dizTn2BioF43
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_379
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_38
+Ij?m8fRgJ;YBId7fcbQ8hg2
+VG8VX^Co?O;5cKh8KB>_iH1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3698
+VG8VX^Co?O;5cKh8KB>_iH1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_38
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_380
+I>cQD2EDHi5eh^=:lAXXAM0
+Vc1gf>PZ43=PDzB^_2bBR>3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 620
+Vc1gf>PZ43=PDzB^_2bBR>3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_380
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_381
+IcJD:T;8Kk?WDfzaX=4UO40
+VR1`12V_QJHizlJcVP@9oi0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 611
+VR1`12V_QJHizlJcVP@9oi0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_381
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_382
+IMfKOd8fV3LWIn]jYgCfEg0
+VknS:fk>OWB?>^BBk?`b6Y2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 602
+VknS:fk>OWB?>^BBk?`b6Y2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_382
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_383
+Ik@6f2bz_KaT[e8z0kYnZH2
+Vz7S<_JO>2W8M_VDMZzoFl1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 593
+Vz7S<_JO>2W8M_VDMZzoFl1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_383
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_384
+IYNDYB1UIFdS1WfiQ68QdU0
+V7UcW;Z?l`o:RVah68>@o^2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 584
+V7UcW;Z?l`o:RVah68>@o^2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_384
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_385
+IEhL2>6]GDN>DPa1ESf^mI0
+V0LN8a`^Pc`8cGEOJ]64>=2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 575
+V0LN8a`^Pc`8cGEOJ]64>=2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_385
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_386
+ILECne082VZJ6LKZJWLSE52
+V6269V6<1Hdfn@encKU8bm3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 566
+V6269V6<1Hdfn@encKU8bm3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_386
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_387
+I[jMO5G^IA3]oW]H7EdllC0
+V=J>h`iUHM10<k50V:NzHn3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 557
+V=J>h`iUHM10<k50V:NzHn3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_387
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_388
+IB?6B8:1T?1ZJ`DfEj?>?A2
+VJ`9dG?FLS1cY:]S6C0A^A2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 548
+VJ`9dG?FLS1cY:]S6C0A^A2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_388
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_389
+IHX[RPO2[7?=Ca70;ZnZDz3
+VOI89T[bn>EcEP6ZDg9o^K1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 539
+VOI89T[bn>EcEP6ZDg9o^K1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_389
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_39
+Igd0CDS18:g[nKk2j@:RGg1
+Vb5O8:S5<>CODR`gk@D_YT3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3689
+Vb5O8:S5<>CODR`gk@D_YT3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_39
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_390
+I;iODlAgkzZ8dhiHNTTLFV1
+VhoC6e=3T>3Wz<:gQ?niST3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 530
+VhoC6e=3T>3Wz<:gQ?niST3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_390
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_391
+IGJ9JQ1PUSC=[Th99@_nP22
+VPZL]JE9>a>^_zOEogX;ig2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 521
+VPZL]JE9>a>^_zOEogX;ig2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_391
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_392
+I?;6?h9n5c^1cIQH3I4Z000
+V`FEDLIHFgJ71>AL5IoJ8n2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 512
+V`FEDLIHFgJ71>AL5IoJ8n2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_392
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_393
+IQI<]WlnjQk7b:^QdXNY2g2
+V2jRc6CDgT;Bhll<`C`GH^2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 503
+V2jRc6CDgT;Bhll<`C`GH^2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_393
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_394
+IN2iNUbQo7aTb<Tbf=hbI02
+VlkUlgfUA=R4C65mAlmI=Q3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 494
+VlkUlgfUA=R4C65mAlmI=Q3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_394
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_395
+Ik>h9zGWR=1]TmjaPHc[812
+VXloSb7EgVo:;00_]X>zbn1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 485
+VXloSb7EgVo:;00_]X>zbn1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_395
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_396
+IibOEdn<j?7UcJXmB;B^8^3
+VYQd[IZn8XF0HOd8mzC46k3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 476
+VYQd[IZn8XF0HOd8mzC46k3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_396
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_397
+Izjg0?D9<VeTLENSE?Z_Uf1
+Va]N`X=KllAReL0J39ek]F3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 467
+Va]N`X=KllAReL0J39ek]F3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_397
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_398
+IP^?H3TG9hWO`zJ]0;K5Y03
+V880?KbDD==W7IYdiViEWd3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 458
+V880?KbDD==W7IYdiViEWd3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_398
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_399
+I>NaN:[OG]M[FOzJ9cmhUj1
+VSzDPjS@kYR:CLhKzW@WW61
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 449
+VSzDPjS@kYR:CLhKzW@WW61
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_399
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_4
+IH]AL2eAMT@_ZW@lN6RXJQ3
+VL]ljM6Vb?;^;^ESoH>k9G2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 4004
+VL]ljM6Vb?;^;^ESoH>k9G2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_4
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_40
+ID^oROfAKaRco@MJ1U7>Qd0
+VIazTkdlLCeli80=nZo0IP0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3680
+VIazTkdlLCeli80=nZo0IP0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_40
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_400
+IOa=Bk_B813J_F3g8aOVmm3
+VnhnTX:l9_VMa9BKAVD[K;1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 440
+VnhnTX:l9_VMa9BKAVD[K;1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_400
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_401
+IG[JImDk@7NUG[56fm?oPk1
+VLU:1TQi9B]`L[PVFD9k:Y0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 431
+VLU:1TQi9B]`L[PVFD9k:Y0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_401
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_402
+I^Fiz3VdY?gOh>6CW^lYmV2
+V0od2Jkam:k^d[gm>[>^WT1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 422
+V0od2Jkam:k^d[gm>[>^WT1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_402
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_403
+IfjfzV@zhgg_az2IGlc^LD0
+VgeN4gAWIO0WUj_d2ngiLE3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 413
+VgeN4gAWIO0WUj_d2ngiLE3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_403
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_404
+I6aG2oNnodd8n>=Jd^jmSA2
+VW3O0YIeS894]9hZ`3EN]]3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 404
+VW3O0YIeS894]9hZ`3EN]]3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_404
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_405
+IRKc[;6JV32FmQG9HkkDmD3
+ViXD6DEfonTDnk@_m;kQB82
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 395
+ViXD6DEfonTDnk@_m;kQB82
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_405
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_406
+I@1eD=BQ8=gLY6><hoS_Lo2
+VED=8KfNeoC^k1JTi^IL5l0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 386
+VED=8KfNeoC^k1JTi^IL5l0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_406
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_407
+IBZ3bK]zzP?6oP=B8@<fUb1
+V^8[OgaT4GbiC5`7cZf7Vh1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 377
+V^8[OgaT4GbiC5`7cZf7Vh1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_407
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_408
+IGom5RFW37`=99fQ;cXRg03
+VBY3BdY^A[A<Dh_:eBKo162
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 368
+VBY3BdY^A[A<Dh_:eBKo162
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_408
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_409
+IHzZZ0gheQg2H;RiKV8zY<1
+VJ>I0[no89W[NzhIFG52OK1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 359
+VJ>I0[no89W[NzhIFG52OK1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_409
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_41
+IIjjjBl8jJzTaPVK8JTmJV3
+VJ5eaMnbAEELda]nD:LkQQ2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3671
+VJ5eaMnbAEELda]nD:LkQQ2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_41
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_410
+IZ=ba[mIgKi7Ug:i`MjdP22
+V3;`n4;jb>81M9Pk3b80^S3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 350
+V3;`n4;jb>81M9Pk3b80^S3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_410
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_411
+IO=D^X7k_7iX_41UhZza:22
+VHAI^:PNXoN0[ac<zN^z:12
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 341
+VHAI^:PNXoN0[ac<zN^z:12
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_411
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_412
+I<NWHA@6gn>zBVYK85UAP43
+V=o5f>Zn5_:Tb2ZP0og]Pf0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 332
+V=o5f>Zn5_:Tb2ZP0og]Pf0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_412
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_413
+Ijl^R5PaS>nm@f6@JzEag@3
+VN8oala?883_L2f?GYagY]1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 323
+VN8oala?883_L2f?GYagY]1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_413
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_414
+IQg7IHQmn@Q4I8RkiS6UDc2
+VkETH`TBYYjFFZXKKi]IGi1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 314
+VkETH`TBYYjFFZXKKi]IGi1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_414
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_415
+Ie>QZ`LY=Ik`oYJ[:zZ7820
+VX>J`MUob]McZVWSL2eU]]2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 305
+VX>J`MUob]McZVWSL2eU]]2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_415
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_416
+InBJJo:DZZX0@Eh8NKA^2e0
+VmB1im`:Fg?hWbf2@bLUCX3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 296
+VmB1im`:Fg?hWbf2@bLUCX3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_416
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_417
+I<QnE[8QCFYH<m3?F^R2NW0
+V4499;AePZ9kmlXDH=^BWU0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 287
+V4499;AePZ9kmlXDH=^BWU0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_417
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_418
+IbLAUTazb0mkDGPFWKdFgD1
+V=gE;]2V2IJZTZVkJ4Z56G2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 278
+V=gE;]2V2IJZTZVkJ4Z56G2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_418
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_419
+IF4?of?=LSkNWBFWJ0[UKH3
+VaMfbjz9F5416B:P0fWFLH1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 269
+VaMfbjz9F5416B:P0fWFLH1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_419
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_42
+I5a;X`e]Wm>^Vldno_1G@K0
+V3dSV0jlmL[CSVET4bP^f`3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3662
+V3dSV0jlmL[CSVET4bP^f`3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_42
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_420
+I:l_`5j7D2jb@63bYWRT?b2
+V@U7Z>j599`I]c9>:dT:KB3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 260
+V@U7Z>j599`I]c9>:dT:KB3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_420
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_421
+I]nM9kN>M7M0azzl8WLDNg2
+V4LP`NVKTT`2caN9g2V>[_3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 251
+V4LP`NVKTT`2caN9g2V>[_3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_421
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_422
+IHTBjmgm:RUb3eFlb8O8l]0
+VAGnlnJk13SARe@Rh6?STh1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 242
+VAGnlnJk13SARe@Rh6?STh1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_422
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_423
+IK`gHId48F4GOzdm[9f?H]2
+Vd[eUH[QTEMPd``a2g[z1W2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 233
+Vd[eUH[QTEMPd``a2g[z1W2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_423
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_424
+IY_BUQNI@a>^iJKBgzC`b51
+V<M;fe0?9n`9AmQMSREI:70
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 224
+V<M;fe0?9n`9AmQMSREI:70
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_424
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_425
+IaVj2aeglj590hi[eAl86D2
+VPRXK`1nV6LnnO=UNH@DmW3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 215
+VPRXK`1nV6LnnO=UNH@DmW3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_425
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_426
+IBdH;0?nOHoGWNeX]=mcD`2
+V1R5fUo_ef@ZRPP7K9[;533
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 206
+V1R5fUo_ef@ZRPP7K9[;533
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_426
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_427
+IcdKC6<KGHY@e>f5Bz`DL70
+V:ZQ82Z6i_`@APd`lJC8fe2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 197
+V:ZQ82Z6i_`@APd`lJC8fe2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_427
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_428
+IEV8RfjRYgXeT@f7OeTc6>1
+VUX;;bSOlS?oMKe02>`odE2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 188
+VUX;;bSOlS?oMKe02>`odE2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_428
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_429
+I3N1Em?FnzLi7QkH0[9PMX3
+VjEULoo5ko9eL^l1J@NDO;1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 179
+VjEULoo5ko9eL^l1J@NDO;1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_429
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_43
+IFoITi]Qh5Cz6[?<nO=HXm1
+VzBQJ:nR89DRMIG5^X^GW33
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3653
+VzBQJ:nR89DRMIG5^X^GW33
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_43
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_430
+IX_A_n3J_T6_AfQlIM_GY<0
+VK;I3I5WXlkBagO?6JB82<1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 170
+VK;I3I5WXlkBagO?6JB82<1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_430
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_431
+I6fEJlY;TC:ifSPd5`7;]K2
+V:YRLJ486Q]I0knACzn4A10
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 161
+V:YRLJ486Q]I0knACzn4A10
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_431
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_432
+IKb6f4>^zH_lThFo9ljc=M2
+Vg=9Tf7odfFWI[k?9EX2_Z3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 152
+Vg=9Tf7odfFWI[k?9EX2_Z3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_432
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_433
+IR92dGh=9RZ?=n`1Kf8FCG3
+VIjaz29V6LYeB8S]Ye`?]02
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 143
+VIjaz29V6LYeB8S]Ye`?]02
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_433
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_435
+IE^fJMIU6MKjzEbG9>cj?_0
+VLg^gW1XP8:YilLE^a^oK]1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 134
+VLg^gW1XP8:YilLE^a^oK]1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_435
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_437
+I9US9AKJY^12d><H[Sfeb33
+VEAe6GIFBb[H8CI8IY>UAe2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 125
+VEAe6GIFBb[H8CI8IY>UAe2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_437
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_438
+IJ:WE9jXNbZSR1obni=[ZC0
+VTT>KI5RaQ_0O^m=oYm=8i2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 116
+VTT>KI5RaQ_0O^m=oYm=8i2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_438
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_439
+I7[6HS7jAnHI]4L=2zAY7j2
+VmVZz0OF=A_zOU<md?AiFF2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 107
+VmVZz0OF=A_zOU<md?AiFF2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_439
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_44
+I:R5GY2Vm0I>N2j>alB4EQ2
+VNV;D]Nj[NjG92z;Q>A6eM0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3644
+VNV;D]Nj[NjG92z;Q>A6eM0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_44
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_440
+IXC]IaR_JP;X>S7IIQ67oW2
+V603N5jIW<IIcn9j_F=X?82
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 98
+V603N5jIW<IIcn9j_F=X?82
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_440
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_441
+I_eRd^hcn:T?OI<aYLh@z30
+Vn_Picb<05AJm2?YE:N6QN1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 89
+Vn_Picb<05AJm2?YE:N6QN1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_441
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_442
+IXKL]YD9UlzRMe_EfK;[Aj2
+VAafPmf9c6c5L:WI2HkIjA2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 80
+VAafPmf9c6c5L:WI2HkIjA2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_442
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_443
+I9k?>mG<WHF1hZA?hEPKen1
+VZcf:[JkSPWTC`3S0:zID20
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 71
+VZcf:[JkSPWTC`3S0:zID20
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_443
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_444
+IL<ZcaaK2@CLf9ABoZA=Y91
+VTUNK88[Y=OHPNK6dWeOYE0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 62
+VTUNK88[Y=OHPNK6dWeOYE0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_444
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_445
+ILXLika2mlP=bg61b]G2372
+VKl][]Eki81iRG`gSmF7D^3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 53
+VKl][]Eki81iRG`gSmF7D^3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_445
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_446
+IEE;DXkDeJj[eWi6mC6`Ud3
+V8>k:a?UWG6VeDnGAYm_3C1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 44
+V8>k:a?UWG6VeDnGAYm_3C1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_446
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_45
+IV8k;i;DYoM[12n9aOi?Kk1
+VOXB?S9OF:F=j3YzB9Do571
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3635
+VOXB?S9OF:F=j3YzB9Do571
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_45
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_46
+IY_JAeOGXZL`^1ScT<S8zj0
+VV<79B2R2HIO6UZPWjMW^;0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3626
+VV<79B2R2HIO6UZPWjMW^;0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_46
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_47
+IbldH>[:M`f9mo;_BdN3963
+V4k3NAYORmZN47jHD6;RjM1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3617
+V4k3NAYORmZN47jHD6;RjM1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_47
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_48
+IJ@>N]nFIKKU9meEg01RJ;1
+VEbCIag>XjCLci`9F^_0DI1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3608
+VEbCIag>XjCLci`9F^_0DI1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_48
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_49
+IBPHVBPQ=Uh1O4oC`J3=Hm1
+VGD]Ib6BKi=_gb9GN@L`P`0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3599
+VGD]Ib6BKi=_gb9GN@L`P`0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_49
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_5
+IQzO2KUllDEIQ_hJSW1^Si3
+VB_MJLYEcXhAH3JC2[de410
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3995
+VB_MJLYEcXhAH3JC2[de410
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_5
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_50
+IeUKWF`2Y9C[4I52^Id7;O0
+Vc4AZh:C[n?XOiZXz?hlzC3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3590
+Vc4AZh:C[n?XOiZXz?hlzC3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_50
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_51
+IgReH891[aI4CV_9f=0Hbi3
+VY4jSeARoIn@YR[;Ohm8`K0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3581
+VY4jSeARoIn@YR[;Ohm8`K0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_51
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_52
+I>[k81F9UQd5>N^o1[I;`51
+VWW8FXc_>:NZ5SG<4:Mc[m0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3572
+VWW8FXc_>:NZ5SG<4:Mc[m0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_52
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_53
+IO7ae5`kWa1TK=1N5^Qb871
+VIiSRhOWiinmTNdV<a3h:M3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3563
+VIiSRhOWiinmTNdV<a3h:M3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_53
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_54
+If`h2h:O8<;iQR@WYdG>E]1
+VhI>8MTh0:Oo>[@gKV9]lO2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3554
+VhI>8MTh0:Oo>[@gKV9]lO2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_54
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_55
+If<N8]2iz4hGkfV5@W=goI1
+VNiO3Wc7ol3UFV@>SRYGYB1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3545
+VNiO3Wc7ol3UFV@>SRYGYB1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_55
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_56
+IESFYZhcJ9HaQGIbf`OYiY1
+V]6I`8e2CI@nkjeD4gnP`d1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3536
+V]6I`8e2CI@nkjeD4gnP`d1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_56
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_57
+I`HnP7EfmYF0lhHOQa4T@22
+V=P:nP>Hj1@fNZY5WE[Of^0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3527
+V=P:nP>Hj1@fNZY5WE[Of^0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_57
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_58
+I?9eAHbd>Yo@In30:mzK@o1
+VD3UA@6Y]i[8KEjK]9SQl12
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3518
+VD3UA@6Y]i[8KEjK]9SQl12
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_58
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_59
+IZhaQUiK;m2JUjGa9;^<Ic3
+V4W5Y9J^R=eXAJc:1HPcE00
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3509
+V4W5Y9J^R=eXAJc:1HPcE00
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_59
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_6
+ITjYi8RPU0eo[3U<_kAh9a3
+VMm9LkPV]Bdb>;8iGNYRfJ0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3986
+VMm9LkPV]Bdb>;8iGNYRfJ0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_6
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_60
+IBaX_Om2k8cTohif@k=F3I2
+VlRcb@_@_jn>fR<A2;@=IO1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3500
+VlRcb@_@_jn>fR<A2;@=IO1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_60
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_61
+IX[Xf]RP6Ce<a]o;1Nk?KI1
+VGXKEmQ`E=B`FVG5Gg^3E:2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3491
+VGXKEmQ`E=B`FVG5Gg^3E:2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_61
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_62
+IDo^NR8Xb1BZhdl=ooYY8R2
+VKG1j_Hf75jRiE^M7FgzVd0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3482
+VKG1j_Hf75jRiE^M7FgzVd0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_62
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_63
+IiaMI:a4?HneGK1[VKQ0Og1
+VEFfaC;_;[8nh>R;JW^Hdl0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3473
+VEFfaC;_;[8nh>R;JW^Hdl0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_63
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_64
+I;57JI?0a?HHnogL3ni9:U3
+VAZ9HKFAn1DQ7HWHI:2>In3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3464
+VAZ9HKFAn1DQ7HWHI:2>In3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_64
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_65
+IVM7V`Q<?V;cj;Gg[VhoCE2
+V`BmiR_cIhb^?^T=55g7iK3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3455
+V`BmiR_cIhb^?^T=55g7iK3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_65
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_66
+Io6E=VJC4`A3ZRcT[oEV1i0
+Vj8SSPWbFO^bWQOUb9NzRX3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3446
+Vj8SSPWbFO^bWQOUb9NzRX3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_66
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_67
+I@S:bjUCSY8M=bMBoVZS9Y1
+VUPRYR39g=2MASi93`OKDe2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3437
+VUPRYR39g=2MASi93`OKDe2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_67
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_68
+Ic?i@:W3NCLQkn=T0Pl;Y@2
+VZn@eXi>MdZB97?M9g@aY73
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3428
+VZn@eXi>MdZB97?M9g@aY73
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_68
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_69
+I4z7Lzi8gGG[R>g6QDSm2J2
+V0<II<nRZOfe=1Fa5ddfQD2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3419
+V0<II<nRZOfe=1Fa5ddfQD2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_69
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_7
+I`3Wklf_J;Ci=C=TCC<dz[3
+V[zLQa[i[R[>AY?J>H<hh53
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3977
+V[zLQa[i[R[>AY?J>H<hh53
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_7
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_70
+I@P[37[cTd@5NJjCJzjo@B2
+V@WY9O7VXM;J]kaXI4dOfW1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3410
+V@WY9O7VXM;J]kaXI4dOfW1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_70
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_71
+ILbficOS[LUBGIlfFT_d::2
+VMMdmUi`U>VVRD7zH@lEQS2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3401
+VMMdmUi`U>VVRD7zH@lEQS2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_71
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_72
+I_cAC`3zY_A@VXz7U`_LK?2
+V2zmE5KGa839<7Z:P;10lV0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3392
+V2zmE5KGa839<7Z:P;10lV0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_72
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_73
+I6g>IX;3<5=P56c8X7WhfS0
+VfVmz>3iOdMozK7j3SHX7C0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3383
+VfVmz>3iOdMozK7j3SHX7C0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_73
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_74
+I;iZMb8z`Yf7lo7SLGZ<HW3
+VV=ld__lh4Am<410HC>O;52
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3374
+VV=ld__lh4Am<410HC>O;52
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_74
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_75
+In@DC9[MK4em0B_dVg1UdW2
+V6dK2aG]c<LO5FBc@eeoD83
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3365
+V6dK2aG]c<LO5FBc@eeoD83
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_75
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_76
+I_Ze8YQeSfZVoCZM`U`bIZ1
+V0QDYQV[anP7mRLdWS]DPW3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3356
+V0QDYQV[anP7mRLdWS]DPW3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_76
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_77
+I_Xb]5jSB9cOFYDXnFJUG51
+V?f`Aj9`lCV@?GSL>83fI00
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3347
+V?f`Aj9`lCV@?GSL>83fI00
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_77
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_78
+I9^<SflA@f<z4:TE99bGg62
+V^`DJeH>E13IDGk<5YFAZJ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3338
+V^`DJeH>E13IDGk<5YFAZJ1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_78
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_79
+IDhbihYC9<N@l4Bzi[JUb;3
+V[o>E>fV^L;28J;AcgJ8i91
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3329
+V[o>E>fV^L;28J;AcgJ8i91
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_79
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_8
+IUKP0ZCGiGPiOe1AliZK2m0
+VoE@@eQUXm3K8`I:ZZZJJY2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3968
+VoE@@eQUXm3K8`I:ZZZJJY2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_8
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_80
+I5;]mJY6=aEBXdCY8^3nXG1
+VS9>3Z`iTQ@>WH?bA[c@1e0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3320
+VS9>3Z`iTQ@>WH?bA[c@1e0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_80
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_81
+IXZ6<cYWCgch;Ylz8UN1[;2
+V97]2kkG68IS5fA<Sc@j8T2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3311
+V97]2kkG68IS5fA<Sc@j8T2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_81
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_82
+Inzm3hXYU4jdjUIB?`6HU;0
+VF?D]Uf3PR3IT>2Y]AbYTZ1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3302
+VF?D]Uf3PR3IT>2Y]AbYTZ1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_82
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_83
+ISYI0n?7h<>=>DE<DLNBJM1
+V66ffY8MWcNL[nB?o2d<eP1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3293
+V66ffY8MWcNL[nB?o2d<eP1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_83
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_84
+I0VE>4Y@6S<`B605<fULUT2
+VWEOSSk6k2VXb8YF7Ao4@;3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3284
+VWEOSSk6k2VXb8YF7Ao4@;3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_84
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_85
+IaN:3>L50KadD6LSB7J2ER1
+VTde:iQ;WCIQRc`LRj_:=Y1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3275
+VTde:iQ;WCIQRc`LRj_:=Y1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_85
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_86
+IoWPF;GaH66ImTZLfemC5`1
+V@g`kbcC5TdWDSDYWG2f;;3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3266
+V@g`kbcC5TdWDSDYWG2f;;3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_86
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_87
+In<bI?JZd]Bb`DbYEP`]:A3
+VKSXfN>]0gC>RR<VX@:kHk0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3257
+VKSXfN>]0gC>RR<VX@:kHk0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_87
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_88
+I^N8YZ2ENHYdBnf4edbTz72
+V3Z;i^zU_dSHk4Vzh;_MZ]1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3248
+V3Z;i^zU_dSHk4Vzh;_MZ]1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_88
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_89
+IZG5N=eX<Ve9:EhT??ahOF2
+V[?TD5WE]50ITeFhYaX8]<1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3239
+V[?TD5WE]50ITeFhYaX8]<1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_89
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_9
+IOc^O=NZ[Gbe9QPGn8RjK03
+VgUYh1cJ5K1WkFEYQ[lUb_3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3959
+VgUYh1cJ5K1WkFEYQ[lUb_3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_9
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_90
+I8ihm1NVb<cc@jB^<S<eA=0
+V95kQZV5WEkPiJ@PU>=WNc0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3230
+V95kQZV5WEkPiJ@PU>=WNc0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_90
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_91
+Ie?UMB[aKm@2mVmSgM3ijd1
+VDkl[d=g2?U^J`4c?VVENe2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3221
+VDkl[d=g2?U^J`4c?VVENe2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_91
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_92
+I3LVD2:SDQYz52[fhbl>lO2
+VS>MzLf5Tb@VmOVNGkX6om2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3212
+VS>MzLf5Tb@VmOVNGkX6om2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_92
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_93
+I0?WbGC4o>1oJ9K];EW@U62
+VLYC_lDkCUJ=d5:LNR:b3?3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3203
+VLYC_lDkCUJ=d5:LNR:b3?3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_93
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_94
+IQ`BY016Q[>I1`O]6^U8I=3
+V>zXV^m1dVnonPFOk6Foi_1
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3194
+V>zXV^m1dVnonPFOk6Foi_1
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_94
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_95
+I8PzMk@aS@Um=9Ih];[OVE1
+VZVhD;7hB[dOSeETInkCRY0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3185
+VZVhD;7hB[dOSeETInkCRY0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_95
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_96
+I;VJUa==2KADaD=1Cg]z:H3
+VZ54^]@CeoRGKeEG__DL4=2
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3176
+VZ54^]@CeoRGKeEG__DL4=2
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_96
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_97
+Ik7Wd4zPHV3alUHk00:XT10
+VemZLDVLLSN`R>aNh1<3Nm3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3167
+VemZLDVLLSN`R>aNh1<3Nm3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_97
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_98
+IcnE20EI;0HdLWhB4a67bX3
+V`QmHhTSZ834AnBikbZG0D0
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3158
+V`QmHhTSZ834AnBikbZG0D0
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_98
+vSNPS_CLOCK_GATE_HIGH_LeNet5_top_99
+IAUd78gOS?^;UQSAe5IYCR1
+VLBzES9AD24NXUZbkWNfbl3
+w1577197526
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 3149
+VLBzES9AD24NXUZbkWNfbl3
+OE;L;6.2g;35
+r1
+31
+o-work ./work
+n@s@n@p@s_@c@l@o@c@k_@g@a@t@e_@h@i@g@h_@le@net5_top_99
