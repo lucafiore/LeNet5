@@ -2660,3 +2660,125 @@ Information: The register 'CONVOLUTIONAL_2/MAX_POOLING_2/layer4_dp/Rf_0/output_r
     0:23:44  224469.7      0.09       8.2     403.6                           4484572.0000
     0:23:44  224469.7      0.09       8.2     403.6                           4484572.0000
     0:23:44  224469.7      0.09       8.2     403.6                           4484572.0000
+
+  Beginning WLM Backend Optimization
+  --------------------------------------
+    0:26:33  222118.2      0.09       6.8     372.2                           4403882.5000
+    0:26:58  221598.2      0.09       6.1     328.6                           4372559.5000
+    0:28:09  220425.4      0.09       6.8     305.1                           4327392.5000
+    0:28:45  219539.4      0.09       4.7     184.4                           4293518.5000
+    0:28:57  219332.4      0.08       4.6     181.7                           4285791.0000
+    0:29:34  218038.1      0.08       3.3     169.9                           4184541.2500
+    0:29:34  218038.1      0.08       3.3     169.9                           4184541.2500
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:00  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+
+
+  Beginning Design Rule Fixing  (max_capacitance)
+  ----------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:30:01  218834.2      0.00       0.0     181.2                           4210975.5000
+  Global Optimization (Phase 34)
+  Global Optimization (Phase 35)
+  Global Optimization (Phase 36)
+    0:30:08  218853.6      0.00       0.0       0.0                           4211637.0000
+    0:30:08  218853.6      0.00       0.0       0.0                           4211637.0000
+
+
+  Beginning Leakage Power Optimization  (max_leakage_power 0)
+  ------------------------------------
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:30:08  218853.6      0.00       0.0       0.0                           4211637.0000
+  Global Optimization (Phase 37)
+  Global Optimization (Phase 38)
+  Global Optimization (Phase 39)
+  Global Optimization (Phase 40)
+  Global Optimization (Phase 41)
+  Global Optimization (Phase 42)
+  Global Optimization (Phase 43)
+  Global Optimization (Phase 44)
+  Global Optimization (Phase 45)
+  Global Optimization (Phase 46)
+  Global Optimization (Phase 47)
+  Global Optimization (Phase 48)
+  Global Optimization (Phase 49)
+  Global Optimization (Phase 50)
+  Global Optimization (Phase 51)
+  Global Optimization (Phase 52)
+    0:31:30  218005.1      0.00       0.0       0.0                           4177149.0000
+    0:31:30  218005.1      0.00       0.0       0.0                           4177149.0000
+    0:31:30  218005.1      0.00       0.0       0.0                           4177149.0000
+    0:31:50  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:31:51  217946.3      0.00       0.0       0.0                           4173807.5000
+
+                                  TOTAL                                                
+   ELAPSED            WORST NEG   SETUP    DESIGN                              LEAKAGE 
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT            POWER  
+  --------- --------- --------- --------- --------- ------------------------- ---------
+    0:32:16  217946.3      0.00       0.0       0.0                           4173807.5000
+    0:32:38  217794.4      0.01       3.7       0.0                           4171775.5000
+    0:32:41  217798.9      0.00       0.0       0.0                           4172114.7500
+    0:32:42  217798.9      0.00       0.0       0.0                           4172114.7500
+    0:33:01  217792.3      0.00       0.0       0.0                           4171441.2500
+    0:33:57  217770.7      0.00       0.0       0.0                           4170917.2500
+    0:34:10  217742.5      0.00       0.0       0.0                           4169899.5000
+    0:34:10  217742.5      0.00       0.0       0.0                           4169899.5000
+    0:34:10  217742.5      0.00       0.0       0.0                           4169899.5000
+    0:34:10  217742.5      0.00       0.0       0.0                           4169899.5000
+    0:34:48  217713.5      0.00       0.0      36.3                           4170169.0000
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'LeNet5_top' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'clk_gate_CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_0/Sh_reg_3/Reg_shreg_0/data_out_reg/ENCLK': 1176 load(s), 1 driver(s)
+     Net 'clk_gate_CONVOLUTIONAL_1/CONV1/DATAPATH/in_Shift_registers/Sh_reg_3/Reg_shreg_0/data_out_reg/TE': 2829 load(s), 1 driver(s)
+     Net 'clk_gate_CONVOLUTIONAL_1/CONV1/DATAPATH/in_Shift_registers/Sh_reg_3/Reg_shreg_0/data_out_reg/ENCLK': 1028 load(s), 1 driver(s)
+Information: State dependent leakage is now switched from off to on.
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated black box outputs. (PWR-428)
+1

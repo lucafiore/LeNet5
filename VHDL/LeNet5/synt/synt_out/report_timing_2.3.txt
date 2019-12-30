@@ -8,7 +8,7 @@ Report : timing
         -max_paths 1
 Design : LeNet5_top
 Version: O-2018.06-SP4
-Date   : Tue Dec 24 16:34:24 2019
+Date   : Tue Dec 24 20:35:07 2019
 ****************************************
 
  # A fanout number of 1000 was used for high fanout net computations.
