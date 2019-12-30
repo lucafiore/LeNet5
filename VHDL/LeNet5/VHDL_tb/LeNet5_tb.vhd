@@ -213,8 +213,8 @@ END PROCESS;
 
 
 Weights_Bias_files_conv1: PROCESS(START_TB)
-    FILE w_file_conv1: text OPEN read_mode IS "./File_input/Bin_ColumnWeights_conv_1.txt"; -- the file
-    FILE b_file: text OPEN read_mode IS "./File_input/Bin_ColumnBias_conv_1.txt"; -- the file
+    FILE w_file_conv1: text OPEN read_mode IS "../File_input/Bin_ColumnWeights_conv_1.txt"; -- the file
+    FILE b_file: text OPEN read_mode IS "../File_input/Bin_ColumnBias_conv_1.txt"; -- the file
     VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
     VARIABLE line_buffer_w, line_buffer_b : LINE; -- read buffer
     VARIABLE read_data_w     : BIT_VECTOR(5*M_mpy-1 DOWNTO 0); -- The line read from the file
@@ -244,7 +244,7 @@ Weights_Bias_files_conv1: PROCESS(START_TB)
 END PROCESS;
 
 Input_files_conv1: PROCESS(READ_IMG, CLK_TB)
-    FILE in_file_conv1: text OPEN read_mode IS "./File_input/fileInputs.txt"; -- the file
+    FILE in_file_conv1: text OPEN read_mode IS "../File_input/fileInputs.txt"; -- the file
     VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
     VARIABLE line_buffer_in : LINE; -- read buffer
     VARIABLE read_data_in : BIT_VECTOR(N_in*M_in-1 DOWNTO 0); -- The line read from the file
@@ -269,7 +269,7 @@ END PROCESS;
 
 
 Writing_process_conv1: PROCESS(DONE_CONV1)
-    FILE output_file_conv1: text OPEN write_mode IS "./File_output/fileOutputsVHDL_conv1.txt"; -- the file
+    FILE output_file_conv1: text OPEN write_mode IS "../File_output/fileOutputsVHDL_conv1.txt"; -- the file
     VARIABLE file_status: File_open_status; -- to check wether the file is already open
     VARIABLE line_buffer: line; -- read buffer
     VARIABLE write_data: bit_vector(M_mpy-1 DOWNTO 0); -- The line to write to the file
@@ -297,8 +297,8 @@ END PROCESS;
 
 
 Weights_Bias_files_conv2: PROCESS(START_TB)
-    FILE w_file_conv2: text OPEN read_mode IS "./File_input/Bin_ColumnWeights_conv_2.txt"; -- the file
-    FILE b_file_conv2: text OPEN read_mode IS "./File_input/Bin_ColumnBias_conv_2.txt"; -- the file
+    FILE w_file_conv2: text OPEN read_mode IS "../File_input/Bin_ColumnWeights_conv_2.txt"; -- the file
+    FILE b_file_conv2: text OPEN read_mode IS "../File_input/Bin_ColumnBias_conv_2.txt"; -- the file
     --VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
     VARIABLE line_buffer_w, line_buffer_b : LINE; -- read buffer
     VARIABLE read_data_w     : BIT_VECTOR(5*M_mpy-1 DOWNTO 0); -- The line read from the file
@@ -421,7 +421,7 @@ END PROCESS;
 
 
 Writing_process_conv2: PROCESS(DONE_CONV2)
-    FILE output_file_conv2: text OPEN write_mode IS "./File_output/fileOutputsVHDL_CONV2.txt"; -- the file
+    FILE output_file_conv2: text OPEN write_mode IS "../File_output/fileOutputsVHDL_CONV2.txt"; -- the file
     VARIABLE file_status: File_open_status; -- to check wether the file is already open
     VARIABLE line_buffer: line; -- read buffer
     VARIABLE write_data: bit_vector(M_mpy-1 DOWNTO 0); -- The line to write to the file
@@ -449,7 +449,7 @@ END PROCESS;
 
 Weights_Process_fc1: PROCESS(EN_READ_W_1,CLK_TB)
 
-FILE w_file_fc1: text OPEN read_mode IS "./File_input/Bin_ColumnWeights_dense_1.txt"; -- weights input file
+FILE w_file_fc1: text OPEN read_mode IS "../File_input/Bin_ColumnWeights_dense_1.txt"; -- weights input file
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer_w: LINE; -- read buffer
 --VARIABLE EOF_w: STD_LOGIC:='0'; -- End Of File variable
@@ -474,7 +474,7 @@ END PROCESS;
 
 Bias_Process_fc1: PROCESS(EN_READ_B_1)
 
-FILE b_file_fc1: text OPEN read_mode IS "./File_input/Bin_ColumnBias_dense_1.txt"; -- weights input file
+FILE b_file_fc1: text OPEN read_mode IS "../File_input/Bin_ColumnBias_dense_1.txt"; -- weights input file
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer_b: LINE; -- read buffer
 --VARIABLE EOF_b: STD_LOGIC:='0'; -- End Of File variable
@@ -522,7 +522,7 @@ END PROCESS;
 
 Output_Process_fc1: PROCESS(DONE_FC1)
 
-FILE output_file_fc1: text OPEN write_mode IS "./File_output/Bin_output_simulation_dense1.txt"; -- INPUT FILE FROM PREVIOUS LAYER
+FILE output_file_fc1: text OPEN write_mode IS "../File_output/Bin_output_simulation_dense1.txt"; -- INPUT FILE FROM PREVIOUS LAYER
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer: LINE; -- write buffer
 --VARIABLE EOF_b: STD_LOGIC:='0'; -- End Of File variable
@@ -549,7 +549,7 @@ END PROCESS;
 
 Weights_Process_fc2: PROCESS(EN_READ_W_2,CLK_TB)
 
-FILE w_file_fc2: text OPEN read_mode IS "./File_input/Bin_ColumnWeights_dense_2.txt"; -- weights input file
+FILE w_file_fc2: text OPEN read_mode IS "../File_input/Bin_ColumnWeights_dense_2.txt"; -- weights input file
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer_w: LINE; -- read buffer
 --VARIABLE EOF_w: STD_LOGIC:='0'; -- End Of File variable
@@ -575,7 +575,7 @@ END PROCESS;
 
 Bias_Process_fc2: PROCESS(EN_READ_B_2)
 
-FILE b_file_fc2: text OPEN read_mode IS "./File_input/Bin_ColumnBias_dense_2.txt"; -- weights input file
+FILE b_file_fc2: text OPEN read_mode IS "../File_input/Bin_ColumnBias_dense_2.txt"; -- weights input file
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer_b: LINE; -- read buffer
 --VARIABLE EOF_b: STD_LOGIC:='0'; -- End Of File variable
@@ -620,7 +620,7 @@ END PROCESS;
 
 Output_Process_fc2: PROCESS(DONE_FC2)
 
-FILE output_file_fc2: text OPEN write_mode IS "./File_output/Bin_output_simulation_dense2.txt"; -- INPUT FILE FROM PREVIOUS LAYER
+FILE output_file_fc2: text OPEN write_mode IS "../File_output/Bin_output_simulation_dense2.txt"; -- INPUT FILE FROM PREVIOUS LAYER
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer: LINE; -- write buffer
 --VARIABLE EOF_b: STD_LOGIC:='0'; -- End Of File variable
@@ -648,7 +648,7 @@ END PROCESS;
 
 Weights_Process_fc3: PROCESS(EN_READ_W_3,CLK_TB)
 
-FILE w_file_fc3: text OPEN read_mode IS "./File_input/Bin_ColumnWeights_dense_3.txt"; -- weights input file
+FILE w_file_fc3: text OPEN read_mode IS "../File_input/Bin_ColumnWeights_dense_3.txt"; -- weights input file
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer_w: LINE; -- read buffer
 --VARIABLE EOF_w: STD_LOGIC:='0'; -- End Of File variable
@@ -675,7 +675,7 @@ END PROCESS;
 
 Bias_Process_fc3: PROCESS(EN_READ_B_2)
 
-FILE b_file_fc3: text OPEN read_mode IS "./File_input/Bin_ColumnBias_dense_3.txt"; -- weights input file
+FILE b_file_fc3: text OPEN read_mode IS "../File_input/Bin_ColumnBias_dense_3.txt"; -- weights input file
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer_b: LINE; -- read buffer
 --VARIABLE EOF_b: STD_LOGIC:='0'; -- End Of File variable
@@ -721,7 +721,7 @@ END PROCESS;
 
 Output_Process_fc3: PROCESS(DONE_FC3)
 
-FILE output_file_fc3: text OPEN write_mode IS "./File_output/Bin_output_simulation_dense3.txt"; -- INPUT FILE FROM PREVIOUS LAYER
+FILE output_file_fc3: text OPEN write_mode IS "../File_output/Bin_output_simulation_dense3.txt"; -- INPUT FILE FROM PREVIOUS LAYER
 VARIABLE file_status: FILE_OPEN_STATUS; -- to check wether the file is already open
 VARIABLE line_buffer: LINE; -- write buffer
 --VARIABLE EOF_b: STD_LOGIC:='0'; -- End Of File variable
