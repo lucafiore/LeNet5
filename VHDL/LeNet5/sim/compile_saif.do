@@ -7,8 +7,9 @@ vcom -93 -work ./work ../src/VHDL_Conv2/*.vhd
 vcom -93 -work ./work ../src/VHDL_FC1/*.vhd
 vcom -93 -work ./work ../src/VHDL_FC2/*.vhd
 vcom -93 -work ./work ../src/VHDL_FC3/*.vhd
-vcom -93 -work ./work ../netlist/LeNet5_top.vhd
+vlog -93 -work ./work ../netlist/LeNet5_top.v
 vcom -93 -work ./work ../testbench/*.vhd
+
 
 # Loads the technological library and the SDFs
 vsim -L /software/dk/nangate45/verilog/msim6.2g work.LeNet5_tb -t 1ps

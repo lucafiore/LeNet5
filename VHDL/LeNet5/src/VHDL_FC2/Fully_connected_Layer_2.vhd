@@ -57,14 +57,12 @@ PORT(		data_in 			: IN STD_LOGIC_VECTOR(N-1 DOWNTO 0);
 END COMPONENT register_nbit;
 
 
-COMPONENT muxMto1_nbit IS 
-GENERIC(P   : NATURAL:=4;  -- Parallelism of input
-        M   : NATURAL:=4; -- Number of input elements
-        S   : NATURAL:=2);  -- Parallelism of selector ( ceil(log2(M)) )
-PORT(	data_in   : IN STD_LOGIC_VECTOR(M*P-1 DOWNTO 0);
-			SEL				  : IN STD_LOGIC_VECTOR(S-1 DOWNTO 0);
-			q			 		: OUT STD_LOGIC_VECTOR(P-1 DOWNTO 0));
-END COMPONENT muxMto1_nbit;
+COMPONENT mux120to1_nbit IS 
+GENERIC(	N 					: NATURAL:=8);
+PORT(	data_in	: IN STD_LOGIC_VECTOR(120*N-1 DOWNTO 0);
+			SEL				: IN STD_LOGIC_VECTOR(6 DOWNTO 0):=(OTHERS=>'0');
+			q			 	: OUT STD_LOGIC_VECTOR(N-1 DOWNTO 0));
+END COMPONENT mux120to1_nbit;
 
 ------ COUNTERS ------
 
@@ -108,8 +106,8 @@ SIGNAL tc120, tc4			      : STD_LOGIC;
 BEGIN
   
 
-Mux120to1: muxMto1_nbit 
-		GENERIC MAP	(INPUT_SIZE, INPUT_NEURONS, SEL_MUX_IN_SIZE_FC2)
+Mux120to1: mux120to1_nbit 
+		GENERIC MAP	(INPUT_SIZE)
 		PORT MAP		(input_value, cnt_120, out_mux_input_values);
 		  
 

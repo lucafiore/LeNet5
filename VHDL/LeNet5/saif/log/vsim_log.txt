@@ -13,112 +13,6 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # -- Loading package standard
 # -- Loading package std_logic_1164
 # -- Loading package numeric_std
-# -- Loading package math_real
-# -- Loading package conv_struct_pkg
-# -- Compiling entity conv1_top
-# -- Compiling architecture structural of conv1_top
-# -- Compiling entity cu_conv1
-# -- Compiling architecture behaviour of cu_conv1
-# -- Compiling entity conv1_with_cu
-# -- Compiling architecture structural of conv1_with_cu
-# -- Compiling entity conv_layer_1
-# -- Compiling architecture structural of conv_layer_1
-# -- Compiling entity counter_14_c
-# -- Compiling architecture behavior of counter_14_c
-# -- Compiling entity flipflop
-# -- Compiling architecture behavior of flipflop
-# -- Compiling entity full_adder
-# -- Compiling architecture behavior of full_adder
-# -- Compiling entity max_pooling
-# -- Compiling architecture structural of max_pooling
-# -- Compiling entity precomputation_conv
-# -- Compiling architecture behavior of precomputation_conv
-# -- Compiling entity relu_conv
-# -- Compiling architecture structural of relu_conv
-# -- Compiling entity shift_reg_32x8bit_mux
-# -- Compiling architecture structural of shift_reg_32x8bit_mux
-# -- Compiling entity shift_reg_5x32x8bit_4out
-# -- Compiling architecture structural of shift_reg_5x32x8bit_4out
-# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package numeric_std
-# -- Loading package conv_struct_pkg
-# -- Loading package textio
-# -- Compiling entity conv2_top
-# -- Compiling architecture structural of conv2_top
-# -- Compiling entity cu_conv2
-# -- Compiling architecture behaviour of cu_conv2
-# -- Compiling entity conv_layer3
-# -- Compiling architecture structural of conv_layer3
-# -- Compiling entity conv2_with_cu
-# -- Compiling architecture structural of conv2_with_cu
-# -- Compiling entity counter
-# -- Compiling architecture structure of counter
-# -- Compiling entity flipflop_rst
-# -- Compiling architecture behavior of flipflop_rst
-# -- Compiling entity mux14to1_nbit
-# -- Compiling architecture behavior of mux14to1_nbit
-# -- Compiling entity one_hot_dec
-# -- Compiling architecture structural of one_hot_dec
-# -- Compiling entity pooling_comparator
-# -- Compiling architecture structural of pooling_comparator
-# -- Compiling entity pooling_layer4
-# -- Compiling architecture structural of pooling_layer4
-# -- Compiling entity pooling_layer4_cu
-# -- Compiling architecture structure of pooling_layer4_cu
-# -- Compiling entity pooling_layer4_dp
-# -- Compiling architecture structural of pooling_layer4_dp
-# -- Compiling entity register_file
-# -- Compiling architecture behavioral of register_file
-# -- Compiling entity shift_reg_14xnbit
-# -- Compiling architecture behavior of shift_reg_14xnbit
-# -- Compiling entity shift_reg_5x14xnbit
-# -- Compiling architecture behavior of shift_reg_5x14xnbit
-# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package numeric_std
-# -- Loading package fc_struct_pkg
-# -- Compiling entity cu_fc1
-# -- Compiling architecture behaviour of cu_fc1
-# -- Compiling entity fc1_top
-# -- Compiling architecture structural of fc1_top
-# -- Loading package math_real
-# -- Compiling entity fully_connected_layer_1
-# -- Compiling architecture structural of fully_connected_layer_1
-# -- Compiling entity decode_3to5
-# -- Compiling architecture behavioral of decode_3to5
-# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package numeric_std
-# -- Loading package fc_struct_pkg
-# -- Compiling entity cu_fc2
-# -- Compiling architecture behaviour of cu_fc2
-# -- Compiling entity fc2_top
-# -- Compiling architecture structural of fc2_top
-# -- Loading package math_real
-# -- Compiling entity fully_connected_layer_2
-# -- Compiling architecture structural of fully_connected_layer_2
-# -- Compiling entity decode_2to4
-# -- Compiling architecture behavioral of decode_2to4
-# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package numeric_std
-# -- Loading package fc_struct_pkg
-# -- Compiling entity cu_fc3
-# -- Compiling architecture behaviour of cu_fc3
-# -- Compiling entity fc3_top
-# -- Compiling architecture structural of fc3_top
-# -- Loading package math_real
-# -- Compiling entity fully_connected_layer_3
-# -- Compiling architecture structural of fully_connected_layer_3
-# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
-# -- Loading package standard
-# -- Loading package std_logic_1164
-# -- Loading package numeric_std
 # -- Loading package fc_struct_pkg
 # -- Loading package conv_struct_pkg
 # -- Compiling entity cu_tot
@@ -134,6 +28,8 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # -- Compiling architecture structural of intermediate_registers_1
 # -- Compiling entity intermediate_registers_2
 # -- Compiling architecture structural of intermediate_registers_2
+# -- Compiling entity lenet5_top
+# -- Compiling architecture structural of lenet5_top
 # -- Compiling entity output_registers
 # -- Compiling architecture structural of output_registers
 # -- Compiling entity clock_gating
@@ -162,8 +58,6 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # -- Compiling architecture behavior of mux5to1_1bit
 # -- Compiling entity mux5to1_nbit
 # -- Compiling architecture behavior of mux5to1_nbit
-# -- Compiling entity muxmto1_nbit
-# -- Compiling architecture behavior of muxmto1_nbit
 # -- Compiling entity register_1bit
 # -- Compiling architecture behavior of register_1bit
 # -- Compiling entity register_nbit
@@ -175,907 +69,585 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
 # -- Loading package standard
 # -- Loading package std_logic_1164
-# -- Compiling package conv_pack_lenet5_top
-# -- Loading package conv_pack_lenet5_top
-# -- Compiling entity muxmto1_nbit_p8_m400_s9
-# -- Compiling architecture syn_behavior of muxmto1_nbit_p8_m400_s9
-# -- Compiling entity muxmto1_nbit_p8_m120_s7
-# -- Compiling architecture syn_behavior of muxmto1_nbit_p8_m120_s7
-# -- Compiling entity muxmto1_nbit_p8_m84_s7
-# -- Compiling architecture syn_behavior of muxmto1_nbit_p8_m84_s7
-# -- Compiling entity snps_clock_gate_high_lenet5_top_1
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_1
-# -- Compiling entity snps_clock_gate_high_lenet5_top_2
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_2
-# -- Compiling entity snps_clock_gate_high_lenet5_top_3
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_3
-# -- Compiling entity snps_clock_gate_high_lenet5_top_4
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_4
-# -- Compiling entity snps_clock_gate_high_lenet5_top_5
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_5
-# -- Compiling entity snps_clock_gate_high_lenet5_top_6
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_6
-# -- Compiling entity snps_clock_gate_high_lenet5_top_7
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_7
-# -- Compiling entity snps_clock_gate_high_lenet5_top_8
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_8
-# -- Compiling entity snps_clock_gate_high_lenet5_top_9
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_9
-# -- Compiling entity snps_clock_gate_high_lenet5_top_10
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_10
-# -- Compiling entity snps_clock_gate_high_lenet5_top_11
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_11
-# -- Compiling entity snps_clock_gate_high_lenet5_top_12
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_12
-# -- Compiling entity snps_clock_gate_high_lenet5_top_13
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_13
-# -- Compiling entity snps_clock_gate_high_lenet5_top_14
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_14
-# -- Compiling entity snps_clock_gate_high_lenet5_top_15
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_15
-# -- Compiling entity snps_clock_gate_high_lenet5_top_16
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_16
-# -- Compiling entity snps_clock_gate_high_lenet5_top_17
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_17
-# -- Compiling entity snps_clock_gate_high_lenet5_top_18
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_18
-# -- Compiling entity snps_clock_gate_high_lenet5_top_19
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_19
-# -- Compiling entity snps_clock_gate_high_lenet5_top_20
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_20
-# -- Compiling entity snps_clock_gate_high_lenet5_top_21
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_21
-# -- Compiling entity snps_clock_gate_high_lenet5_top_22
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_22
-# -- Compiling entity snps_clock_gate_high_lenet5_top_23
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_23
-# -- Compiling entity snps_clock_gate_high_lenet5_top_24
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_24
-# -- Compiling entity snps_clock_gate_high_lenet5_top_25
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_25
-# -- Compiling entity snps_clock_gate_high_lenet5_top_26
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_26
-# -- Compiling entity snps_clock_gate_high_lenet5_top_27
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_27
-# -- Compiling entity snps_clock_gate_high_lenet5_top_28
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_28
-# -- Compiling entity snps_clock_gate_high_lenet5_top_29
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_29
-# -- Compiling entity snps_clock_gate_high_lenet5_top_30
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_30
-# -- Compiling entity snps_clock_gate_high_lenet5_top_31
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_31
-# -- Compiling entity snps_clock_gate_high_lenet5_top_32
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_32
-# -- Compiling entity snps_clock_gate_high_lenet5_top_33
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_33
-# -- Compiling entity snps_clock_gate_high_lenet5_top_34
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_34
-# -- Compiling entity snps_clock_gate_high_lenet5_top_35
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_35
-# -- Compiling entity snps_clock_gate_high_lenet5_top_36
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_36
-# -- Compiling entity snps_clock_gate_high_lenet5_top_37
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_37
-# -- Compiling entity snps_clock_gate_high_lenet5_top_38
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_38
-# -- Compiling entity snps_clock_gate_high_lenet5_top_39
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_39
-# -- Compiling entity snps_clock_gate_high_lenet5_top_40
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_40
-# -- Compiling entity snps_clock_gate_high_lenet5_top_41
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_41
-# -- Compiling entity snps_clock_gate_high_lenet5_top_42
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_42
-# -- Compiling entity snps_clock_gate_high_lenet5_top_43
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_43
-# -- Compiling entity snps_clock_gate_high_lenet5_top_44
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_44
-# -- Compiling entity snps_clock_gate_high_lenet5_top_45
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_45
-# -- Compiling entity snps_clock_gate_high_lenet5_top_46
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_46
-# -- Compiling entity snps_clock_gate_high_lenet5_top_47
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_47
-# -- Compiling entity snps_clock_gate_high_lenet5_top_48
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_48
-# -- Compiling entity snps_clock_gate_high_lenet5_top_49
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_49
-# -- Compiling entity snps_clock_gate_high_lenet5_top_50
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_50
-# -- Compiling entity snps_clock_gate_high_lenet5_top_51
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_51
-# -- Compiling entity snps_clock_gate_high_lenet5_top_52
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_52
-# -- Compiling entity snps_clock_gate_high_lenet5_top_53
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_53
-# -- Compiling entity snps_clock_gate_high_lenet5_top_54
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_54
-# -- Compiling entity snps_clock_gate_high_lenet5_top_55
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_55
-# -- Compiling entity snps_clock_gate_high_lenet5_top_56
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_56
-# -- Compiling entity snps_clock_gate_high_lenet5_top_57
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_57
-# -- Compiling entity snps_clock_gate_high_lenet5_top_58
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_58
-# -- Compiling entity snps_clock_gate_high_lenet5_top_59
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_59
-# -- Compiling entity snps_clock_gate_high_lenet5_top_60
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_60
-# -- Compiling entity snps_clock_gate_high_lenet5_top_61
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_61
-# -- Compiling entity snps_clock_gate_high_lenet5_top_62
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_62
-# -- Compiling entity snps_clock_gate_high_lenet5_top_63
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_63
-# -- Compiling entity snps_clock_gate_high_lenet5_top_64
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_64
-# -- Compiling entity snps_clock_gate_high_lenet5_top_65
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_65
-# -- Compiling entity snps_clock_gate_high_lenet5_top_66
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_66
-# -- Compiling entity snps_clock_gate_high_lenet5_top_67
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_67
-# -- Compiling entity snps_clock_gate_high_lenet5_top_68
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_68
-# -- Compiling entity snps_clock_gate_high_lenet5_top_69
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_69
-# -- Compiling entity snps_clock_gate_high_lenet5_top_70
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_70
-# -- Compiling entity snps_clock_gate_high_lenet5_top_71
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_71
-# -- Compiling entity snps_clock_gate_high_lenet5_top_72
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_72
-# -- Compiling entity snps_clock_gate_high_lenet5_top_73
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_73
-# -- Compiling entity snps_clock_gate_high_lenet5_top_74
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_74
-# -- Compiling entity snps_clock_gate_high_lenet5_top_75
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_75
-# -- Compiling entity snps_clock_gate_high_lenet5_top_76
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_76
-# -- Compiling entity snps_clock_gate_high_lenet5_top_77
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_77
-# -- Compiling entity snps_clock_gate_high_lenet5_top_78
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_78
-# -- Compiling entity snps_clock_gate_high_lenet5_top_79
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_79
-# -- Compiling entity snps_clock_gate_high_lenet5_top_80
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_80
-# -- Compiling entity snps_clock_gate_high_lenet5_top_81
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_81
-# -- Compiling entity snps_clock_gate_high_lenet5_top_82
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_82
-# -- Compiling entity snps_clock_gate_high_lenet5_top_83
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_83
-# -- Compiling entity snps_clock_gate_high_lenet5_top_84
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_84
-# -- Compiling entity snps_clock_gate_high_lenet5_top_85
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_85
-# -- Compiling entity snps_clock_gate_high_lenet5_top_86
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_86
-# -- Compiling entity snps_clock_gate_high_lenet5_top_87
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_87
-# -- Compiling entity snps_clock_gate_high_lenet5_top_88
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_88
-# -- Compiling entity snps_clock_gate_high_lenet5_top_89
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_89
-# -- Compiling entity snps_clock_gate_high_lenet5_top_90
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_90
-# -- Compiling entity snps_clock_gate_high_lenet5_top_91
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_91
-# -- Compiling entity snps_clock_gate_high_lenet5_top_92
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_92
-# -- Compiling entity snps_clock_gate_high_lenet5_top_93
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_93
-# -- Compiling entity snps_clock_gate_high_lenet5_top_94
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_94
-# -- Compiling entity snps_clock_gate_high_lenet5_top_95
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_95
-# -- Compiling entity snps_clock_gate_high_lenet5_top_96
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_96
-# -- Compiling entity snps_clock_gate_high_lenet5_top_97
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_97
-# -- Compiling entity snps_clock_gate_high_lenet5_top_98
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_98
-# -- Compiling entity snps_clock_gate_high_lenet5_top_99
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_99
-# -- Compiling entity snps_clock_gate_high_lenet5_top_100
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_100
-# -- Compiling entity snps_clock_gate_high_lenet5_top_101
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_101
-# -- Compiling entity snps_clock_gate_high_lenet5_top_102
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_102
-# -- Compiling entity snps_clock_gate_high_lenet5_top_103
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_103
-# -- Compiling entity snps_clock_gate_high_lenet5_top_104
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_104
-# -- Compiling entity snps_clock_gate_high_lenet5_top_105
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_105
-# -- Compiling entity snps_clock_gate_high_lenet5_top_106
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_106
-# -- Compiling entity snps_clock_gate_high_lenet5_top_107
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_107
-# -- Compiling entity snps_clock_gate_high_lenet5_top_108
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_108
-# -- Compiling entity snps_clock_gate_high_lenet5_top_109
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_109
-# -- Compiling entity snps_clock_gate_high_lenet5_top_110
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_110
-# -- Compiling entity snps_clock_gate_high_lenet5_top_111
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_111
-# -- Compiling entity snps_clock_gate_high_lenet5_top_112
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_112
-# -- Compiling entity snps_clock_gate_high_lenet5_top_113
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_113
-# -- Compiling entity snps_clock_gate_high_lenet5_top_114
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_114
-# -- Compiling entity snps_clock_gate_high_lenet5_top_115
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_115
-# -- Compiling entity snps_clock_gate_high_lenet5_top_116
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_116
-# -- Compiling entity snps_clock_gate_high_lenet5_top_117
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_117
-# -- Compiling entity snps_clock_gate_high_lenet5_top_118
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_118
-# -- Compiling entity snps_clock_gate_high_lenet5_top_119
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_119
-# -- Compiling entity snps_clock_gate_high_lenet5_top_120
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_120
-# -- Compiling entity snps_clock_gate_high_lenet5_top_121
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_121
-# -- Compiling entity snps_clock_gate_high_lenet5_top_122
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_122
-# -- Compiling entity snps_clock_gate_high_lenet5_top_123
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_123
-# -- Compiling entity snps_clock_gate_high_lenet5_top_124
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_124
-# -- Compiling entity snps_clock_gate_high_lenet5_top_125
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_125
-# -- Compiling entity snps_clock_gate_high_lenet5_top_126
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_126
-# -- Compiling entity snps_clock_gate_high_lenet5_top_127
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_127
-# -- Compiling entity snps_clock_gate_high_lenet5_top_128
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_128
-# -- Compiling entity snps_clock_gate_high_lenet5_top_129
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_129
-# -- Compiling entity snps_clock_gate_high_lenet5_top_130
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_130
-# -- Compiling entity snps_clock_gate_high_lenet5_top_131
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_131
-# -- Compiling entity snps_clock_gate_high_lenet5_top_132
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_132
-# -- Compiling entity snps_clock_gate_high_lenet5_top_133
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_133
-# -- Compiling entity snps_clock_gate_high_lenet5_top_134
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_134
-# -- Compiling entity snps_clock_gate_high_lenet5_top_135
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_135
-# -- Compiling entity snps_clock_gate_high_lenet5_top_136
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_136
-# -- Compiling entity snps_clock_gate_high_lenet5_top_137
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_137
-# -- Compiling entity snps_clock_gate_high_lenet5_top_138
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_138
-# -- Compiling entity snps_clock_gate_high_lenet5_top_139
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_139
-# -- Compiling entity snps_clock_gate_high_lenet5_top_140
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_140
-# -- Compiling entity snps_clock_gate_high_lenet5_top_141
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_141
-# -- Compiling entity snps_clock_gate_high_lenet5_top_142
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_142
-# -- Compiling entity snps_clock_gate_high_lenet5_top_143
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_143
-# -- Compiling entity snps_clock_gate_high_lenet5_top_144
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_144
-# -- Compiling entity snps_clock_gate_high_lenet5_top_145
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_145
-# -- Compiling entity snps_clock_gate_high_lenet5_top_146
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_146
-# -- Compiling entity snps_clock_gate_high_lenet5_top_147
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_147
-# -- Compiling entity snps_clock_gate_high_lenet5_top_148
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_148
-# -- Compiling entity snps_clock_gate_high_lenet5_top_149
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_149
-# -- Compiling entity snps_clock_gate_high_lenet5_top_150
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_150
-# -- Compiling entity snps_clock_gate_high_lenet5_top_151
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_151
-# -- Compiling entity snps_clock_gate_high_lenet5_top_152
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_152
-# -- Compiling entity snps_clock_gate_high_lenet5_top_153
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_153
-# -- Compiling entity snps_clock_gate_high_lenet5_top_154
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_154
-# -- Compiling entity snps_clock_gate_high_lenet5_top_155
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_155
-# -- Compiling entity snps_clock_gate_high_lenet5_top_156
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_156
-# -- Compiling entity snps_clock_gate_high_lenet5_top_157
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_157
-# -- Compiling entity snps_clock_gate_high_lenet5_top_158
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_158
-# -- Compiling entity snps_clock_gate_high_lenet5_top_159
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_159
-# -- Compiling entity snps_clock_gate_high_lenet5_top_160
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_160
-# -- Compiling entity snps_clock_gate_high_lenet5_top_161
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_161
-# -- Compiling entity snps_clock_gate_high_lenet5_top_162
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_162
-# -- Compiling entity snps_clock_gate_high_lenet5_top_163
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_163
-# -- Compiling entity snps_clock_gate_high_lenet5_top_164
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_164
-# -- Compiling entity snps_clock_gate_high_lenet5_top_165
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_165
-# -- Compiling entity snps_clock_gate_high_lenet5_top_166
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_166
-# -- Compiling entity snps_clock_gate_high_lenet5_top_167
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_167
-# -- Compiling entity snps_clock_gate_high_lenet5_top_168
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_168
-# -- Compiling entity snps_clock_gate_high_lenet5_top_169
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_169
-# -- Compiling entity snps_clock_gate_high_lenet5_top_170
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_170
-# -- Compiling entity snps_clock_gate_high_lenet5_top_171
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_171
-# -- Compiling entity snps_clock_gate_high_lenet5_top_172
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_172
-# -- Compiling entity snps_clock_gate_high_lenet5_top_173
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_173
-# -- Compiling entity snps_clock_gate_high_lenet5_top_174
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_174
-# -- Compiling entity snps_clock_gate_high_lenet5_top_175
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_175
-# -- Compiling entity snps_clock_gate_high_lenet5_top_176
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_176
-# -- Compiling entity snps_clock_gate_high_lenet5_top_177
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_177
-# -- Compiling entity snps_clock_gate_high_lenet5_top_178
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_178
-# -- Compiling entity snps_clock_gate_high_lenet5_top_179
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_179
-# -- Compiling entity snps_clock_gate_high_lenet5_top_180
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_180
-# -- Compiling entity snps_clock_gate_high_lenet5_top_181
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_181
-# -- Compiling entity snps_clock_gate_high_lenet5_top_182
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_182
-# -- Compiling entity snps_clock_gate_high_lenet5_top_183
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_183
-# -- Compiling entity snps_clock_gate_high_lenet5_top_184
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_184
-# -- Compiling entity snps_clock_gate_high_lenet5_top_185
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_185
-# -- Compiling entity snps_clock_gate_high_lenet5_top_186
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_186
-# -- Compiling entity snps_clock_gate_high_lenet5_top_187
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_187
-# -- Compiling entity snps_clock_gate_high_lenet5_top_188
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_188
-# -- Compiling entity snps_clock_gate_high_lenet5_top_189
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_189
-# -- Compiling entity snps_clock_gate_high_lenet5_top_190
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_190
-# -- Compiling entity snps_clock_gate_high_lenet5_top_191
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_191
-# -- Compiling entity snps_clock_gate_high_lenet5_top_192
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_192
-# -- Compiling entity snps_clock_gate_high_lenet5_top_193
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_193
-# -- Compiling entity snps_clock_gate_high_lenet5_top_194
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_194
-# -- Compiling entity snps_clock_gate_high_lenet5_top_195
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_195
-# -- Compiling entity snps_clock_gate_high_lenet5_top_196
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_196
-# -- Compiling entity snps_clock_gate_high_lenet5_top_197
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_197
-# -- Compiling entity snps_clock_gate_high_lenet5_top_198
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_198
-# -- Compiling entity snps_clock_gate_high_lenet5_top_199
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_199
-# -- Compiling entity snps_clock_gate_high_lenet5_top_200
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_200
-# -- Compiling entity snps_clock_gate_high_lenet5_top_201
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_201
-# -- Compiling entity snps_clock_gate_high_lenet5_top_202
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_202
-# -- Compiling entity snps_clock_gate_high_lenet5_top_203
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_203
-# -- Compiling entity snps_clock_gate_high_lenet5_top_204
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_204
-# -- Compiling entity snps_clock_gate_high_lenet5_top_205
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_205
-# -- Compiling entity snps_clock_gate_high_lenet5_top_206
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_206
-# -- Compiling entity snps_clock_gate_high_lenet5_top_207
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_207
-# -- Compiling entity snps_clock_gate_high_lenet5_top_208
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_208
-# -- Compiling entity snps_clock_gate_high_lenet5_top_209
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_209
-# -- Compiling entity snps_clock_gate_high_lenet5_top_210
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_210
-# -- Compiling entity snps_clock_gate_high_lenet5_top_211
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_211
-# -- Compiling entity snps_clock_gate_high_lenet5_top_212
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_212
-# -- Compiling entity snps_clock_gate_high_lenet5_top_213
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_213
-# -- Compiling entity snps_clock_gate_high_lenet5_top_214
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_214
-# -- Compiling entity snps_clock_gate_high_lenet5_top_215
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_215
-# -- Compiling entity snps_clock_gate_high_lenet5_top_216
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_216
-# -- Compiling entity snps_clock_gate_high_lenet5_top_217
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_217
-# -- Compiling entity snps_clock_gate_high_lenet5_top_218
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_218
-# -- Compiling entity snps_clock_gate_high_lenet5_top_219
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_219
-# -- Compiling entity snps_clock_gate_high_lenet5_top_220
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_220
-# -- Compiling entity snps_clock_gate_high_lenet5_top_221
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_221
-# -- Compiling entity snps_clock_gate_high_lenet5_top_222
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_222
-# -- Compiling entity snps_clock_gate_high_lenet5_top_223
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_223
-# -- Compiling entity snps_clock_gate_high_lenet5_top_224
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_224
-# -- Compiling entity snps_clock_gate_high_lenet5_top_225
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_225
-# -- Compiling entity snps_clock_gate_high_lenet5_top_226
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_226
-# -- Compiling entity snps_clock_gate_high_lenet5_top_227
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_227
-# -- Compiling entity snps_clock_gate_high_lenet5_top_228
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_228
-# -- Compiling entity snps_clock_gate_high_lenet5_top_229
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_229
-# -- Compiling entity snps_clock_gate_high_lenet5_top_230
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_230
-# -- Compiling entity snps_clock_gate_high_lenet5_top_231
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_231
-# -- Compiling entity snps_clock_gate_high_lenet5_top_232
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_232
-# -- Compiling entity snps_clock_gate_high_lenet5_top_233
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_233
-# -- Compiling entity snps_clock_gate_high_lenet5_top_234
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_234
-# -- Compiling entity snps_clock_gate_high_lenet5_top_235
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_235
-# -- Compiling entity snps_clock_gate_high_lenet5_top_236
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_236
-# -- Compiling entity snps_clock_gate_high_lenet5_top_237
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_237
-# -- Compiling entity snps_clock_gate_high_lenet5_top_238
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_238
-# -- Compiling entity snps_clock_gate_high_lenet5_top_239
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_239
-# -- Compiling entity snps_clock_gate_high_lenet5_top_240
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_240
-# -- Compiling entity snps_clock_gate_high_lenet5_top_241
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_241
-# -- Compiling entity snps_clock_gate_high_lenet5_top_242
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_242
-# -- Compiling entity snps_clock_gate_high_lenet5_top_243
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_243
-# -- Compiling entity snps_clock_gate_high_lenet5_top_244
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_244
-# -- Compiling entity snps_clock_gate_high_lenet5_top_245
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_245
-# -- Compiling entity snps_clock_gate_high_lenet5_top_246
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_246
-# -- Compiling entity snps_clock_gate_high_lenet5_top_247
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_247
-# -- Compiling entity snps_clock_gate_high_lenet5_top_248
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_248
-# -- Compiling entity snps_clock_gate_high_lenet5_top_249
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_249
-# -- Compiling entity snps_clock_gate_high_lenet5_top_250
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_250
-# -- Compiling entity snps_clock_gate_high_lenet5_top_251
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_251
-# -- Compiling entity snps_clock_gate_high_lenet5_top_252
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_252
-# -- Compiling entity snps_clock_gate_high_lenet5_top_253
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_253
-# -- Compiling entity snps_clock_gate_high_lenet5_top_254
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_254
-# -- Compiling entity snps_clock_gate_high_lenet5_top_255
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_255
-# -- Compiling entity snps_clock_gate_high_lenet5_top_256
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_256
-# -- Compiling entity snps_clock_gate_high_lenet5_top_257
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_257
-# -- Compiling entity snps_clock_gate_high_lenet5_top_258
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_258
-# -- Compiling entity snps_clock_gate_high_lenet5_top_259
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_259
-# -- Compiling entity snps_clock_gate_high_lenet5_top_260
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_260
-# -- Compiling entity snps_clock_gate_high_lenet5_top_261
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_261
-# -- Compiling entity snps_clock_gate_high_lenet5_top_262
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_262
-# -- Compiling entity snps_clock_gate_high_lenet5_top_263
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_263
-# -- Compiling entity snps_clock_gate_high_lenet5_top_264
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_264
-# -- Compiling entity snps_clock_gate_high_lenet5_top_265
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_265
-# -- Compiling entity snps_clock_gate_high_lenet5_top_266
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_266
-# -- Compiling entity snps_clock_gate_high_lenet5_top_267
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_267
-# -- Compiling entity snps_clock_gate_high_lenet5_top_268
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_268
-# -- Compiling entity snps_clock_gate_high_lenet5_top_269
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_269
-# -- Compiling entity snps_clock_gate_high_lenet5_top_270
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_270
-# -- Compiling entity snps_clock_gate_high_lenet5_top_271
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_271
-# -- Compiling entity snps_clock_gate_high_lenet5_top_272
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_272
-# -- Compiling entity snps_clock_gate_high_lenet5_top_273
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_273
-# -- Compiling entity snps_clock_gate_high_lenet5_top_274
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_274
-# -- Compiling entity snps_clock_gate_high_lenet5_top_275
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_275
-# -- Compiling entity snps_clock_gate_high_lenet5_top_276
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_276
-# -- Compiling entity snps_clock_gate_high_lenet5_top_277
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_277
-# -- Compiling entity snps_clock_gate_high_lenet5_top_278
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_278
-# -- Compiling entity snps_clock_gate_high_lenet5_top_279
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_279
-# -- Compiling entity snps_clock_gate_high_lenet5_top_280
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_280
-# -- Compiling entity snps_clock_gate_high_lenet5_top_281
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_281
-# -- Compiling entity snps_clock_gate_high_lenet5_top_282
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_282
-# -- Compiling entity snps_clock_gate_high_lenet5_top_283
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_283
-# -- Compiling entity snps_clock_gate_high_lenet5_top_284
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_284
-# -- Compiling entity snps_clock_gate_high_lenet5_top_285
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_285
-# -- Compiling entity snps_clock_gate_high_lenet5_top_286
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_286
-# -- Compiling entity snps_clock_gate_high_lenet5_top_287
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_287
-# -- Compiling entity snps_clock_gate_high_lenet5_top_288
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_288
-# -- Compiling entity snps_clock_gate_high_lenet5_top_289
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_289
-# -- Compiling entity snps_clock_gate_high_lenet5_top_290
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_290
-# -- Compiling entity snps_clock_gate_high_lenet5_top_291
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_291
-# -- Compiling entity snps_clock_gate_high_lenet5_top_292
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_292
-# -- Compiling entity snps_clock_gate_high_lenet5_top_293
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_293
-# -- Compiling entity snps_clock_gate_high_lenet5_top_294
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_294
-# -- Compiling entity snps_clock_gate_high_lenet5_top_295
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_295
-# -- Compiling entity snps_clock_gate_high_lenet5_top_296
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_296
-# -- Compiling entity snps_clock_gate_high_lenet5_top_297
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_297
-# -- Compiling entity snps_clock_gate_high_lenet5_top_298
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_298
-# -- Compiling entity snps_clock_gate_high_lenet5_top_299
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_299
-# -- Compiling entity snps_clock_gate_high_lenet5_top_300
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_300
-# -- Compiling entity snps_clock_gate_high_lenet5_top_301
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_301
-# -- Compiling entity snps_clock_gate_high_lenet5_top_302
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_302
-# -- Compiling entity snps_clock_gate_high_lenet5_top_303
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_303
-# -- Compiling entity snps_clock_gate_high_lenet5_top_304
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_304
-# -- Compiling entity snps_clock_gate_high_lenet5_top_305
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_305
-# -- Compiling entity snps_clock_gate_high_lenet5_top_306
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_306
-# -- Compiling entity snps_clock_gate_high_lenet5_top_307
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_307
-# -- Compiling entity snps_clock_gate_high_lenet5_top_308
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_308
-# -- Compiling entity snps_clock_gate_high_lenet5_top_309
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_309
-# -- Compiling entity snps_clock_gate_high_lenet5_top_310
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_310
-# -- Compiling entity snps_clock_gate_high_lenet5_top_311
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_311
-# -- Compiling entity snps_clock_gate_high_lenet5_top_312
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_312
-# -- Compiling entity snps_clock_gate_high_lenet5_top_313
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_313
-# -- Compiling entity snps_clock_gate_high_lenet5_top_314
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_314
-# -- Compiling entity snps_clock_gate_high_lenet5_top_315
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_315
-# -- Compiling entity snps_clock_gate_high_lenet5_top_316
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_316
-# -- Compiling entity snps_clock_gate_high_lenet5_top_317
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_317
-# -- Compiling entity snps_clock_gate_high_lenet5_top_318
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_318
-# -- Compiling entity snps_clock_gate_high_lenet5_top_319
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_319
-# -- Compiling entity snps_clock_gate_high_lenet5_top_320
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_320
-# -- Compiling entity snps_clock_gate_high_lenet5_top_321
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_321
-# -- Compiling entity snps_clock_gate_high_lenet5_top_322
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_322
-# -- Compiling entity snps_clock_gate_high_lenet5_top_323
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_323
-# -- Compiling entity snps_clock_gate_high_lenet5_top_324
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_324
-# -- Compiling entity snps_clock_gate_high_lenet5_top_325
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_325
-# -- Compiling entity snps_clock_gate_high_lenet5_top_326
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_326
-# -- Compiling entity snps_clock_gate_high_lenet5_top_327
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_327
-# -- Compiling entity snps_clock_gate_high_lenet5_top_328
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_328
-# -- Compiling entity snps_clock_gate_high_lenet5_top_329
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_329
-# -- Compiling entity snps_clock_gate_high_lenet5_top_330
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_330
-# -- Compiling entity snps_clock_gate_high_lenet5_top_331
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_331
-# -- Compiling entity snps_clock_gate_high_lenet5_top_332
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_332
-# -- Compiling entity snps_clock_gate_high_lenet5_top_333
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_333
-# -- Compiling entity snps_clock_gate_high_lenet5_top_334
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_334
-# -- Compiling entity snps_clock_gate_high_lenet5_top_335
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_335
-# -- Compiling entity snps_clock_gate_high_lenet5_top_336
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_336
-# -- Compiling entity snps_clock_gate_high_lenet5_top_337
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_337
-# -- Compiling entity snps_clock_gate_high_lenet5_top_338
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_338
-# -- Compiling entity snps_clock_gate_high_lenet5_top_339
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_339
-# -- Compiling entity snps_clock_gate_high_lenet5_top_340
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_340
-# -- Compiling entity snps_clock_gate_high_lenet5_top_341
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_341
-# -- Compiling entity snps_clock_gate_high_lenet5_top_342
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_342
-# -- Compiling entity snps_clock_gate_high_lenet5_top_343
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_343
-# -- Compiling entity snps_clock_gate_high_lenet5_top_344
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_344
-# -- Compiling entity snps_clock_gate_high_lenet5_top_345
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_345
-# -- Compiling entity snps_clock_gate_high_lenet5_top_346
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_346
-# -- Compiling entity snps_clock_gate_high_lenet5_top_347
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_347
-# -- Compiling entity snps_clock_gate_high_lenet5_top_348
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_348
-# -- Compiling entity snps_clock_gate_high_lenet5_top_349
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_349
-# -- Compiling entity snps_clock_gate_high_lenet5_top_350
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_350
-# -- Compiling entity snps_clock_gate_high_lenet5_top_351
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_351
-# -- Compiling entity snps_clock_gate_high_lenet5_top_352
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_352
-# -- Compiling entity snps_clock_gate_high_lenet5_top_353
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_353
-# -- Compiling entity snps_clock_gate_high_lenet5_top_354
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_354
-# -- Compiling entity snps_clock_gate_high_lenet5_top_355
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_355
-# -- Compiling entity snps_clock_gate_high_lenet5_top_356
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_356
-# -- Compiling entity snps_clock_gate_high_lenet5_top_357
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_357
-# -- Compiling entity snps_clock_gate_high_lenet5_top_358
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_358
-# -- Compiling entity snps_clock_gate_high_lenet5_top_359
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_359
-# -- Compiling entity snps_clock_gate_high_lenet5_top_360
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_360
-# -- Compiling entity snps_clock_gate_high_lenet5_top_361
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_361
-# -- Compiling entity snps_clock_gate_high_lenet5_top_362
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_362
-# -- Compiling entity snps_clock_gate_high_lenet5_top_363
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_363
-# -- Compiling entity snps_clock_gate_high_lenet5_top_364
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_364
-# -- Compiling entity snps_clock_gate_high_lenet5_top_365
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_365
-# -- Compiling entity snps_clock_gate_high_lenet5_top_366
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_366
-# -- Compiling entity snps_clock_gate_high_lenet5_top_367
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_367
-# -- Compiling entity snps_clock_gate_high_lenet5_top_368
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_368
-# -- Compiling entity snps_clock_gate_high_lenet5_top_369
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_369
-# -- Compiling entity snps_clock_gate_high_lenet5_top_370
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_370
-# -- Compiling entity snps_clock_gate_high_lenet5_top_371
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_371
-# -- Compiling entity snps_clock_gate_high_lenet5_top_372
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_372
-# -- Compiling entity snps_clock_gate_high_lenet5_top_373
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_373
-# -- Compiling entity snps_clock_gate_high_lenet5_top_374
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_374
-# -- Compiling entity snps_clock_gate_high_lenet5_top_375
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_375
-# -- Compiling entity snps_clock_gate_high_lenet5_top_376
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_376
-# -- Compiling entity snps_clock_gate_high_lenet5_top_377
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_377
-# -- Compiling entity snps_clock_gate_high_lenet5_top_378
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_378
-# -- Compiling entity snps_clock_gate_high_lenet5_top_379
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_379
-# -- Compiling entity snps_clock_gate_high_lenet5_top_380
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_380
-# -- Compiling entity snps_clock_gate_high_lenet5_top_381
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_381
-# -- Compiling entity snps_clock_gate_high_lenet5_top_382
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_382
-# -- Compiling entity snps_clock_gate_high_lenet5_top_383
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_383
-# -- Compiling entity snps_clock_gate_high_lenet5_top_384
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_384
-# -- Compiling entity snps_clock_gate_high_lenet5_top_385
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_385
-# -- Compiling entity snps_clock_gate_high_lenet5_top_386
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_386
-# -- Compiling entity snps_clock_gate_high_lenet5_top_387
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_387
-# -- Compiling entity snps_clock_gate_high_lenet5_top_388
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_388
-# -- Compiling entity snps_clock_gate_high_lenet5_top_389
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_389
-# -- Compiling entity snps_clock_gate_high_lenet5_top_390
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_390
-# -- Compiling entity snps_clock_gate_high_lenet5_top_391
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_391
-# -- Compiling entity snps_clock_gate_high_lenet5_top_392
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_392
-# -- Compiling entity snps_clock_gate_high_lenet5_top_393
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_393
-# -- Compiling entity snps_clock_gate_high_lenet5_top_394
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_394
-# -- Compiling entity snps_clock_gate_high_lenet5_top_395
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_395
-# -- Compiling entity snps_clock_gate_high_lenet5_top_396
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_396
-# -- Compiling entity snps_clock_gate_high_lenet5_top_397
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_397
-# -- Compiling entity snps_clock_gate_high_lenet5_top_398
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_398
-# -- Compiling entity snps_clock_gate_high_lenet5_top_399
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_399
-# -- Compiling entity snps_clock_gate_high_lenet5_top_400
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_400
-# -- Compiling entity snps_clock_gate_high_lenet5_top_401
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_401
-# -- Compiling entity snps_clock_gate_high_lenet5_top_402
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_402
-# -- Compiling entity snps_clock_gate_high_lenet5_top_403
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_403
-# -- Compiling entity snps_clock_gate_high_lenet5_top_404
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_404
-# -- Compiling entity snps_clock_gate_high_lenet5_top_405
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_405
-# -- Compiling entity snps_clock_gate_high_lenet5_top_406
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_406
-# -- Compiling entity snps_clock_gate_high_lenet5_top_407
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_407
-# -- Compiling entity snps_clock_gate_high_lenet5_top_408
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_408
-# -- Compiling entity snps_clock_gate_high_lenet5_top_409
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_409
-# -- Compiling entity snps_clock_gate_high_lenet5_top_410
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_410
-# -- Compiling entity snps_clock_gate_high_lenet5_top_411
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_411
-# -- Compiling entity snps_clock_gate_high_lenet5_top_412
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_412
-# -- Compiling entity snps_clock_gate_high_lenet5_top_413
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_413
-# -- Compiling entity snps_clock_gate_high_lenet5_top_414
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_414
-# -- Compiling entity snps_clock_gate_high_lenet5_top_415
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_415
-# -- Compiling entity snps_clock_gate_high_lenet5_top_416
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_416
-# -- Compiling entity snps_clock_gate_high_lenet5_top_417
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_417
-# -- Compiling entity snps_clock_gate_high_lenet5_top_418
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_418
-# -- Compiling entity snps_clock_gate_high_lenet5_top_419
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_419
-# -- Compiling entity snps_clock_gate_high_lenet5_top_420
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_420
-# -- Compiling entity snps_clock_gate_high_lenet5_top_421
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_421
-# -- Compiling entity snps_clock_gate_high_lenet5_top_422
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_422
-# -- Compiling entity snps_clock_gate_high_lenet5_top_423
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_423
-# -- Compiling entity snps_clock_gate_high_lenet5_top_424
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_424
-# -- Compiling entity snps_clock_gate_high_lenet5_top_425
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_425
-# -- Compiling entity snps_clock_gate_high_lenet5_top_426
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_426
-# -- Compiling entity snps_clock_gate_high_lenet5_top_427
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_427
-# -- Compiling entity snps_clock_gate_high_lenet5_top_428
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_428
-# -- Compiling entity snps_clock_gate_high_lenet5_top_429
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_429
-# -- Compiling entity snps_clock_gate_high_lenet5_top_430
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_430
-# -- Compiling entity snps_clock_gate_high_lenet5_top_431
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_431
-# -- Compiling entity snps_clock_gate_high_lenet5_top_432
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_432
-# -- Compiling entity snps_clock_gate_high_lenet5_top_433
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_433
-# -- Compiling entity snps_clock_gate_high_lenet5_top_435
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_435
-# -- Compiling entity snps_clock_gate_high_lenet5_top_437
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_437
-# -- Compiling entity snps_clock_gate_high_lenet5_top_438
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_438
-# -- Compiling entity snps_clock_gate_high_lenet5_top_439
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_439
-# -- Compiling entity snps_clock_gate_high_lenet5_top_440
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_440
-# -- Compiling entity snps_clock_gate_high_lenet5_top_441
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_441
-# -- Compiling entity snps_clock_gate_high_lenet5_top_442
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_442
-# -- Compiling entity snps_clock_gate_high_lenet5_top_443
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_443
-# -- Compiling entity snps_clock_gate_high_lenet5_top_444
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_444
-# -- Compiling entity snps_clock_gate_high_lenet5_top_445
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_445
-# -- Compiling entity snps_clock_gate_high_lenet5_top_446
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_446
-# -- Compiling entity snps_clock_gate_high_lenet5_top_0
-# -- Compiling architecture syn_use_defa_arch_name of snps_clock_gate_high_lenet5_top_0
-# -- Compiling entity lenet5_top
-# -- Compiling architecture syn_structural of lenet5_top
+# -- Loading package numeric_std
+# -- Loading package math_real
+# -- Loading package conv_struct_pkg
+# -- Compiling entity conv1_top
+# -- Compiling architecture structural of conv1_top
+# -- Compiling entity cu_conv1
+# -- Compiling architecture behaviour of cu_conv1
+# -- Compiling entity conv1_with_cu
+# -- Compiling architecture structural of conv1_with_cu
+# -- Compiling entity conv_layer_1
+# -- Compiling architecture structural of conv_layer_1
+# -- Compiling entity counter_14_c
+# -- Compiling architecture behavior of counter_14_c
+# -- Compiling entity comparator
+# -- Compiling architecture logicfunc of comparator
+# -- Compiling entity flipflop
+# -- Compiling architecture behavior of flipflop
+# -- Compiling entity full_adder
+# -- Compiling architecture behavior of full_adder
+# -- Compiling entity latch_nbit
+# -- Compiling architecture behavior of latch_nbit
+# -- Compiling entity max_pooling
+# -- Compiling architecture structural of max_pooling
+# -- Compiling entity mux25to1_nbit
+# -- Compiling architecture behavior of mux25to1_nbit
+# -- Compiling entity mux2to1
+# -- Compiling architecture logicfunc of mux2to1
+# -- Compiling entity precomputation_conv
+# -- Compiling architecture behavior of precomputation_conv
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
+# -- Compiling entity relu_conv
+# -- Compiling architecture structural of relu_conv
+# -- Compiling entity shift_reg_32x8bit_mux
+# -- Compiling architecture structural of shift_reg_32x8bit_mux
+# -- Compiling entity shift_reg_5x32x8bit_4out
+# -- Compiling architecture structural of shift_reg_5x32x8bit_4out
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
 # -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package conv_struct_pkg
+# -- Loading package textio
+# -- Compiling entity conv2_top
+# -- Compiling architecture structural of conv2_top
+# -- Compiling entity cu_conv2
+# -- Compiling architecture behaviour of cu_conv2
+# -- Compiling entity conv_layer3
+# -- Compiling architecture structural of conv_layer3
+# -- Compiling entity comparator
+# -- Compiling architecture logicfunc of comparator
+# -- Compiling entity conv2_with_cu
+# -- Compiling architecture structural of conv2_with_cu
+# -- Compiling entity counter
+# -- Compiling architecture structure of counter
+# -- Compiling entity flipflop_rst
+# -- Compiling architecture behavior of flipflop_rst
+# -- Compiling entity latch_nbit
+# -- Compiling architecture behavior of latch_nbit
+# -- Compiling entity mux14to1_nbit
+# -- Compiling architecture behavior of mux14to1_nbit
+# -- Compiling entity mux25to1_nbit
+# -- Compiling architecture behavior of mux25to1_nbit
+# -- Compiling entity mux2to1
+# -- Compiling architecture logicfunc of mux2to1
+# -- Compiling entity one_hot_dec
+# -- Compiling architecture structural of one_hot_dec
+# -- Compiling entity pooling_comparator
+# -- Compiling architecture structural of pooling_comparator
+# -- Compiling entity pooling_layer4
+# -- Compiling architecture structural of pooling_layer4
+# -- Compiling entity pooling_layer4_cu
+# -- Compiling architecture structure of pooling_layer4_cu
+# -- Compiling entity pooling_layer4_dp
+# -- Compiling architecture structural of pooling_layer4_dp
+# -- Compiling entity register_1bit
+# -- Compiling architecture behavior of register_1bit
+# -- Compiling entity register_file
+# -- Compiling architecture behavioral of register_file
+# -- Compiling entity shift_reg_14xnbit
+# -- Compiling architecture behavior of shift_reg_14xnbit
+# -- Compiling entity shift_reg_5x14xnbit
+# -- Compiling architecture behavior of shift_reg_5x14xnbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc1
+# -- Compiling architecture behaviour of cu_fc1
+# -- Compiling entity fc1_top
+# -- Compiling architecture structural of fc1_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_1
+# -- Compiling architecture structural of fully_connected_layer_1
+# -- Compiling entity decode_3to5
+# -- Compiling architecture behavioral of decode_3to5
+# -- Compiling entity mux400to1_nbit
+# -- Compiling architecture behavior of mux400to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc2
+# -- Compiling architecture behaviour of cu_fc2
+# -- Compiling entity fc2_top
+# -- Compiling architecture structural of fc2_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_2
+# -- Compiling architecture structural of fully_connected_layer_2
+# -- Compiling entity decode_2to4
+# -- Compiling architecture behavioral of decode_2to4
+# -- Compiling entity mux120to1_nbit
+# -- Compiling architecture behavior of mux120to1_nbit
+# Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
+# -- Loading package standard
+# -- Loading package std_logic_1164
+# -- Loading package numeric_std
+# -- Loading package fc_struct_pkg
+# -- Compiling entity cu_fc3
+# -- Compiling architecture behaviour of cu_fc3
+# -- Compiling entity fc3_top
+# -- Compiling architecture structural of fc3_top
+# -- Loading package math_real
+# -- Compiling entity fully_connected_layer_3
+# -- Compiling architecture structural of fully_connected_layer_3
+# -- Compiling entity mux84to1_nbit
+# -- Compiling architecture behavior of mux84to1_nbit
+# Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1299
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1298
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1297
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1296
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1295
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1294
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1293
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1292
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1291
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1290
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1289
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1288
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1287
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1286
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1285
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1284
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1283
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1282
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1281
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1280
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1279
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1278
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1277
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1276
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1275
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1274
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1273
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1272
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1271
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1270
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1269
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1268
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1267
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1266
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1265
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1264
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1263
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1262
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1261
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1260
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1259
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1258
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1257
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1256
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1255
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1254
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1253
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1252
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1251
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1250
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1249
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1248
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1247
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1246
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1245
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1244
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1243
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1242
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1241
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1240
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1239
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1238
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1237
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1236
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1235
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1234
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1233
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1232
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1231
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1230
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1229
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1228
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1227
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1226
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1225
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1224
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1223
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1222
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1221
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1220
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1219
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1218
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1217
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1216
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1215
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1214
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1213
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1212
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1211
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1210
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1209
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1208
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1207
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1206
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1205
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1204
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1203
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1202
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1201
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1200
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1199
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1198
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1197
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1196
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1195
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1194
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1193
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1192
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1191
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1190
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1189
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1188
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1187
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1186
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1185
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1184
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1183
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1182
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1181
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1180
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1179
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1178
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1177
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1176
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1175
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1174
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1173
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1172
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1171
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1170
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1169
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1168
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1167
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1166
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1165
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1164
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1163
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1162
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1161
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1160
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1159
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1158
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1157
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1156
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1155
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1154
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1153
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1152
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1151
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1150
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1149
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1148
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1147
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1146
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1145
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1144
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1143
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1142
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1141
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1140
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1139
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1138
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1137
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1136
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1135
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1134
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1133
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1132
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1131
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1130
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1129
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1128
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1127
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1126
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1125
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1124
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1123
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1122
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1121
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1120
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1119
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1118
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1117
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1116
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1115
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1114
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1113
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1112
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1111
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1110
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1109
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1108
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1107
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1106
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1105
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1104
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_753
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_752
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_751
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_750
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_749
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_748
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_747
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_746
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_745
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_744
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_743
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_742
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_741
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_740
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_739
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_738
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_737
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_736
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_735
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_734
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_733
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_732
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_731
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_730
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_729
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_728
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_727
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_726
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_725
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_724
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_723
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_722
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_721
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_720
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_719
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_718
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_717
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_716
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_715
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_714
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_713
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_712
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_711
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_710
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_709
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_708
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_707
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_706
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_705
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_704
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_n14_1
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_n14_0
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_0
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_0
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_680
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_656
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_632
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_608
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_584
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_563
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_542
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_521
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_500
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_491
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_839
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_7
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_838
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_6
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_837
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_5
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_836
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_4
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_835
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_3
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_834
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_2
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_833
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_1
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_832
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_831
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_830
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_829
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_828
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_827
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_826
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_825
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_824
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_823
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_822
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_821
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_820
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_819
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_818
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_817
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_816
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_815
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_814
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_813
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_812
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_811
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_810
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_809
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_808
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_807
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_806
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_805
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_804
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_803
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_802
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_801
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n400
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n5
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n120
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n4
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n84
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_490
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_489
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_488
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_478
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_474
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_470
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_466
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_462
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_458
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_454
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_390
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_262
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_LeNet5_top_0
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_0_2
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_57
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_211
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_212
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_213
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_1
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_2
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_3
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_4
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_5
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_6
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_235
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N10_M4
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N16_M4
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N8_M3
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_1
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_9
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_17
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_25
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_33
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_41
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_49
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_57
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_65
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_73
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_81
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_89
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_97
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_105
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_113
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_121
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_129
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_137
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_145
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_153
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_161
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_169
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_177
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_185
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_193
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_201
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_209
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_217
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_225
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_233
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_241
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_249
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_257
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_265
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_273
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_281
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_289
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_297
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_305
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_313
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_321
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_329
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_337
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_345
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_353
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_361
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_369
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_377
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_385
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_393
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_401
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_409
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_417
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_425
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_433
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_441
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_449
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_457
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_465
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_473
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_481
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_489
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_497
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_505
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_513
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_521
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_529
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_537
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_545
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_553
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_561
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_569
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_577
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_585
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_593
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_601
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_609
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_617
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_625
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_633
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_641
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_649
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_657
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_665
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_673
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_681
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_689
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_697
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_705
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_713
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_721
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_729
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_737
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_745
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_753
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_761
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_769
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_777
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_785
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_793
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_1
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_2
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_3
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_4
+# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_0
+# -- Compiling module LeNet5_top
+# 
+# Top level modules:
+# 	LeNet5_top
 # Model Technology ModelSim SE vcom 6.2g Compiler 2007.02 Feb 21 2007
 # -- Loading package standard
 # -- Loading package std_logic_1164
@@ -1087,19 +659,211 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # -- Compiling architecture behaviour of lenet5_tb
 # vsim -L /software/dk/nangate45/verilog/msim6.2g -t 1ps work.LeNet5_tb 
 # ** Note: (vsim-3812) Design is being optimized...
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'matrix_weights_conv1' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'bias_mac_conv1' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'matrix_weights_step1' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'matrix_weights_step2' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'matrix_weights_step3' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'matrix_weights_step4' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'bias_memory' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'input_weights_1' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'input_bias_1' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'input_weights_2' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'input_bias_fc2' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'input_weights_3' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'input_bias_3' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../testbench/LeNet5_tb.vhd(783): (vopt-1133) Types do not match for port 'output_conv1' in component 'lenet5_top' when binding to entity 'lenet5_top'.
-# ** Error: ../netlist/LeNet5_top.vhd(10799): Vopt Compiler exiting
+# //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
+# //
+# //  Copyright 1991-2007 Mentor Graphics Corporation
+# //              All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND 
+# //  PROPRIETARY INFORMATION WHICH IS THE PROPERTY
+# //  OF MENTOR GRAPHICS CORPORATION OR ITS LICENSORS
+# //  AND IS SUBJECT TO LICENSE TERMS.
+# //
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.fc_struct_pkg
+# Loading work.conv_struct_pkg
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading work.lenet5_tb(behaviour)#1
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.math_real(body)
+# Loading work.lenet5_top(structural)#1
+# Loading work.conv1_top(structural)#1
+# Loading work.conv1_with_cu(structural)#1
+# Loading work.cu_conv1(behaviour)
+# Loading work.conv_layer_1(structural)#1
+# Loading work.shift_reg_5x32x8bit_4out(structural)#1
+# Loading work.shift_reg_32x8bit_mux(structural)#1
+# Loading work.mux2to1_nbit(behavior)#1
+# Loading work.register_nbit(behavior)#1
+# Loading work.shift_reg_32x8bit_mux(structural)#2
+# Loading work.mux25to1_nbit(behavior)#1
+# Loading work.precomputation_conv(behavior)#1
+# Loading work.full_adder(behavior)
+# Loading work.register_1bit(behavior)
+# Loading work.register_nbit(behavior)#2
+# Loading work.max_pooling(structural)#1
+# Loading work.register_nbit(behavior)#3
+# Loading work.mux2to1(logicfunc)
+# Loading work.flipflop(behavior)
+# Loading work.latch_nbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#2
+# Loading work.comparator(logicfunc)
+# Loading work.counter_n(behavior)#1
+# Loading work.counter_14_c(behavior)#1
+# Loading work.counter_n(behavior)#2
+# Loading work.counter_n(behavior)#3
+# Loading work.mux14to1_nbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#3
+# Loading work.conv2_top(structural)#1
+# Loading work.conv2_with_cu(structural)#1
+# Loading work.conv_layer3(structural)#1
+# Loading work.shift_reg_5x14xnbit(behavior)#1
+# Loading work.shift_reg_14xnbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#4
+# Loading work.cu_conv2(behaviour)
+# Loading work.register_nbit(behavior)#4
+# Loading work.pooling_layer4(structural)#1
+# Loading work.pooling_layer4_dp(structural)#1
+# Loading work.pooling_comparator(structural)#1
+# Loading work.register_file(behavioral)#1
+# Loading work.counter(structure)#1
+# Loading work.counter(structure)#2
+# Loading work.counter(structure)#3
+# Loading work.pooling_layer4_cu(structure)
+# Loading work.one_hot_dec(structural)#1
+# Loading work.flipflop_rst(behavior)
+# Loading work.fc1_top(structural)#1
+# Loading work.fully_connected_layer_1(structural)#1
+# Loading work.mux400to1_nbit(behavior)#1
+# Loading work.relu(behavior)#1
+# Loading work.decode_3to5(behavioral)
+# Loading work.counter_n_fc(behavior)#1
+# Loading work.counter_n_fc(behavior)#2
+# Loading work.cu_fc1(behaviour)
+# Loading work.intermediate_registers_1(structural)#1
+# Loading work.fc2_top(structural)#1
+# Loading work.fully_connected_layer_2(structural)#1
+# Loading work.mux120to1_nbit(behavior)#1
+# Loading work.decode_2to4(behavioral)
+# Loading work.counter_n_fc(behavior)#3
+# Loading work.counter_n_fc(behavior)#4
+# Loading work.cu_fc2(behaviour)
+# Loading work.intermediate_registers_2(structural)#1
+# Loading work.fc3_top(structural)#1
+# Loading work.fully_connected_layer_3(structural)#1
+# Loading work.mux84to1_nbit(behavior)#1
+# Loading work.counter_n_fc(behavior)#5
+# Loading work.cu_fc3(behaviour)
+# Loading work.output_registers(structural)#1
+# Loading work.mux5to1_nbit(behavior)#1
+# Loading work.mux5to1_nbit(behavior)#2
+# Loading work.mux5to1_1bit(behavior)#1
+# Loading work.mux4to1_nbit(behavior)#1
+# Loading work.mux4to1_nbit(behavior)#2
+# Loading work.mux4to1_1bit(behavior)#1
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.mac_block(structural)#1
+# Loading work.saturation(structural)#1
+# Loading work.cu_tot(behaviour)
+# Loading work.clock_gating(structural)
+# Loading work.latch_n(behavior)
+# vsim -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /LeNet5_tb/UUT=../netlist/LeNet5_top.sdf work.LeNet5_tb 
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253178): Can't resolve SDF pathname "latch" - instance not found.
+# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253182): Can't resolve SDF pathname "latch" - instance not found.
+# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253186): Can't resolve SDF pathname "latch" - instance not found.
+# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253190): Can't resolve SDF pathname "latch" - instance not found.
+# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253194): Can't resolve SDF pathname "latch" - instance not found.
+# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Loading work.fc_struct_pkg
+# Loading work.conv_struct_pkg
+# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
+# Loading work.lenet5_tb(behaviour)#1
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.math_real(body)
+# Loading work.lenet5_top(structural)#1
+# Loading work.conv1_top(structural)#1
+# Loading work.conv1_with_cu(structural)#1
+# Loading work.cu_conv1(behaviour)
+# Loading work.conv_layer_1(structural)#1
+# Loading work.shift_reg_5x32x8bit_4out(structural)#1
+# Loading work.shift_reg_32x8bit_mux(structural)#1
+# Loading work.mux2to1_nbit(behavior)#1
+# Loading work.register_nbit(behavior)#1
+# Loading work.shift_reg_32x8bit_mux(structural)#2
+# Loading work.mux25to1_nbit(behavior)#1
+# Loading work.precomputation_conv(behavior)#1
+# Loading work.full_adder(behavior)
+# Loading work.register_1bit(behavior)
+# Loading work.register_nbit(behavior)#2
+# Loading work.max_pooling(structural)#1
+# Loading work.register_nbit(behavior)#3
+# Loading work.mux2to1(logicfunc)
+# Loading work.flipflop(behavior)
+# Loading work.latch_nbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#2
+# Loading work.comparator(logicfunc)
+# Loading work.counter_n(behavior)#1
+# Loading work.counter_14_c(behavior)#1
+# Loading work.counter_n(behavior)#2
+# Loading work.counter_n(behavior)#3
+# Loading work.mux14to1_nbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#3
+# Loading work.conv2_top(structural)#1
+# Loading work.conv2_with_cu(structural)#1
+# Loading work.conv_layer3(structural)#1
+# Loading work.shift_reg_5x14xnbit(behavior)#1
+# Loading work.shift_reg_14xnbit(behavior)#1
+# Loading work.mux2to1_nbit(behavior)#4
+# Loading work.cu_conv2(behaviour)
+# Loading work.register_nbit(behavior)#4
+# Loading work.pooling_layer4(structural)#1
+# Loading work.pooling_layer4_dp(structural)#1
+# Loading work.pooling_comparator(structural)#1
+# Loading work.register_file(behavioral)#1
+# Loading work.counter(structure)#1
+# Loading work.counter(structure)#2
+# Loading work.counter(structure)#3
+# Loading work.pooling_layer4_cu(structure)
+# Loading work.one_hot_dec(structural)#1
+# Loading work.flipflop_rst(behavior)
+# Loading work.fc1_top(structural)#1
+# Loading work.fully_connected_layer_1(structural)#1
+# Loading work.mux400to1_nbit(behavior)#1
+# Loading work.relu(behavior)#1
+# Loading work.decode_3to5(behavioral)
+# Loading work.counter_n_fc(behavior)#1
+# Loading work.counter_n_fc(behavior)#2
+# Loading work.cu_fc1(behaviour)
+# Loading work.intermediate_registers_1(structural)#1
+# Loading work.fc2_top(structural)#1
+# Loading work.fully_connected_layer_2(structural)#1
+# Loading work.mux120to1_nbit(behavior)#1
+# Loading work.decode_2to4(behavioral)
+# Loading work.counter_n_fc(behavior)#3
+# Loading work.counter_n_fc(behavior)#4
+# Loading work.cu_fc2(behaviour)
+# Loading work.intermediate_registers_2(structural)#1
+# Loading work.fc3_top(structural)#1
+# Loading work.fully_connected_layer_3(structural)#1
+# Loading work.mux84to1_nbit(behavior)#1
+# Loading work.counter_n_fc(behavior)#5
+# Loading work.cu_fc3(behaviour)
+# Loading work.output_registers(structural)#1
+# Loading work.mux5to1_nbit(behavior)#1
+# Loading work.mux5to1_nbit(behavior)#2
+# Loading work.mux5to1_1bit(behavior)#1
+# Loading work.mux4to1_nbit(behavior)#1
+# Loading work.mux4to1_nbit(behavior)#2
+# Loading work.mux4to1_1bit(behavior)#1
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
+# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
+# Loading work.mac_block(structural)#1
+# Loading work.saturation(structural)#1
+# Loading work.cu_tot(behaviour)
+# Loading work.clock_gating(structural)
+# Loading work.latch_n(behavior)
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(18): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_c_reg/latch'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(19): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_c_reg/latch'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(20): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_r_reg/latch'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(21): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_r_reg/latch'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(22): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT25_reg/latch'.
+# ** Warning: (vsim-SDF-3432) ../netlist/LeNet5_top.sdf: This file is probably applied to the wrong instance.
+# Ignoring subsequent missing instances from this file.
+# ** Warning: (vsim-SDF-3441) ../netlist/LeNet5_top.sdf: Failed to find 355557 out of the 355558 instances from this file.
+# ** Error: (vsim-SDF-3445) Failed to parse SDF file "../netlist/LeNet5_top.sdf".
+#    Time: 0 ns  Iteration: 0  Region: /lenet5_tb  File: ../testbench/LeNet5_tb.vhd
 # Error loading design

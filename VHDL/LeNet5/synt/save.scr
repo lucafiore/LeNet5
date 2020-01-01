@@ -15,8 +15,8 @@ change_names -hierarchy -rules verilog
 write_sdf ../netlist/$top_entity.sdf
 
 # scriviamo la netlist
-#write -f verilog -hierarchy -output ../netlist/$top_entity.v
-write -f vhdl -hierarchy -output ../netlist/$top_entity.vhd
+write -f verilog -hierarchy -output ../netlist/$top_entity.v
+#write -f vhdl -hierarchy -output ../netlist/$top_entity.vhd
 
 # salviamo i limiti
 write_sdc ../netlist/$top_entity.sdc
