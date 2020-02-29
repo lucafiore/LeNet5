@@ -1,0 +1,8 @@
+variable top_entity "LeNet5top"
+variable period 4543514
+variable ext _4543514
+variable testbench "LeNet5_tb"
+
+# output directory of syntesys file
+variable out_dir "./synt_out"
+variable loadset 0

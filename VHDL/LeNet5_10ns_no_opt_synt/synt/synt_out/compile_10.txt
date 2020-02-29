@@ -1,0 +1,561 @@
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | O-2018.06-DWBB_201806.4 |     *     |
+| Licensed DW Building Blocks        |                         |           |
+============================================================================
+
+
+Information: There are 5348 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'latch_n_0'
+  Processing 'clock_gating_0'
+  Processing 'CU_TOT'
+  Processing 'register_nbit_N15_0'
+  Processing 'mux2to1_nbit_N15_16'
+  Processing 'saturation_N15_0'
+  Processing 'mac_block_N8_M0_0'
+  Processing 'mux4to1_1bit_S2_0'
+  Processing 'mux4to1_nbit_P8_S2_0'
+  Processing 'mux4to1_nbit_P15_S2_0'
+  Processing 'mux5to1_1bit_S3_0'
+  Processing 'mux5to1_nbit_P8_S3_0'
+  Processing 'mux5to1_nbit_P15_S3_0'
+  Processing 'register_nbit_N8_490'
+  Processing 'Output_registers_OUTPUT_NEURONS10'
+  Processing 'CU_FC3'
+  Processing 'counter_N_FC_n84'
+  Processing 'mux84to1_nbit_N8'
+  Processing 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10'
+  Processing 'FC3_top_INPUT_NEURONS84_OUTPUT_NEURONS10'
+  Processing 'Intermediate_Registers_2_OUTPUT_NEURONS84'
+  Processing 'CU_FC2'
+  Processing 'counter_N_FC_n4'
+  Processing 'counter_N_FC_n120'
+  Processing 'decode_2to4'
+  Processing 'mux2to1_nbit_N8_448'
+  Processing 'relu_N8_0'
+  Processing 'mux120to1_nbit_N8'
+  Processing 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84'
+  Processing 'FC2_top_INPUT_NEURONS120_OUTPUT_NEURONS84'
+  Processing 'Intermediate_Registers_1_OUTPUT_NEURONS120'
+  Processing 'CU_FC1'
+  Processing 'counter_N_FC_n5'
+  Processing 'counter_N_FC_n400'
+  Processing 'decode_3to5'
+  Processing 'mux400to1_nbit_N8'
+  Processing 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120'
+  Processing 'FC1_top_INPUT_NEURONS400_OUTPUT_NEURONS120'
+  Processing 'register_1bit_56'
+  Processing 'flipflop_rst_0'
+  Processing 'one_hot_dec_N25'
+  Processing 'pooling_layer4_cu'
+  Processing 'counter_N10_M4'
+  Processing 'counter_N16_M4'
+  Processing 'counter_N8_M3'
+  Processing 'register_file_N8_M5_L3_0'
+  Processing 'comparator_0'
+  Processing 'mux2to1_0'
+  Processing 'latch_nbit_N8_0'
+  Processing 'pooling_comparator_M8_0'
+  Processing 'pooling_layer4_dp_N8_M_in8_M_out8'
+  Processing 'pooling_layer4_N8'
+  Processing 'CU_conv2'
+  Processing 'mux25to1_nbit_N8_0'
+  Processing 'shift_reg_14xNbit_N8_0'
+  Processing 'shift_reg_5x14xNbit_N8_0'
+  Processing 'Conv_layer3_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0'
+  Processing 'conv2_with_CU_N_in14_M_in8_M_w8_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0'
+  Processing 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5'
+  Processing 'mux2to1_nbit_N112_0'
+  Processing 'mux14to1_nbit_N112_0'
+  Processing 'counter_N_n3_0'
+  Processing 'counter_N_n27'
+  Processing 'counter_N_n14_0'
+  Processing 'counter_14_c_n14'
+  Processing 'flipflop_0'
+  Processing 'max_pooling_M_in8_M_out8_0'
+  Processing 'register_nbit_N6'
+  Processing 'full_adder_0'
+  Processing 'precomputation_conv_N25_0'
+  Processing 'shift_reg_32x8bit_mux_N_in32_M8_0'
+  Processing 'shift_reg_5x32x8bit_4out_N_in32_N_w5_M8'
+  Processing 'Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0'
+  Processing 'CU_conv1'
+  Processing 'Conv1_with_CU_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0'
+  Processing 'CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14'
+  Processing 'LeNet5_top'
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Processing 'mac_block_N8_M0_0_DW01_add_0'
+  Processing 'mac_block_N8_M0_1_DW01_add_0'
+  Processing 'mac_block_N8_M0_2_DW01_add_0'
+  Processing 'mac_block_N8_M0_3_DW01_add_0'
+  Processing 'mac_block_N8_M0_4_DW01_add_0'
+  Processing 'mac_block_N8_M0_5_DW01_add_0'
+  Processing 'mac_block_N8_M0_6_DW01_add_0'
+  Processing 'mac_block_N8_M0_7_DW01_add_0'
+  Processing 'mac_block_N8_M0_8_DW01_add_0'
+  Processing 'mac_block_N8_M0_9_DW01_add_0'
+  Processing 'mac_block_N8_M0_10_DW01_add_0'
+  Processing 'mac_block_N8_M0_11_DW01_add_0'
+  Processing 'mac_block_N8_M0_12_DW01_add_0'
+  Processing 'mac_block_N8_M0_13_DW01_add_0'
+  Processing 'mac_block_N8_M0_14_DW01_add_0'
+  Processing 'mac_block_N8_M0_15_DW01_add_0'
+  Processing 'mac_block_N8_M0_16_DW01_add_0'
+  Processing 'mac_block_N8_M0_17_DW01_add_0'
+  Processing 'mac_block_N8_M0_18_DW01_add_0'
+  Processing 'mac_block_N8_M0_19_DW01_add_0'
+  Processing 'mac_block_N8_M0_20_DW01_add_0'
+  Processing 'mac_block_N8_M0_21_DW01_add_0'
+  Processing 'mac_block_N8_M0_22_DW01_add_0'
+  Processing 'mac_block_N8_M0_23_DW01_add_0'
+  Processing 'counter_N_FC_n84_DW01_inc_0'
+  Processing 'mux84to1_nbit_N8_DW01_cmp2_0'
+  Processing 'counter_N_FC_n120_DW01_inc_0'
+  Processing 'mux120to1_nbit_N8_DW01_cmp2_0'
+  Processing 'counter_N_FC_n400_DW01_inc_0'
+  Processing 'mux400to1_nbit_N8_DW01_cmp2_0'
+  Processing 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_DW01_inc_0'
+  Processing 'mux25to1_nbit_N8_0_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_1_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_2_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_3_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_4_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_5_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_6_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_7_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_8_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_9_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_10_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_11_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_12_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_13_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_14_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_15_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_16_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_17_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_18_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_19_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_20_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_21_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_22_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_23_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_24_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_25_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_26_DW01_cmp2_0'
+  Processing 'counter_N_n27_DW01_inc_0'
+  Processing 'mux25to1_nbit_N8_27_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_28_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_29_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_30_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_31_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_32_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_33_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_34_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_35_DW01_cmp2_0'
+  Processing 'mux25to1_nbit_N8_36_DW01_cmp2_0'
+  Building model 'DW01_NAND2'
+  Processing 'DW01_NAND2'
+  Building model 'DW01_sub_width7' (rpl)
+  Processing 'DW01_sub_width7'
+  Building model 'DW01_sub_width7' (cla)
+  Processing 'DW01_sub_width7'
+  Building model 'DW01_dec_width10' (rpl)
+  Processing 'DW01_dec_width10'
+  Building model 'DW01_sub_width9' (rpl)
+  Processing 'DW01_sub_width9'
+  Building model 'DW01_sub_width9' (cla)
+  Processing 'DW01_sub_width9'
+  Building model 'DW01_dec_width12' (rpl)
+  Processing 'DW01_dec_width12'
+  Processing 'mux84to1_nbit_N8_DW01_dec_0'
+  Processing 'mux84to1_nbit_N8_DW01_sub_0'
+  Processing 'mux120to1_nbit_N8_DW01_dec_0'
+  Processing 'mux120to1_nbit_N8_DW01_sub_0'
+  Processing 'mux400to1_nbit_N8_DW01_dec_0'
+  Processing 'mux400to1_nbit_N8_DW01_sub_0'
+  Processing 'mux14to1_nbit_N112_4_DW01_dec_0'
+  Processing 'mux14to1_nbit_N112_4_DW02_mult_0'
+  Processing 'mux14to1_nbit_N112_4_DW01_add_0'
+  Processing 'mux14to1_nbit_N112_4_DW01_sub_0'
+  Processing 'mux14to1_nbit_N112_3_DW01_dec_0'
+  Processing 'mux14to1_nbit_N112_3_DW02_mult_0'
+  Processing 'mux14to1_nbit_N112_3_DW01_add_0'
+  Processing 'mux14to1_nbit_N112_3_DW01_sub_0'
+  Processing 'mux14to1_nbit_N112_2_DW01_dec_0'
+  Processing 'mux14to1_nbit_N112_2_DW02_mult_0'
+  Processing 'mux14to1_nbit_N112_2_DW01_add_0'
+  Processing 'mux14to1_nbit_N112_2_DW01_sub_0'
+  Processing 'mux14to1_nbit_N112_1_DW01_dec_0'
+  Processing 'mux14to1_nbit_N112_1_DW02_mult_0'
+  Processing 'mux14to1_nbit_N112_1_DW01_add_0'
+  Processing 'mux14to1_nbit_N112_1_DW01_sub_0'
+  Processing 'mux14to1_nbit_N112_0_DW01_dec_0'
+  Processing 'mux14to1_nbit_N112_0_DW02_mult_0'
+  Processing 'mux14to1_nbit_N112_0_DW01_add_0'
+  Processing 'mux14to1_nbit_N112_0_DW01_sub_0'
+  Processing 'mux14to1_nbit_N112_5_DW01_dec_0'
+  Processing 'mux14to1_nbit_N112_5_DW02_mult_0'
+  Processing 'mux14to1_nbit_N112_5_DW01_add_0'
+  Processing 'mux14to1_nbit_N112_5_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_26_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_26_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_25_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_25_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_24_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_24_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_23_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_23_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_22_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_22_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_21_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_21_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_20_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_20_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_19_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_19_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_18_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_18_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_17_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_17_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_16_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_16_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_15_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_15_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_14_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_14_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_13_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_13_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_12_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_12_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_11_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_11_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_10_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_10_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_9_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_9_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_8_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_8_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_7_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_7_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_6_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_6_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_5_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_5_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_4_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_4_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_3_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_3_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_2_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_2_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_1_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_1_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_0_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_0_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_35_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_35_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_34_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_34_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_33_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_33_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_32_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_32_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_31_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_31_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_30_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_30_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_29_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_29_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_28_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_28_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_27_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_27_DW01_sub_0'
+  Processing 'mux25to1_nbit_N8_36_DW01_dec_0'
+  Processing 'mux25to1_nbit_N8_36_DW01_sub_0'
+  Processing 'mac_block_N8_M0_2_DW02_mult_0'
+  Processing 'mac_block_N8_M0_2_DW01_add_1'
+  Processing 'mac_block_N8_M0_1_DW02_mult_0'
+  Processing 'mac_block_N8_M0_1_DW01_add_1'
+  Processing 'mac_block_N8_M0_0_DW02_mult_0'
+  Processing 'mac_block_N8_M0_0_DW01_add_1'
+  Processing 'mac_block_N8_M0_12_DW02_mult_0'
+  Processing 'mac_block_N8_M0_12_DW01_add_1'
+  Processing 'mac_block_N8_M0_11_DW02_mult_0'
+  Processing 'mac_block_N8_M0_11_DW01_add_1'
+  Processing 'mac_block_N8_M0_10_DW02_mult_0'
+  Processing 'mac_block_N8_M0_10_DW01_add_1'
+  Processing 'mac_block_N8_M0_9_DW02_mult_0'
+  Processing 'mac_block_N8_M0_9_DW01_add_1'
+  Processing 'mac_block_N8_M0_8_DW02_mult_0'
+  Processing 'mac_block_N8_M0_8_DW01_add_1'
+  Processing 'mac_block_N8_M0_7_DW02_mult_0'
+  Processing 'mac_block_N8_M0_7_DW01_add_1'
+  Processing 'mac_block_N8_M0_6_DW02_mult_0'
+  Processing 'mac_block_N8_M0_6_DW01_add_1'
+  Processing 'mac_block_N8_M0_5_DW02_mult_0'
+  Processing 'mac_block_N8_M0_5_DW01_add_1'
+  Processing 'mac_block_N8_M0_4_DW02_mult_0'
+  Processing 'mac_block_N8_M0_4_DW01_add_1'
+  Processing 'mac_block_N8_M0_3_DW02_mult_0'
+  Processing 'mac_block_N8_M0_3_DW01_add_1'
+  Processing 'mac_block_N8_M0_13_DW02_mult_0'
+  Processing 'mac_block_N8_M0_13_DW01_add_1'
+  Processing 'mac_block_N8_M0_22_DW02_mult_0'
+  Processing 'mac_block_N8_M0_22_DW01_add_1'
+  Processing 'mac_block_N8_M0_21_DW02_mult_0'
+  Processing 'mac_block_N8_M0_21_DW01_add_1'
+  Processing 'mac_block_N8_M0_20_DW02_mult_0'
+  Processing 'mac_block_N8_M0_20_DW01_add_1'
+  Processing 'mac_block_N8_M0_19_DW02_mult_0'
+  Processing 'mac_block_N8_M0_19_DW01_add_1'
+  Processing 'mac_block_N8_M0_18_DW02_mult_0'
+  Processing 'mac_block_N8_M0_18_DW01_add_1'
+  Processing 'mac_block_N8_M0_17_DW02_mult_0'
+  Processing 'mac_block_N8_M0_17_DW01_add_1'
+  Processing 'mac_block_N8_M0_16_DW02_mult_0'
+  Processing 'mac_block_N8_M0_16_DW01_add_1'
+  Processing 'mac_block_N8_M0_15_DW02_mult_0'
+  Processing 'mac_block_N8_M0_15_DW01_add_1'
+  Processing 'mac_block_N8_M0_14_DW02_mult_0'
+  Processing 'mac_block_N8_M0_14_DW01_add_1'
+  Processing 'mac_block_N8_M0_23_DW02_mult_0'
+  Processing 'mac_block_N8_M0_23_DW01_add_1'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:07:41  405850.6      3.82   45700.6  224568.3                          
+    0:07:41  405850.6      3.82   45700.6  224568.3                          
+    0:07:41  405869.7      3.82   45695.7  223828.0                          
+    0:07:41  405888.9      3.82   45690.7  223087.6                          
+    0:07:41  405908.0      3.82   45685.7  222347.2                          
+    0:07:42  405927.2      3.82   45680.7  221598.5                          
+    0:07:42  405946.3      3.82   45675.7  220858.2                          
+    0:07:42  405965.5      3.82   45670.7  220117.8                          
+    0:07:42  405984.6      3.82   45665.8  219377.5                          
+    0:07:42  406003.8      3.82   45660.7  218628.7                          
+    0:07:43  406022.9      3.82   45655.7  217888.4                          
+    0:07:43  406042.1      3.82   45650.8  217148.0                          
+    0:07:43  406061.2      3.82   45645.8  216407.7                          
+    0:07:43  406080.4      3.82   45640.8  215658.9                          
+    0:07:44  406099.5      3.82   45635.8  214918.6                          
+    0:07:44  406118.7      3.82   45630.8  214178.2                          
+    0:07:44  406137.8      3.82   45625.8  213437.9                          
+    0:07:44  406157.0      3.82   45620.8  212689.1                          
+    0:07:45  406176.1      3.82   45615.8  211948.8                          
+    0:07:45  406195.3      3.82   45610.9  211208.4                          
+    0:07:45  406214.4      3.82   45605.9  210468.1                          
+    0:07:45  406233.6      3.82   45600.8  209719.3                          
+    0:07:45  406252.8      3.82   45595.9  208979.0                          
+    0:07:46  406271.9      3.82   45590.9  208238.7                          
+    0:07:46  406291.1      3.82   45585.9  207498.3                          
+    0:07:46  406310.2      3.82   45580.9  206749.6                          
+    0:07:46  406329.4      3.82   45575.9  206009.2                          
+    0:07:47  406348.5      3.82   45570.9  205268.9                          
+    0:07:47  406367.7      3.82   45566.0  204528.5                          
+    0:07:47  406386.8      3.82   45560.9  203779.8                          
+    0:07:47  406406.0      3.82   45556.0  203039.4                          
+    0:07:48  406425.1      3.82   45551.0  202299.1                          
+    0:07:48  406444.3      3.82   45546.0  201558.7                          
+    0:07:48  406474.1      3.82   45543.5  200523.5                          
+    0:07:48  406509.2      3.82   45543.5  199193.5                          
+    0:07:49  406544.3      3.82   45543.5  197863.4                          
+    0:07:49  406579.4      3.82   45543.5  196533.4                          
+    0:07:49  406614.5      3.82   45543.5  195203.3                          
+    0:07:49  406649.6      3.82   45543.5  193873.3                          
+    0:07:50  406684.7      3.82   45543.5  192543.2                          
+    0:07:50  406719.8      3.82   45543.5  191213.2                          
+    0:07:50  406755.0      3.82   45543.5  189883.1                          
+    0:07:51  406790.1      3.82   45543.5  188553.0                          
+    0:07:51  406825.2      3.82   45543.5  187223.0                          
+    0:07:51  406860.3      3.82   45543.5  185892.9                          
+    0:07:51  406895.4      3.82   45543.5  184562.9                          
+    0:07:52  406930.5      3.82   45543.5  183232.8                          
+    0:07:52  406965.6      3.82   45543.5  181902.8                          
+    0:07:52  407000.7      3.82   45543.5  180572.7                          
+    0:07:53  407035.9      3.82   45543.5  179242.7                          
+    0:07:53  407071.0      3.82   45543.5  177912.6                          
+    0:07:53  407106.1      3.82   45543.5  176582.6                          
+    0:07:53  407141.2      3.82   45543.5  175252.5                          
+    0:07:54  407176.3      3.82   45543.5  173922.5                          
+    0:07:54  407211.4      3.82   45543.5  172592.4                          
+    0:07:54  407246.5      3.82   45543.5  171262.3                          
+    0:07:55  407281.6      3.82   45543.5  169932.3                          
+    0:08:01  407541.8      3.82   45543.5  166715.4                          
+    0:08:11  408101.2      3.45   45275.3  158190.0                          
+    0:08:11  408129.9      3.45   45268.4  157150.8                          
+    0:08:11  408158.6      3.45   45261.4  156111.6                          
+    0:08:12  408187.4      3.45   45254.4  155072.5                          
+    0:08:12  408216.1      3.45   45247.5  154033.3                          
+    0:08:12  408244.8      3.45   45240.5  152994.1                          
+    0:08:13  408273.6      3.45   45233.6  151954.9                          
+    0:08:13  408302.3      3.45   45226.6  150915.8                          
+    0:08:13  408331.0      3.45   45219.6  149876.6                          
+    0:08:14  408359.7      3.45   45212.7  148837.4                          
+    0:08:14  408388.5      3.45   45205.7  147798.2                          
+    0:08:14  408417.2      3.45   45198.8  146759.0                          
+    0:08:14  408445.9      3.45   45191.8  145719.9                          
+    0:08:15  408474.7      3.45   45184.8  144680.7                          
+    0:08:15  408503.4      3.45   45177.9  143641.5                          
+    0:08:15  408532.1      3.45   45170.9  142602.3                          
+    0:08:16  408560.8      3.45   45164.0  141563.2                          
+    0:08:16  408589.6      3.45   45157.0  140524.0                          
+    0:08:17  408862.2      3.43   45152.4  137700.1                          
+    0:08:17  408902.1      3.43   45152.4  137302.6                          
+    0:08:17  408948.7      3.43   45152.4  136805.8                          
+    0:08:17  408995.2      3.43   45152.4  136308.9                          
+    0:08:18  409041.8      3.43   45152.4  135812.0                          
+    0:08:18  409088.3      3.43   45152.4  135315.2                          
+    0:08:18  409134.9      3.43   45152.4  134818.3                          
+    0:08:18  409181.4      3.43   45152.4  134321.5                          
+    0:08:18  409228.0      3.43   45152.4  133824.6                          
+    0:08:18  409274.5      3.43   45152.4  133327.7                          
+    0:08:19  409321.1      3.43   45152.4  132830.9                          
+    0:08:19  409367.6      3.43   45152.4  132334.0                          
+    0:08:19  409414.2      3.43   45152.4  131837.1                          
+    0:08:19  409460.7      3.43   45152.4  131340.3                          
+    0:08:20  409484.7      3.43   45152.4  130878.4                          
+    0:08:21  409505.9      3.43   45152.4  129923.9                          
+    0:08:23  409483.1      3.43   45152.4  127235.7                          
+    0:08:31  411521.4      3.43   45152.4  111484.3                          
+    0:08:39  411942.0      0.00       0.0   99266.0                          
+    0:08:43  412703.0      0.00       0.0   96620.1                          
+    0:08:58  413893.9      0.00       0.0   70868.5                          
+    0:08:59  413957.7      0.00       0.0   69598.4                          
+    0:09:01  414115.2      0.00       0.0   67798.4                          
+    0:09:02  414164.4      0.00       0.0   67150.3                          
+    0:09:06  414827.0      0.00       0.0   49578.4                          
+    0:11:34  423817.3      0.00       0.0   17072.5                          
+    0:11:34  423817.3      0.00       0.0   17072.5                          
+    0:11:34  423817.3      0.00       0.0   17072.5                          
+    0:11:34  423817.3      0.00       0.0   17072.5                          
+    0:11:39  423817.3      0.00       0.0   17072.5                          
+    0:14:38  311621.7      0.00       0.0      53.4                          
+    0:14:45  311611.8      0.00       0.0      53.4                          
+    0:15:44  311611.8      0.00       0.0      53.4                          
+    0:15:47  311611.8      0.00       0.0      53.4                          
+    0:15:51  311611.8      0.00       0.0      53.4                          
+    0:15:51  311611.8      0.00       0.0      53.4                          
+    0:15:54  311630.4      0.00       0.0      33.1                          
+    0:15:56  311649.1      0.00       0.0      13.6                          
+    0:15:58  311664.0      0.00       0.0       4.1                          
+    0:16:01  311678.8      0.00       0.0       0.0                          
+    0:16:03  311678.8      0.00       0.0       0.0                          
+    0:16:03  311678.8      0.00       0.0       0.0                          
+    0:16:03  311678.8      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:16:03  311678.8      0.00       0.0       0.0                          
+    0:16:03  311678.8      0.00       0.0       0.0                          
+    0:16:03  311678.8      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:16:03  311678.8      0.00       0.0       0.0                          
+    0:16:06  311678.8      0.00       0.0       0.0                          
+    0:18:22  311433.3      0.00       0.0       0.0                          
+    0:18:31  311356.5      0.00       0.0       0.0                          
+    0:18:34  311332.8      0.00       0.0       0.0                          
+    0:18:37  311311.2      0.00       0.0       0.0                          
+    0:18:41  311291.0      0.00       0.0       1.8                          
+    0:18:43  311275.3      0.00       0.0       1.8                          
+    0:18:45  311263.4      0.00       0.0       1.8                          
+    0:18:48  311252.2      0.00       0.0       1.8                          
+    0:18:50  311243.7      0.00       0.0       1.8                          
+    0:18:53  311237.6      0.00       0.0       1.8                          
+    0:18:55  311232.0      0.00       0.0       1.8                          
+    0:18:57  311226.4      0.00       0.0       1.8                          
+    0:18:59  311222.9      0.00       0.0       1.8                          
+    0:19:01  311219.5      0.00       0.0       1.8                          
+    0:19:03  311216.0      0.00       0.0       1.8                          
+    0:19:05  311212.5      0.00       0.0       1.8                          
+    0:19:07  311209.6      0.00       0.0       1.8                          
+    0:19:08  311206.7      0.00       0.0       1.8                          
+    0:19:10  311203.8      0.00       0.0       1.8                          
+    0:19:12  311200.8      0.00       0.0       1.8                          
+    0:19:15  311198.7      0.00       0.0       1.8                          
+    0:19:16  311196.6      0.00       0.0       1.8                          
+    0:19:17  311194.5      0.00       0.0       1.8                          
+    0:19:18  311192.3      0.00       0.0       1.8                          
+    0:19:19  311190.2      0.00       0.0       1.8                          
+    0:19:21  311188.1      0.00       0.0       1.8                          
+    0:19:22  311187.0      0.00       0.0       1.8                          
+    0:19:23  311185.9      0.00       0.0       1.8                          
+    0:19:24  311184.9      0.00       0.0       1.8                          
+    0:19:24  311183.8      0.00       0.0       1.8                          
+    0:19:25  311182.8      0.00       0.0       1.8                          
+    0:19:26  311181.7      0.00       0.0       1.8                          
+    0:19:27  311180.6      0.00       0.0       1.8                          
+    0:19:28  311179.6      0.00       0.0       1.8                          
+    0:19:29  311178.5      0.00       0.0       1.8                          
+    0:19:30  311177.4      0.00       0.0       1.8                          
+    0:19:31  311176.4      0.00       0.0       1.8                          
+    0:19:32  311175.3      0.00       0.0       1.8                          
+    0:19:33  311174.2      0.00       0.0       1.8                          
+    0:19:35  311173.2      0.00       0.0       1.8                          
+    0:19:36  311172.1      0.00       0.0       1.8                          
+    0:19:37  311171.1      0.00       0.0       1.8                          
+    0:19:38  311170.0      0.00       0.0       1.8                          
+    0:19:39  311168.9      0.00       0.0       1.8                          
+    0:19:40  311167.9      0.00       0.0       1.8                          
+    0:19:41  311166.8      0.00       0.0       1.8                          
+    0:19:42  311165.7      0.00       0.0       1.8                          
+    0:19:43  311164.7      0.00       0.0       1.8                          
+    0:19:44  311163.6      0.00       0.0       1.8                          
+    0:19:45  311162.5      0.00       0.0       1.8                          
+    0:19:46  311161.5      0.00       0.0       1.8                          
+    0:19:47  311160.4      0.00       0.0       1.8                          
+    0:19:48  311159.3      0.00       0.0       1.8                          
+    0:19:49  311158.3      0.00       0.0       1.8                          
+    0:19:49  311158.3      0.00       0.0       1.8                          
+    0:19:58  311152.4      0.00       0.0       0.0                          
+    0:20:02  311101.1      0.00       0.0       0.0                          
+    0:20:03  311101.1      0.00       0.0       0.0                          
+    0:20:03  311101.1      0.00       0.0       0.0                          
+    0:20:03  311101.1      0.00       0.0       0.0                          
+    0:20:03  311101.1      0.00       0.0       0.0                          
+    0:20:04  311101.1      0.00       0.0       0.0                          
+    0:20:18  311101.1      0.00       0.0       0.0                          
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'LeNet5_top' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'CONVOLUTIONAL_2/CIRCUIT/Datapath/Shift_registers_0/Sh_reg_3/Reg_shreg_0/CLK': 17729 load(s), 1 driver(s)
+     Net 'MAC_0/Mux_add_2/SEL': 1326 load(s), 1 driver(s)
+     Net 'CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/FF_COMP2/Clock': 11303 load(s), 1 driver(s)
+1

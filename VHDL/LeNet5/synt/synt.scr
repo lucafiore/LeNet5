@@ -41,7 +41,8 @@ set_load $OLOAD [all_outputs]
 #ungroup -all -flatten
 
 # compilo
-compile_ultra -exact_map -gate_clock > $out_dir/compile$ext.txt
+#compile_ultra -exact_map -gate_clock > $out_dir/compile$ext.txt
+compile_ultra -exact_map > $out_dir/compile$ext.txt
 
 check_design
 

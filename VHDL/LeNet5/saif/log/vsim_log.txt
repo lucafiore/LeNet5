@@ -199,451 +199,6 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # -- Compiling entity mux84to1_nbit
 # -- Compiling architecture behavior of mux84to1_nbit
 # Model Technology ModelSim SE vlog 6.2g Compiler 2007.02 Feb 21 2007
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1299
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1298
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1297
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1296
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1295
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1294
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1293
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1292
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1291
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1290
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1289
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1288
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1287
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1286
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1285
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1284
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1283
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1282
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1281
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1280
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1279
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1278
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1277
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1276
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1275
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1274
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1273
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1272
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1271
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1270
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1269
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1268
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1267
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1266
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1265
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1264
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1263
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1262
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1261
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1260
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1259
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1258
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1257
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1256
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1255
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1254
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1253
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1252
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1251
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1250
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1249
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1248
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1247
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1246
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1245
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1244
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1243
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1242
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1241
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1240
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1239
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1238
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1237
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1236
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1235
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1234
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1233
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1232
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1231
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1230
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1229
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1228
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1227
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1226
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1225
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1224
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1223
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1222
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1221
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1220
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1219
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1218
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1217
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1216
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1215
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1214
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1213
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1212
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1211
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1210
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1209
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1208
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1207
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1206
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1205
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1204
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1203
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1202
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1201
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1200
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1199
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1198
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1197
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1196
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1195
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1194
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1193
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1192
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1191
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1190
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1189
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1188
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1187
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1186
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1185
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1184
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1183
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1182
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1181
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1180
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1179
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1178
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1177
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1176
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1175
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1174
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1173
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1172
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1171
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1170
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1169
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1168
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1167
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1166
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1165
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1164
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1163
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1162
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1161
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1160
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1159
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1158
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1157
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1156
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1155
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1154
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1153
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1152
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1151
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1150
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1149
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1148
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1147
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1146
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1145
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1144
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1143
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1142
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1141
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1140
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1139
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1138
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1137
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1136
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1135
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1134
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1133
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1132
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1131
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1130
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1129
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1128
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1127
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1126
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1125
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1124
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1123
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1122
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1121
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1120
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1119
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1118
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1117
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1116
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1115
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1114
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1113
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1112
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1111
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1110
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1109
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1108
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1107
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1106
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1105
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1104
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_753
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_752
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_751
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_750
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_749
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_748
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_747
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_746
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_745
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_744
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_743
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_742
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_741
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_740
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_739
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_738
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_737
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_736
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_735
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_734
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_733
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_732
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_731
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_730
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_729
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_728
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_727
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_726
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_725
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_724
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_723
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_722
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_721
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_720
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_719
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_718
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_717
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_716
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_715
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_714
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_713
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_712
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_711
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_710
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_709
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_708
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_707
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_706
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_705
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_704
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_n14_1
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_n14_0
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_0
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_0
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_680
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_656
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_632
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_608
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_584
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_563
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_542
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_521
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_500
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_491
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_839
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_7
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_838
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_6
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_837
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_5
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_836
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_4
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_835
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_3
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_834
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_2
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_833
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_32_1
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_832
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_831
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_830
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_829
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_828
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_827
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_826
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_825
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_824
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_823
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_822
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_821
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_820
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_819
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_818
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_817
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_816
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_815
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_814
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_813
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_812
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_811
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_810
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_809
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_808
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_807
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_806
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_805
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_804
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_803
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_802
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_801
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n400
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n5
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n120
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n4
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N_FC_n84
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_490
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_489
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_488
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_478
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_474
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_470
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_466
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_462
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_458
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_454
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_390
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_262
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_LeNet5_top_0
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_0_2
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_1
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_57
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_211
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_212
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_213
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_1
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_2
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_3
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_4
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_5
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_file_N8_M5_L3_0_6
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N8_490_235
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N10_M4
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N16_M4
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_counter_N8_M3
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_1
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_9
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_17
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_25
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_33
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_41
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_49
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_57
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_65
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_73
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_81
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_89
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_97
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_105
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_113
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_121
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_129
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_137
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_145
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_153
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_161
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_169
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_177
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_185
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_193
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_201
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_209
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_217
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_225
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_233
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_241
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_249
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_257
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_265
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_273
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_281
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_289
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_297
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_305
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_313
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_321
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_329
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_337
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_345
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_353
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_361
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_369
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_377
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_385
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_393
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_401
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_409
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_417
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_425
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_433
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_441
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_449
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_457
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_465
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_473
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_481
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_489
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_497
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_505
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_513
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_521
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_529
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_537
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_545
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_553
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_561
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_569
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_577
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_585
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_593
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_601
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_609
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_617
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_625
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_633
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_641
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_649
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_657
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_665
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_673
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_681
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_689
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_697
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_705
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_713
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_721
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_729
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_737
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_745
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_753
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_761
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_769
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_777
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_785
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_register_nbit_N15_0_793
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_1
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_2
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_3
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_4
-# -- Compiling module SNPS_CLOCK_GATE_HIGH_CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5_0
 # -- Compiling module LeNet5_top
 # 
 # Top level modules:
@@ -657,8 +212,7 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # -- Loading package textio
 # -- Compiling entity lenet5_tb
 # -- Compiling architecture behaviour of lenet5_tb
-# vsim -L /software/dk/nangate45/verilog/msim6.2g -t 1ps work.LeNet5_tb 
-# ** Note: (vsim-3812) Design is being optimized...
+# vsim -L /software/dk/nangate45/verilog/msim6.5c -sdftyp /LeNet5_tb/UUT=../netlist/LeNet5_top.sdf -novopt work.LeNet5_tb 
 # //  ModelSim SE 6.2g Feb 21 2007 Linux 3.10.0-957.5.1.el7.x86_64
 # //
 # //  Copyright 1991-2007 Mentor Graphics Corporation
@@ -672,198 +226,150 @@ Reading /software/mentor/modelsim_6.2g/tcl/vsim/pref.tcl
 # Loading /software/mentor/modelsim_6.2g/linux/../std.standard
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
+# Refreshing ./work.fc_struct_pkg
 # Loading work.fc_struct_pkg
+# Refreshing ./work.conv_struct_pkg
 # Loading work.conv_struct_pkg
 # Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
-# Loading work.lenet5_tb(behaviour)#1
+# Refreshing ./work.lenet5_tb(behaviour)
+# Loading work.lenet5_tb(behaviour)
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.math_real(body)
-# Loading work.lenet5_top(structural)#1
-# Loading work.conv1_top(structural)#1
-# Loading work.conv1_with_cu(structural)#1
+# Refreshing ./work.lenet5_top(structural)
+# Loading work.lenet5_top(structural)
+# Refreshing ./work.conv1_top(structural)
+# Loading work.conv1_top(structural)
+# Refreshing ./work.conv1_with_cu(structural)
+# Loading work.conv1_with_cu(structural)
+# Refreshing ./work.cu_conv1(behaviour)
 # Loading work.cu_conv1(behaviour)
-# Loading work.conv_layer_1(structural)#1
-# Loading work.shift_reg_5x32x8bit_4out(structural)#1
-# Loading work.shift_reg_32x8bit_mux(structural)#1
-# Loading work.mux2to1_nbit(behavior)#1
-# Loading work.register_nbit(behavior)#1
-# Loading work.shift_reg_32x8bit_mux(structural)#2
-# Loading work.mux25to1_nbit(behavior)#1
-# Loading work.precomputation_conv(behavior)#1
+# Refreshing ./work.conv_layer_1(structural)
+# Loading work.conv_layer_1(structural)
+# Refreshing ./work.shift_reg_5x32x8bit_4out(structural)
+# Loading work.shift_reg_5x32x8bit_4out(structural)
+# Refreshing ./work.shift_reg_32x8bit_mux(structural)
+# Loading work.shift_reg_32x8bit_mux(structural)
+# Refreshing ./work.mux2to1_nbit(behavior)
+# Loading work.mux2to1_nbit(behavior)
+# Refreshing ./work.register_nbit(behavior)
+# Loading work.register_nbit(behavior)
+# Refreshing ./work.mux25to1_nbit(behavior)
+# Loading work.mux25to1_nbit(behavior)
+# Refreshing ./work.precomputation_conv(behavior)
+# Loading work.precomputation_conv(behavior)
+# Refreshing ./work.full_adder(behavior)
 # Loading work.full_adder(behavior)
+# Refreshing ./work.register_1bit(behavior)
 # Loading work.register_1bit(behavior)
-# Loading work.register_nbit(behavior)#2
-# Loading work.max_pooling(structural)#1
-# Loading work.register_nbit(behavior)#3
+# Refreshing ./work.max_pooling(structural)
+# Loading work.max_pooling(structural)
+# Refreshing ./work.mux2to1(logicfunc)
 # Loading work.mux2to1(logicfunc)
+# Refreshing ./work.flipflop(behavior)
 # Loading work.flipflop(behavior)
-# Loading work.latch_nbit(behavior)#1
-# Loading work.mux2to1_nbit(behavior)#2
+# Refreshing ./work.latch_nbit(behavior)
+# Loading work.latch_nbit(behavior)
+# Refreshing ./work.comparator(logicfunc)
 # Loading work.comparator(logicfunc)
-# Loading work.counter_n(behavior)#1
-# Loading work.counter_14_c(behavior)#1
-# Loading work.counter_n(behavior)#2
-# Loading work.counter_n(behavior)#3
-# Loading work.mux14to1_nbit(behavior)#1
-# Loading work.mux2to1_nbit(behavior)#3
-# Loading work.conv2_top(structural)#1
-# Loading work.conv2_with_cu(structural)#1
-# Loading work.conv_layer3(structural)#1
-# Loading work.shift_reg_5x14xnbit(behavior)#1
-# Loading work.shift_reg_14xnbit(behavior)#1
-# Loading work.mux2to1_nbit(behavior)#4
+# Refreshing ./work.counter_n(behavior)
+# Loading work.counter_n(behavior)
+# Refreshing ./work.counter_14_c(behavior)
+# Loading work.counter_14_c(behavior)
+# Refreshing ./work.mux14to1_nbit(behavior)
+# Loading work.mux14to1_nbit(behavior)
+# Refreshing ./work.conv2_top(structural)
+# Loading work.conv2_top(structural)
+# Refreshing ./work.conv2_with_cu(structural)
+# Loading work.conv2_with_cu(structural)
+# Refreshing ./work.conv_layer3(structural)
+# Loading work.conv_layer3(structural)
+# Refreshing ./work.shift_reg_5x14xnbit(behavior)
+# Loading work.shift_reg_5x14xnbit(behavior)
+# Refreshing ./work.shift_reg_14xnbit(behavior)
+# Loading work.shift_reg_14xnbit(behavior)
+# Refreshing ./work.cu_conv2(behaviour)
 # Loading work.cu_conv2(behaviour)
-# Loading work.register_nbit(behavior)#4
-# Loading work.pooling_layer4(structural)#1
-# Loading work.pooling_layer4_dp(structural)#1
-# Loading work.pooling_comparator(structural)#1
-# Loading work.register_file(behavioral)#1
-# Loading work.counter(structure)#1
-# Loading work.counter(structure)#2
-# Loading work.counter(structure)#3
+# Refreshing ./work.pooling_layer4(structural)
+# Loading work.pooling_layer4(structural)
+# Refreshing ./work.pooling_layer4_dp(structural)
+# Loading work.pooling_layer4_dp(structural)
+# Refreshing ./work.pooling_comparator(structural)
+# Loading work.pooling_comparator(structural)
+# Refreshing ./work.register_file(behavioral)
+# Loading work.register_file(behavioral)
+# Refreshing ./work.counter(structure)
+# Loading work.counter(structure)
+# Refreshing ./work.pooling_layer4_cu(structure)
 # Loading work.pooling_layer4_cu(structure)
-# Loading work.one_hot_dec(structural)#1
+# Refreshing ./work.one_hot_dec(structural)
+# Loading work.one_hot_dec(structural)
+# Refreshing ./work.flipflop_rst(behavior)
 # Loading work.flipflop_rst(behavior)
-# Loading work.fc1_top(structural)#1
-# Loading work.fully_connected_layer_1(structural)#1
-# Loading work.mux400to1_nbit(behavior)#1
-# Loading work.relu(behavior)#1
+# Refreshing ./work.fc1_top(structural)
+# Loading work.fc1_top(structural)
+# Refreshing ./work.fully_connected_layer_1(structural)
+# Loading work.fully_connected_layer_1(structural)
+# Refreshing ./work.mux400to1_nbit(behavior)
+# Loading work.mux400to1_nbit(behavior)
+# Refreshing ./work.relu(behavior)
+# Loading work.relu(behavior)
+# Refreshing ./work.decode_3to5(behavioral)
 # Loading work.decode_3to5(behavioral)
-# Loading work.counter_n_fc(behavior)#1
-# Loading work.counter_n_fc(behavior)#2
+# Refreshing ./work.counter_n_fc(behavior)
+# Loading work.counter_n_fc(behavior)
+# Refreshing ./work.cu_fc1(behaviour)
 # Loading work.cu_fc1(behaviour)
-# Loading work.intermediate_registers_1(structural)#1
-# Loading work.fc2_top(structural)#1
-# Loading work.fully_connected_layer_2(structural)#1
-# Loading work.mux120to1_nbit(behavior)#1
+# Refreshing ./work.intermediate_registers_1(structural)
+# Loading work.intermediate_registers_1(structural)
+# Refreshing ./work.fc2_top(structural)
+# Loading work.fc2_top(structural)
+# Refreshing ./work.fully_connected_layer_2(structural)
+# Loading work.fully_connected_layer_2(structural)
+# Refreshing ./work.mux120to1_nbit(behavior)
+# Loading work.mux120to1_nbit(behavior)
+# Refreshing ./work.decode_2to4(behavioral)
 # Loading work.decode_2to4(behavioral)
-# Loading work.counter_n_fc(behavior)#3
-# Loading work.counter_n_fc(behavior)#4
+# Refreshing ./work.cu_fc2(behaviour)
 # Loading work.cu_fc2(behaviour)
-# Loading work.intermediate_registers_2(structural)#1
-# Loading work.fc3_top(structural)#1
-# Loading work.fully_connected_layer_3(structural)#1
-# Loading work.mux84to1_nbit(behavior)#1
-# Loading work.counter_n_fc(behavior)#5
+# Refreshing ./work.intermediate_registers_2(structural)
+# Loading work.intermediate_registers_2(structural)
+# Refreshing ./work.fc3_top(structural)
+# Loading work.fc3_top(structural)
+# Refreshing ./work.fully_connected_layer_3(structural)
+# Loading work.fully_connected_layer_3(structural)
+# Refreshing ./work.mux84to1_nbit(behavior)
+# Loading work.mux84to1_nbit(behavior)
+# Refreshing ./work.cu_fc3(behaviour)
 # Loading work.cu_fc3(behaviour)
-# Loading work.output_registers(structural)#1
-# Loading work.mux5to1_nbit(behavior)#1
-# Loading work.mux5to1_nbit(behavior)#2
-# Loading work.mux5to1_1bit(behavior)#1
-# Loading work.mux4to1_nbit(behavior)#1
-# Loading work.mux4to1_nbit(behavior)#2
-# Loading work.mux4to1_1bit(behavior)#1
+# Refreshing ./work.output_registers(structural)
+# Loading work.output_registers(structural)
+# Refreshing ./work.mux5to1_nbit(behavior)
+# Loading work.mux5to1_nbit(behavior)
+# Refreshing ./work.mux5to1_1bit(behavior)
+# Loading work.mux5to1_1bit(behavior)
+# Refreshing ./work.mux4to1_nbit(behavior)
+# Loading work.mux4to1_nbit(behavior)
+# Refreshing ./work.mux4to1_1bit(behavior)
+# Loading work.mux4to1_1bit(behavior)
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
 # Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
-# Loading work.mac_block(structural)#1
-# Loading work.saturation(structural)#1
+# Refreshing ./work.mac_block(structural)
+# Loading work.mac_block(structural)
+# Refreshing ./work.saturation(structural)
+# Loading work.saturation(structural)
+# Refreshing ./work.cu_tot(behaviour)
 # Loading work.cu_tot(behaviour)
+# Refreshing ./work.clock_gating(structural)
 # Loading work.clock_gating(structural)
+# Refreshing ./work.latch_n(behavior)
 # Loading work.latch_n(behavior)
-# vsim -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /LeNet5_tb/UUT=../netlist/LeNet5_top.sdf work.LeNet5_tb 
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253178): Can't resolve SDF pathname "latch" - instance not found.
-# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253182): Can't resolve SDF pathname "latch" - instance not found.
-# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253186): Can't resolve SDF pathname "latch" - instance not found.
-# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253190): Can't resolve SDF pathname "latch" - instance not found.
-# ** Warning: (vopt-1946) ../netlist/LeNet5_top.sdf(253194): Can't resolve SDF pathname "latch" - instance not found.
-# Loading /software/mentor/modelsim_6.2g/linux/../std.standard
-# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_1164(body)
-# Loading /software/mentor/modelsim_6.2g/linux/../ieee.numeric_std(body)
-# Loading work.fc_struct_pkg
-# Loading work.conv_struct_pkg
-# Loading /software/mentor/modelsim_6.2g/linux/../std.textio(body)
-# Loading work.lenet5_tb(behaviour)#1
-# Loading /software/mentor/modelsim_6.2g/linux/../ieee.math_real(body)
-# Loading work.lenet5_top(structural)#1
-# Loading work.conv1_top(structural)#1
-# Loading work.conv1_with_cu(structural)#1
-# Loading work.cu_conv1(behaviour)
-# Loading work.conv_layer_1(structural)#1
-# Loading work.shift_reg_5x32x8bit_4out(structural)#1
-# Loading work.shift_reg_32x8bit_mux(structural)#1
-# Loading work.mux2to1_nbit(behavior)#1
-# Loading work.register_nbit(behavior)#1
-# Loading work.shift_reg_32x8bit_mux(structural)#2
-# Loading work.mux25to1_nbit(behavior)#1
-# Loading work.precomputation_conv(behavior)#1
-# Loading work.full_adder(behavior)
-# Loading work.register_1bit(behavior)
-# Loading work.register_nbit(behavior)#2
-# Loading work.max_pooling(structural)#1
-# Loading work.register_nbit(behavior)#3
-# Loading work.mux2to1(logicfunc)
-# Loading work.flipflop(behavior)
-# Loading work.latch_nbit(behavior)#1
-# Loading work.mux2to1_nbit(behavior)#2
-# Loading work.comparator(logicfunc)
-# Loading work.counter_n(behavior)#1
-# Loading work.counter_14_c(behavior)#1
-# Loading work.counter_n(behavior)#2
-# Loading work.counter_n(behavior)#3
-# Loading work.mux14to1_nbit(behavior)#1
-# Loading work.mux2to1_nbit(behavior)#3
-# Loading work.conv2_top(structural)#1
-# Loading work.conv2_with_cu(structural)#1
-# Loading work.conv_layer3(structural)#1
-# Loading work.shift_reg_5x14xnbit(behavior)#1
-# Loading work.shift_reg_14xnbit(behavior)#1
-# Loading work.mux2to1_nbit(behavior)#4
-# Loading work.cu_conv2(behaviour)
-# Loading work.register_nbit(behavior)#4
-# Loading work.pooling_layer4(structural)#1
-# Loading work.pooling_layer4_dp(structural)#1
-# Loading work.pooling_comparator(structural)#1
-# Loading work.register_file(behavioral)#1
-# Loading work.counter(structure)#1
-# Loading work.counter(structure)#2
-# Loading work.counter(structure)#3
-# Loading work.pooling_layer4_cu(structure)
-# Loading work.one_hot_dec(structural)#1
-# Loading work.flipflop_rst(behavior)
-# Loading work.fc1_top(structural)#1
-# Loading work.fully_connected_layer_1(structural)#1
-# Loading work.mux400to1_nbit(behavior)#1
-# Loading work.relu(behavior)#1
-# Loading work.decode_3to5(behavioral)
-# Loading work.counter_n_fc(behavior)#1
-# Loading work.counter_n_fc(behavior)#2
-# Loading work.cu_fc1(behaviour)
-# Loading work.intermediate_registers_1(structural)#1
-# Loading work.fc2_top(structural)#1
-# Loading work.fully_connected_layer_2(structural)#1
-# Loading work.mux120to1_nbit(behavior)#1
-# Loading work.decode_2to4(behavioral)
-# Loading work.counter_n_fc(behavior)#3
-# Loading work.counter_n_fc(behavior)#4
-# Loading work.cu_fc2(behaviour)
-# Loading work.intermediate_registers_2(structural)#1
-# Loading work.fc3_top(structural)#1
-# Loading work.fully_connected_layer_3(structural)#1
-# Loading work.mux84to1_nbit(behavior)#1
-# Loading work.counter_n_fc(behavior)#5
-# Loading work.cu_fc3(behaviour)
-# Loading work.output_registers(structural)#1
-# Loading work.mux5to1_nbit(behavior)#1
-# Loading work.mux5to1_nbit(behavior)#2
-# Loading work.mux5to1_1bit(behavior)#1
-# Loading work.mux4to1_nbit(behavior)#1
-# Loading work.mux4to1_nbit(behavior)#2
-# Loading work.mux4to1_1bit(behavior)#1
-# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_arith(body)
-# Loading /software/mentor/modelsim_6.2g/linux/../ieee.std_logic_unsigned(body)
-# Loading work.mac_block(structural)#1
-# Loading work.saturation(structural)#1
-# Loading work.cu_tot(behaviour)
-# Loading work.clock_gating(structural)
-# Loading work.latch_n(behavior)
-# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(18): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_c_reg/latch'.
-# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(19): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_c_reg/latch'.
-# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(20): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_r_reg/latch'.
-# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(21): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT10_r_reg/latch'.
-# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(22): Failed to find INSTANCE '/lenet5_tb/uut/CONVOLUTIONAL_2_clk_gate_CNT25_reg/latch'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(18): Failed to find INSTANCE '/lenet5_tb/uut/FC1_LAYER_FC_LAYER_Mux400to1_U3'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(19): Failed to find INSTANCE '/lenet5_tb/uut/FC1_LAYER_FC_LAYER_Mux400to1_U4'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(20): Failed to find INSTANCE '/lenet5_tb/uut/FC1_LAYER_FC_LAYER_Mux400to1_U5'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(21): Failed to find INSTANCE '/lenet5_tb/uut/FC1_LAYER_FC_LAYER_Mux400to1_U6'.
+# ** Error: (vsim-SDF-3250) ../netlist/LeNet5_top.sdf(22): Failed to find INSTANCE '/lenet5_tb/uut/FC1_LAYER_FC_LAYER_Mux400to1_U7'.
 # ** Warning: (vsim-SDF-3432) ../netlist/LeNet5_top.sdf: This file is probably applied to the wrong instance.
 # Ignoring subsequent missing instances from this file.
-# ** Warning: (vsim-SDF-3441) ../netlist/LeNet5_top.sdf: Failed to find 355557 out of the 355558 instances from this file.
+# ** Warning: (vsim-SDF-3441) ../netlist/LeNet5_top.sdf: Failed to find 504683 out of the 504684 instances from this file.
 # ** Error: (vsim-SDF-3445) Failed to parse SDF file "../netlist/LeNet5_top.sdf".
 #    Time: 0 ns  Iteration: 0  Region: /lenet5_tb  File: ../testbench/LeNet5_tb.vhd
 # Error loading design

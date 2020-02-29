@@ -7,6 +7,7 @@ source /software/scripts/init_msim6.2g > /dev/null
 vlib work
 echo "-Execution of modelsim, output log in saif/log directory"
 vsim -c -do compile_saif.do > ../saif/log/vsim_log.txt
+quit
 cat ../saif/log/vsim_log.txt | grep -i error
 cat ../saif/log/vsim_log.txt | grep -i warning
 echo "-Elimination of wlf file"

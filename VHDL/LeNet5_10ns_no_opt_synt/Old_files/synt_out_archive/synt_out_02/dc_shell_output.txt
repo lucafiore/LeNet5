@@ -1,0 +1,259 @@
+
+                           Design Compiler Graphical 
+                                 DC Ultra (TM)
+                                  DFTMAX (TM)
+                              Power Compiler (TM)
+                                 DesignWare (R)
+                                 DC Expert (TM)
+                               Design Vision (TM)
+                               HDL Compiler (TM)
+                               VHDL Compiler (TM)
+                                  DFT Compiler
+                               Design Compiler(R)
+
+                Version O-2018.06-SP4 for linux64 - Nov 27, 2018
+
+                    Copyright (c) 1988 - 2018 Synopsys, Inc.
+   This software and the associated documentation are proprietary to Synopsys,
+ Inc. This software may only be used in accordance with the terms and conditions
+ of a written license agreement with Synopsys, Inc. All other use, reproduction,
+            or distribution of this software is strictly prohibited.
+Initializing...
+source variables.scr
+# This file analyze, elaborate and compile vhdl file
+# -f indica il formato dei file
+# -lib indica dove mettere i file su cui lavora sysnopsys
+analyze -f vhdl -lib WORK {../src/VHDL_Packages/Conv_pkg.vhd ../src/VHDL_Packages/FC_pkg.vhd ../src/VHDL_Common/clock_gating.vhd ../src/VHDL_Common/Counter_N_FC.vhd ../src/VHDL_Common/Counter_N.vhd ../src/VHDL_Common/CU_TOT.vhd ../src/VHDL_Common/Input_registers.vhd ../src/VHDL_Common/Intermediate_Registers_1.vhd ../src/VHDL_Common/Intermediate_Registers_2.vhd ../src/VHDL_Common/latch_n.vhd ../src/VHDL_Common/LeNet5_top.vhd ../src/VHDL_Common/mac_block.vhd ../src/VHDL_Common/mux2to1_nbit.vhd ../src/VHDL_Common/mux4to1_bit.vhd ../src/VHDL_Common/mux4to1_nbit.vhd ../src/VHDL_Common/mux5to1_1bit.vhd ../src/VHDL_Common/mux5to1_nbit.vhd ../src/VHDL_Common/muxMto1_nbit.vhd ../src/VHDL_Common/Output_registers.vhd ../src/VHDL_Common/register_nbit.vhd ../src/VHDL_Common/relu.vhd ../src/VHDL_Common/saturation.vhd ../src/VHDL_Conv1/comparator.vhd ../src/VHDL_Conv1/CONV1_top.vhd ../src/VHDL_Conv1/Conv1_with_CU.vhd ../src/VHDL_Conv1/Conv_layer_1.vhd ../src/VHDL_Conv1/Counter_14_c.vhd ../src/VHDL_Conv1/CU_conv1.vhd ../src/VHDL_Conv1/flipflop.vhd ../src/VHDL_Conv1/full_adder.vhd ../src/VHDL_Conv1/latch_nbit.vhd ../src/VHDL_Conv1/max_pooling.vhd ../src/VHDL_Conv1/mux25to1_nbit.vhd ../src/VHDL_Conv1/mux2to1.vhd ../src/VHDL_Conv1/precomputation_conv.vhd ../src/VHDL_Conv1/register_1bit.vhd ../src/VHDL_Conv1/relu_conv.vhd ../src/VHDL_Conv1/shift_reg_32x8bit_mux.vhd ../src/VHDL_Conv1/shift_reg_5x32x8bit_4out.vhd ../src/VHDL_Conv2/comparator.vhd ../src/VHDL_Conv2/CONV2_top.vhd ../src/VHDL_Conv2/conv2_with_CU.vhd ../src/VHDL_Conv2/Conv_layer3.vhd ../src/VHDL_Conv2/counter.vhd ../src/VHDL_Conv2/CU_conv2.vhd ../src/VHDL_Conv2/flipflop_rst.vhd ../src/VHDL_Conv2/latch_nbit.vhd ../src/VHDL_Conv2/mux14to1_nbit.vhd ../src/VHDL_Conv2/mux25to1_nbit.vhd ../src/VHDL_Conv2/mux2to1.vhd ../src/VHDL_Conv2/one_hot_dec.vhd ../src/VHDL_Conv2/pooling_comparator.vhd ../src/VHDL_Conv2/pooling_layer4_cu.vhd ../src/VHDL_Conv2/pooling_layer4_dp.vhd ../src/VHDL_Conv2/pooling_layer4.vhd ../src/VHDL_Conv2/register_1bit.vhd ../src/VHDL_Conv2/register_file.vhd ../src/VHDL_Conv2/shift_reg_14xNbit.vhd ../src/VHDL_Conv2/shift_reg_5x14xNbit.vhd ../src/VHDL_FC1/CU_FC1.vhd ../src/VHDL_FC1/decode_3to5.vhd ../src/VHDL_FC1/FC1_top.vhd ../src/VHDL_FC1/Fully_connected_Layer_1.vhd ../src/VHDL_FC2/CU_FC2.vhd ../src/VHDL_FC2/decode_2to4.vhd ../src/VHDL_FC2/FC2_top.vhd ../src/VHDL_FC2/Fully_connected_Layer_2.vhd ../src/VHDL_FC3/CU_FC3.vhd ../src/VHDL_FC3/FC3_top.vhd ../src/VHDL_FC3/Fully_connected_Layer_3.vhd}
+Running PRESTO HDLC
+-- Compiling Source File ../src/VHDL_Packages/Conv_pkg.vhd
+Compiling Package Declaration CONV_STRUCT_PKG
+-- Compiling Source File ../src/VHDL_Packages/FC_pkg.vhd
+Compiling Package Declaration FC_STRUCT_PKG
+-- Compiling Source File ../src/VHDL_Common/clock_gating.vhd
+Compiling Entity Declaration CLOCK_GATING
+Compiling Architecture STRUCTURAL of CLOCK_GATING
+-- Compiling Source File ../src/VHDL_Common/Counter_N_FC.vhd
+Compiling Entity Declaration COUNTER_N_FC
+Compiling Architecture BEHAVIOR of COUNTER_N_FC
+-- Compiling Source File ../src/VHDL_Common/Counter_N.vhd
+Compiling Entity Declaration COUNTER_N
+Compiling Architecture BEHAVIOR of COUNTER_N
+-- Compiling Source File ../src/VHDL_Common/CU_TOT.vhd
+Compiling Entity Declaration CU_TOT
+Compiling Architecture BEHAVIOUR of CU_TOT
+-- Compiling Source File ../src/VHDL_Common/Input_registers.vhd
+Compiling Entity Declaration INPUT_REGISTERS
+Compiling Architecture STRUCTURAL of INPUT_REGISTERS
+-- Compiling Source File ../src/VHDL_Common/Intermediate_Registers_1.vhd
+Compiling Entity Declaration INTERMEDIATE_REGISTERS_1
+Compiling Architecture STRUCTURAL of INTERMEDIATE_REGISTERS_1
+-- Compiling Source File ../src/VHDL_Common/Intermediate_Registers_2.vhd
+Compiling Entity Declaration INTERMEDIATE_REGISTERS_2
+Compiling Architecture STRUCTURAL of INTERMEDIATE_REGISTERS_2
+-- Compiling Source File ../src/VHDL_Common/latch_n.vhd
+Compiling Entity Declaration LATCH_N
+Compiling Architecture BEHAVIOR of LATCH_N
+-- Compiling Source File ../src/VHDL_Common/LeNet5_top.vhd
+Compiling Entity Declaration LENET5_TOP
+Compiling Architecture STRUCTURAL of LENET5_TOP
+-- Compiling Source File ../src/VHDL_Common/mac_block.vhd
+Compiling Entity Declaration MAC_BLOCK
+Compiling Architecture STRUCTURAL of MAC_BLOCK
+-- Compiling Source File ../src/VHDL_Common/mux2to1_nbit.vhd
+Compiling Entity Declaration MUX2TO1_NBIT
+Compiling Architecture BEHAVIOR of MUX2TO1_NBIT
+-- Compiling Source File ../src/VHDL_Common/mux4to1_bit.vhd
+Compiling Entity Declaration MUX4TO1_1BIT
+Compiling Architecture BEHAVIOR of MUX4TO1_1BIT
+-- Compiling Source File ../src/VHDL_Common/mux4to1_nbit.vhd
+Compiling Entity Declaration MUX4TO1_NBIT
+Compiling Architecture BEHAVIOR of MUX4TO1_NBIT
+-- Compiling Source File ../src/VHDL_Common/mux5to1_1bit.vhd
+Compiling Entity Declaration MUX5TO1_1BIT
+Compiling Architecture BEHAVIOR of MUX5TO1_1BIT
+-- Compiling Source File ../src/VHDL_Common/mux5to1_nbit.vhd
+Compiling Entity Declaration MUX5TO1_NBIT
+Compiling Architecture BEHAVIOR of MUX5TO1_NBIT
+-- Compiling Source File ../src/VHDL_Common/muxMto1_nbit.vhd
+Compiling Entity Declaration MUXMTO1_NBIT
+Compiling Architecture BEHAVIOR of MUXMTO1_NBIT
+-- Compiling Source File ../src/VHDL_Common/Output_registers.vhd
+Compiling Entity Declaration OUTPUT_REGISTERS
+Compiling Architecture STRUCTURAL of OUTPUT_REGISTERS
+-- Compiling Source File ../src/VHDL_Common/register_nbit.vhd
+Compiling Entity Declaration REGISTER_NBIT
+Compiling Architecture BEHAVIOR of REGISTER_NBIT
+-- Compiling Source File ../src/VHDL_Common/relu.vhd
+Compiling Entity Declaration RELU
+Compiling Architecture BEHAVIOR of RELU
+-- Compiling Source File ../src/VHDL_Common/saturation.vhd
+Compiling Entity Declaration SATURATION
+Compiling Architecture STRUCTURAL of SATURATION
+[Error] Can't open input file ../src/VHDL_Conv1/comparator.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv1/CONV1_top.vhd
+Compiling Entity Declaration CONV1_TOP
+Compiling Architecture STRUCTURAL of CONV1_TOP
+-- Compiling Source File ../src/VHDL_Conv1/Conv1_with_CU.vhd
+Compiling Entity Declaration CONV1_WITH_CU
+Compiling Architecture STRUCTURAL of CONV1_WITH_CU
+-- Compiling Source File ../src/VHDL_Conv1/Conv_layer_1.vhd
+Compiling Entity Declaration CONV_LAYER_1
+Compiling Architecture STRUCTURAL of CONV_LAYER_1
+-- Compiling Source File ../src/VHDL_Conv1/Counter_14_c.vhd
+Compiling Entity Declaration COUNTER_14_C
+Compiling Architecture BEHAVIOR of COUNTER_14_C
+-- Compiling Source File ../src/VHDL_Conv1/CU_conv1.vhd
+Compiling Entity Declaration CU_CONV1
+Compiling Architecture BEHAVIOUR of CU_CONV1
+-- Compiling Source File ../src/VHDL_Conv1/flipflop.vhd
+Compiling Entity Declaration FLIPFLOP
+Compiling Architecture BEHAVIOR of FLIPFLOP
+-- Compiling Source File ../src/VHDL_Conv1/full_adder.vhd
+Compiling Entity Declaration FULL_ADDER
+Compiling Architecture BEHAVIOR of FULL_ADDER
+[Error] Can't open input file ../src/VHDL_Conv1/latch_nbit.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv1/max_pooling.vhd
+Compiling Entity Declaration MAX_POOLING
+Compiling Architecture STRUCTURAL of MAX_POOLING
+[Error] Can't open input file ../src/VHDL_Conv1/mux25to1_nbit.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+[Error] Can't open input file ../src/VHDL_Conv1/mux2to1.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv1/precomputation_conv.vhd
+Compiling Entity Declaration PRECOMPUTATION_CONV
+Compiling Architecture BEHAVIOR of PRECOMPUTATION_CONV
+[Error] Can't open input file ../src/VHDL_Conv1/register_1bit.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv1/relu_conv.vhd
+Compiling Entity Declaration RELU_CONV
+Compiling Architecture STRUCTURAL of RELU_CONV
+-- Compiling Source File ../src/VHDL_Conv1/shift_reg_32x8bit_mux.vhd
+Compiling Entity Declaration SHIFT_REG_32X8BIT_MUX
+Compiling Architecture STRUCTURAL of SHIFT_REG_32X8BIT_MUX
+-- Compiling Source File ../src/VHDL_Conv1/shift_reg_5x32x8bit_4out.vhd
+Compiling Entity Declaration SHIFT_REG_5X32X8BIT_4OUT
+Compiling Architecture STRUCTURAL of SHIFT_REG_5X32X8BIT_4OUT
+[Error] Can't open input file ../src/VHDL_Conv2/comparator.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv2/CONV2_top.vhd
+Compiling Entity Declaration CONV2_TOP
+Compiling Architecture STRUCTURAL of CONV2_TOP
+-- Compiling Source File ../src/VHDL_Conv2/conv2_with_CU.vhd
+Compiling Entity Declaration CONV2_WITH_CU
+Compiling Architecture STRUCTURAL of CONV2_WITH_CU
+-- Compiling Source File ../src/VHDL_Conv2/Conv_layer3.vhd
+Compiling Entity Declaration CONV_LAYER3
+Compiling Architecture STRUCTURAL of CONV_LAYER3
+-- Compiling Source File ../src/VHDL_Conv2/counter.vhd
+Compiling Entity Declaration COUNTER
+Compiling Architecture STRUCTURE of COUNTER
+-- Compiling Source File ../src/VHDL_Conv2/CU_conv2.vhd
+Compiling Entity Declaration CU_CONV2
+Compiling Architecture BEHAVIOUR of CU_CONV2
+-- Compiling Source File ../src/VHDL_Conv2/flipflop_rst.vhd
+Compiling Entity Declaration FLIPFLOP_RST
+Compiling Architecture BEHAVIOR of FLIPFLOP_RST
+[Error] Can't open input file ../src/VHDL_Conv2/latch_nbit.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv2/mux14to1_nbit.vhd
+Compiling Entity Declaration MUX14TO1_NBIT
+Compiling Architecture BEHAVIOR of MUX14TO1_NBIT
+[Error] Can't open input file ../src/VHDL_Conv2/mux25to1_nbit.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+[Error] Can't open input file ../src/VHDL_Conv2/mux2to1.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv2/one_hot_dec.vhd
+Compiling Entity Declaration ONE_HOT_DEC
+Compiling Architecture STRUCTURAL of ONE_HOT_DEC
+-- Compiling Source File ../src/VHDL_Conv2/pooling_comparator.vhd
+Compiling Entity Declaration POOLING_COMPARATOR
+Compiling Architecture STRUCTURAL of POOLING_COMPARATOR
+-- Compiling Source File ../src/VHDL_Conv2/pooling_layer4_cu.vhd
+Compiling Entity Declaration POOLING_LAYER4_CU
+Compiling Architecture STRUCTURE of POOLING_LAYER4_CU
+-- Compiling Source File ../src/VHDL_Conv2/pooling_layer4_dp.vhd
+Compiling Entity Declaration POOLING_LAYER4_DP
+Compiling Architecture STRUCTURAL of POOLING_LAYER4_DP
+-- Compiling Source File ../src/VHDL_Conv2/pooling_layer4.vhd
+Compiling Entity Declaration POOLING_LAYER4
+Compiling Architecture STRUCTURAL of POOLING_LAYER4
+[Error] Can't open input file ../src/VHDL_Conv2/register_1bit.vhd (tried extensions .vhd, .vhdl, .v - upper & lower cases)
+-- Compiling Source File ../src/VHDL_Conv2/register_file.vhd
+Compiling Entity Declaration REGISTER_FILE
+Compiling Architecture BEHAVIORAL of REGISTER_FILE
+-- Compiling Source File ../src/VHDL_Conv2/shift_reg_14xNbit.vhd
+Compiling Entity Declaration SHIFT_REG_14XNBIT
+Compiling Architecture BEHAVIOR of SHIFT_REG_14XNBIT
+-- Compiling Source File ../src/VHDL_Conv2/shift_reg_5x14xNbit.vhd
+Compiling Entity Declaration SHIFT_REG_5X14XNBIT
+Compiling Architecture BEHAVIOR of SHIFT_REG_5X14XNBIT
+-- Compiling Source File ../src/VHDL_FC1/CU_FC1.vhd
+Compiling Entity Declaration CU_FC1
+Compiling Architecture BEHAVIOUR of CU_FC1
+-- Compiling Source File ../src/VHDL_FC1/decode_3to5.vhd
+Compiling Entity Declaration DECODE_3TO5
+Compiling Architecture BEHAVIORAL of DECODE_3TO5
+-- Compiling Source File ../src/VHDL_FC1/FC1_top.vhd
+Compiling Entity Declaration FC1_TOP
+Compiling Architecture STRUCTURAL of FC1_TOP
+-- Compiling Source File ../src/VHDL_FC1/Fully_connected_Layer_1.vhd
+Compiling Entity Declaration FULLY_CONNECTED_LAYER_1
+Compiling Architecture STRUCTURAL of FULLY_CONNECTED_LAYER_1
+-- Compiling Source File ../src/VHDL_FC2/CU_FC2.vhd
+Compiling Entity Declaration CU_FC2
+Compiling Architecture BEHAVIOUR of CU_FC2
+-- Compiling Source File ../src/VHDL_FC2/decode_2to4.vhd
+Compiling Entity Declaration DECODE_2TO4
+Compiling Architecture BEHAVIORAL of DECODE_2TO4
+-- Compiling Source File ../src/VHDL_FC2/FC2_top.vhd
+Compiling Entity Declaration FC2_TOP
+Compiling Architecture STRUCTURAL of FC2_TOP
+-- Compiling Source File ../src/VHDL_FC2/Fully_connected_Layer_2.vhd
+Compiling Entity Declaration FULLY_CONNECTED_LAYER_2
+Compiling Architecture STRUCTURAL of FULLY_CONNECTED_LAYER_2
+-- Compiling Source File ../src/VHDL_FC3/CU_FC3.vhd
+Compiling Entity Declaration CU_FC3
+Compiling Architecture BEHAVIOUR of CU_FC3
+-- Compiling Source File ../src/VHDL_FC3/FC3_top.vhd
+Compiling Entity Declaration FC3_TOP
+Compiling Architecture STRUCTURAL of FC3_TOP
+-- Compiling Source File ../src/VHDL_FC3/Fully_connected_Layer_3.vhd
+Compiling Entity Declaration FULLY_CONNECTED_LAYER_3
+Compiling Architecture STRUCTURAL of FULLY_CONNECTED_LAYER_3
+*** Presto compilation was unsuccessful. ***
+Loading db file '/home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db'
+0
+# preserviamo i nomi delle netlist della rete
+set power_preserve_rtl_hier_names true
+true
+# elaborazione dei file, viene data la top entity
+elaborate $top_entity -lib WORK > $out_dir/elaborate.txt
+# creo il clock di sistema, in ns
+create_clock -name MY_CLK -period $period CLK
+Warning: Design 'LeNet5_top' has '15' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# poichè il clock è un segnale particolare
+# setto la proprietà don't touch
+# ciò è fatto perchè col comando ungroup vengono modificate tutte
+# le celle tranne quelle dont_touch
+set_dont_touch_network MY_CLK
+Warning: Design 'LeNet5_top' has '15' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# setto l'incertezza del clock
+set_clock_uncertainty 0.07 [get_clocks MY_CLK]
+Warning: Design 'LeNet5_top' has '15' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Warning: Design 'LeNet5_top' has '15' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# setto in ritardo di tutti gli ingressi, che si suppone uguale
+set_input_delay 0.5 -max -clock MY_CLK [ remove_from_collection [all_inputs] CLK]
+Warning: Design 'LeNet5_top' has '15' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# setto il ritardo di tutte le uscite
+set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
+Warning: Design 'LeNet5_top' has '15' unresolved references. For more detailed information, use the "link" command. (UID-341)
+1
+# setto il carico di ciascun uscita che si suppone uguale a quello 
+#  di un buffer
+set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A] 
+3.40189
+set_load $OLOAD [all_outputs]
+1
+# compilo
+compile -exact_map > $out_dir/compile$ext.txt
+
+Information: Interrupting current command. (INT-2)
+Information: One more interrupt will exit process. (INT-3)
+Information: Process terminated by interrupt. (INT-4)

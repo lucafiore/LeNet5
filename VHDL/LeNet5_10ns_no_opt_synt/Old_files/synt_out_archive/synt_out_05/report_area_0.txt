@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : LeNet5_top
+Version: O-2018.06-SP4
+Date   : Wed Dec 11 20:10:26 2019
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /home/mg.lowpower/do/libnangate/NangateOpenCellLibrary_typical_ecsm.db)
+
+Number of ports:                        38084
+Number of nets:                        115699
+Number of cells:                        89884
+Number of combinational cells:          59140
+Number of sequential cells:             30297
+Number of macros/black boxes:               0
+Number of buf/inv:                       6083
+Number of references:                     506
+
+Combinational area:              80722.488847
+Buf/Inv area:                     3939.991985
+Noncombinational area:          136213.009215
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                216935.498063
+Total area:                 undefined
+1

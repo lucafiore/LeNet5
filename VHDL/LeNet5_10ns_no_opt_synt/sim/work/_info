@@ -1,0 +1,81 @@
+m255
+13
+cModel Technology
+d/home/lp19.17/Desktop/LeNet5/VHDL/LeNet5_10ns_no_opt_synt/sim
+Pconv_struct_pkg
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+w1577739406
+8../src/VHDL_Packages/Conv_pkg.vhd
+F../src/VHDL_Packages/Conv_pkg.vhd
+l0
+L18
+V=W>V1@iFA?>Zb]Qh5WhSN3
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
+Pfc_struct_pkg
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+31
+M2 ieee std_logic_1164
+M1 ieee numeric_std
+w1577739406
+8../src/VHDL_Packages/FC_pkg.vhd
+F../src/VHDL_Packages/FC_pkg.vhd
+l0
+L17
+VYK67OemPd:PF7;`eiDAH90
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
+Elenet5_tb
+w1582666784
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+8../testbench_post/LeNet5_tb.vhd
+F../testbench_post/LeNet5_tb.vhd
+l0
+L20
+Vd;Og4OT:0bU`P?07Kg[l60
+OE;C;6.2g;35
+31
+o-93 -work ./work
+tExplicit 1
+Abehaviour
+DP std textio K]Z^fghZ6B=BjnK5NomDT3
+DP work conv_struct_pkg =W>V1@iFA?>Zb]Qh5WhSN3
+DP ieee numeric_std =NSdli^?T5OD8;4F<blj<3
+DP work fc_struct_pkg YK67OemPd:PF7;`eiDAH90
+DP ieee std_logic_1164 GH1=`jDDBJ=`LM;:Ak`kf2
+DE work lenet5_tb d;Og4OT:0bU`P?07Kg[l60
+31
+M5 ieee std_logic_1164
+M4 work fc_struct_pkg
+M3 ieee numeric_std
+M2 work conv_struct_pkg
+M1 std textio
+l199
+L24
+V2[^2KaSn>UVn>0`ZGcnBD3
+OE;C;6.2g;35
+o-93 -work ./work
+tExplicit 1
+vLeNet5_top
+VMHla5<aXhP?0=J5oQ9e9:2
+r1
+31
+IBYSk;W>I32>X@KnzKgzen0
+w1582666781
+8../netlist/LeNet5_top.v
+F../netlist/LeNet5_top.v
+L0 8
+OE;L;6.2g;35
+o-93 -work ./work
+n@le@net5_top

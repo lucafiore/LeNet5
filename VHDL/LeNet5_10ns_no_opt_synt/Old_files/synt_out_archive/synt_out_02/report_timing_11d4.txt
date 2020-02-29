@@ -1,0 +1,153 @@
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "P=8,M=400,S=9". (HDL-193)
+Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120' with
+	the parameters "P=8,M=400,S=9". (HDL-193)
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84' with
+	the parameters "P=8,M=120,S=7". (HDL-193)
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "P=8,M=84,S=7". (HDL-193)
+Warning:  ../src/VHDL_Common/muxMto1_nbit.vhd:20: The port default value in entity declaration for port 'SEL' is not supported. Presto ignores it. (ELAB-802)
+Error:  ../src/VHDL_Common/muxMto1_nbit.vhd:33: Constant value required. (ELAB-922)
+*** Presto compilation terminated with 1 errors. ***
+Information: Building the design 'muxMto1_nbit' instantiated from design 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10' with
+	the parameters "P=8,M=84,S=7". (HDL-193)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_1_INPUT_NEURONS400_OUTPUT_NEURONS120'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_2_INPUT_NEURONS120_OUTPUT_NEURONS84'. (LINK-5)
+Warning: Unable to resolve reference 'muxMto1_nbit' in 'Fully_Connected_Layer_3_INPUT_NEURONS84_OUTPUT_NEURONS10'. (LINK-5)
+Warning: Design 'LeNet5_top' has '3' unresolved references. For more detailed information, use the "link" command. (UID-341)
+Information: Updating design information... (UID-85)
+Warning: Design 'LeNet5_top' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LeNet5_top
+Version: O-2018.06-SP4
+Date   : Tue Nov 26 22:30:04 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/R_le_a/data_out_reg
+              (rising edge-triggered flip-flop clocked by MY_CLK')
+  Endpoint: Out_registers_0_0_2/data_out_reg[0]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LeNet5_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK' (rise edge)                               5.70       5.70
+  clock network delay (ideal)                             0.00       5.70
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/R_le_a/data_out_reg/CK (DFF_X1)
+                                                          0.00       5.70 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/R_le_a/data_out_reg/Q (DFF_X1)
+                                                          0.16       5.86 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/R_le_a/data_out (register_1bit_32)
+                                                          0.00       5.86 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_e/SEL (mux2to1_25)
+                                                          0.00       5.86 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_e/U2/ZN (AOI22_X1)
+                                                          0.06       5.92 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_e/U1/ZN (INV_X1)
+                                                          0.07       5.99 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_e/q (mux2to1_25)
+                                                          0.00       5.99 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_a/SEL (mux2to1_nbit_N8_448)
+                                                          0.00       5.99 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_a/U1/ZN (INV_X1)
+                                                          0.06       6.05 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_a/U3/ZN (AOI22_X1)
+                                                          0.06       6.12 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_a/U2/ZN (INV_X1)
+                                                          0.02       6.14 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_a/q[7] (mux2to1_nbit_N8_448)
+                                                          0.00       6.14 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_c/in_1[7] (mux2to1_nbit_N8_446)
+                                                          0.00       6.14 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_c/U3/ZN (AOI22_X1)
+                                                          0.05       6.19 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_c/U2/ZN (INV_X1)
+                                                          0.03       6.23 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_c/q[7] (mux2to1_nbit_N8_446)
+                                                          0.00       6.23 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/U3/ZN (NAND2_X1)
+                                                          0.03       6.26 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_f/in_0 (mux2to1_24)
+                                                          0.00       6.26 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_f/U2/ZN (AOI22_X1)
+                                                          0.03       6.28 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_f/U1/ZN (INV_X1)
+                                                          0.08       6.36 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_f/q (mux2to1_24)
+                                                          0.00       6.36 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_d/SEL (mux2to1_nbit_N8_445)
+                                                          0.00       6.36 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_d/U1/ZN (INV_X1)
+                                                          0.06       6.42 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_d/U3/ZN (AOI22_X1)
+                                                          0.06       6.49 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_d/U2/ZN (INV_X1)
+                                                          0.03       6.51 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Mux_d/q[7] (mux2to1_nbit_N8_445)
+                                                          0.00       6.51 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/U6/ZN (OR2_X1)
+                                                          0.09       6.60 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Out_mux/SEL (mux2to1_nbit_N8_444)
+                                                          0.00       6.60 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Out_mux/U1/ZN (INV_X1)
+                                                          0.08       6.68 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Out_mux/U3/ZN (AOI22_X1)
+                                                          0.04       6.72 f
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Out_mux/U2/ZN (INV_X1)
+                                                          0.03       6.75 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/Out_mux/q[0] (mux2to1_nbit_N8_444)
+                                                          0.00       6.75 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_0/output[0] (max_pooling_M_in8_M_out8_0)
+                                                          0.00       6.75 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/output_layer[0][0] (Conv_layer_1_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0)
+                                                          0.00       6.75 r
+  CONVOLUTIONAL_1/CONV1/output_layer[0][0] (Conv1_with_CU_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0)
+                                                          0.00       6.75 r
+  CONVOLUTIONAL_1/output_layer[0][0] (CONV1_top_N_in32_M_in8_M_w8_N_w5_I_w6_N_out28_M_out8_EXTRA_BIT0_N_out_max14)
+                                                          0.00       6.75 r
+  U17701/Z (BUF_X1)                                       0.05       6.80 r
+  U16574/Z (BUF_X1)                                       0.10       6.90 r
+  Out_registers_0_0_2/data_in[0] (register_nbit_N8_2278)
+                                                          0.00       6.90 r
+  Out_registers_0_0_2/U6/ZN (AOI22_X1)                    0.04       6.94 f
+  Out_registers_0_0_2/U5/ZN (INV_X1)                      0.03       6.97 r
+  Out_registers_0_0_2/data_out_reg[0]/D (DFF_X1)          0.01       6.98 r
+  data arrival time                                                  6.98
+
+  clock MY_CLK (rise edge)                               11.40      11.40
+  clock network delay (ideal)                             0.00      11.40
+  clock uncertainty                                      -0.07      11.33
+  Out_registers_0_0_2/data_out_reg[0]/CK (DFF_X1)         0.00      11.33 r
+  library setup time                                     -0.03      11.30
+  data required time                                                11.30
+  --------------------------------------------------------------------------
+  data required time                                                11.30
+  data arrival time                                                 -6.98
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.32
+
+
+1

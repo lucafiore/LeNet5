@@ -1,0 +1,68 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'LeNet5_top' contains 3 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LeNet5_top
+Version: O-2018.06-SP4
+Date   : Thu Feb 27 23:08:03 2020
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_4/R_le_a/data_out_reg
+              (rising edge-triggered flip-flop clocked by MY_CLK')
+  Endpoint: Out_registers_4_0_0/data_out_reg[2]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LeNet5_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK' (rise edge)                               5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_4/R_le_a/data_out_reg/CK (DFF_X1)
+                                                          0.00       5.00 r
+  CONVOLUTIONAL_1/CONV1/DATAPATH/Max_block_4/R_le_a/data_out_reg/Q (DFF_X1)
+                                                          0.15       5.15 r
+  U39533/ZN (AOI21_X1)                                    0.05       5.20 f
+  U39534/ZN (AOI22_X1)                                    0.07       5.28 r
+  U39535/ZN (INV_X1)                                      0.02       5.30 f
+  U39536/ZN (NOR2_X1)                                     0.11       5.41 r
+  U39537/ZN (INV_X1)                                      0.03       5.44 f
+  U39540/ZN (OAI21_X1)                                    0.06       5.51 r
+  U40049/ZN (INV_X1)                                      0.03       5.54 f
+  U40070/ZN (OAI21_X1)                                    0.06       5.59 r
+  U40071/ZN (INV_X1)                                      0.02       5.62 f
+  U31235/ZN (NOR3_X1)                                     0.16       5.78 r
+  U40157/ZN (AOI22_X1)                                    0.06       5.84 f
+  U40158/ZN (NOR2_X2)                                     0.19       6.03 r
+  U40175/Z (CLKBUF_X1)                                    0.22       6.25 r
+  U30961/Z (CLKBUF_X2)                                    0.22       6.47 r
+  Out_registers_4_0_0/data_out_reg[2]/D (DFF_X1)          0.03       6.50 r
+  data arrival time                                                  6.50
+
+  clock MY_CLK (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.07       9.93
+  Out_registers_4_0_0/data_out_reg[2]/CK (DFF_X1)         0.00       9.93 r
+  library setup time                                     -0.05       9.88
+  data required time                                                 9.88
+  --------------------------------------------------------------------------
+  data required time                                                 9.88
+  data arrival time                                                 -6.50
+  --------------------------------------------------------------------------
+  slack (MET)                                                        3.38
+
+
+1

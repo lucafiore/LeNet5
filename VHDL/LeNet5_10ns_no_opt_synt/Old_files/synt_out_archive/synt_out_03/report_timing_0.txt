@@ -1,0 +1,83 @@
+Error: Can't find output port 'SEL_ADD1' on reference to 'CONV2_top' in 'LeNet5_top'. (LINK-1)
+Error: Unable to match ports of cell CONVOLUTIONAL_2 ('CONV2_top') to 'CONV2_top_N_in14_M_in8_M_w8_N_w5_N_out10_M_out8_D_in6_D_w16_EXTRA_BIT0_N_out_max5'. (LINK-25)
+Information: Updating design information... (UID-85)
+Warning: Design 'LeNet5_top' contains 2 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : LeNet5_top
+Version: O-2018.06-SP4
+Date   : Mon Dec  9 19:25:23 2019
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: CU_MASTER/P_S_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: MAC_6/Reg_mpy/data_out_reg[14]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  LeNet5_top         5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  CU_MASTER/P_S_reg[1]/CK (DFFR_X1)                       0.00       0.00 r
+  CU_MASTER/P_S_reg[1]/Q (DFFR_X1)                        0.09       0.09 f
+  U35202/ZN (NAND2_X1)                                    0.05       0.14 r
+  U29884/ZN (NOR2_X1)                                     0.04       0.18 f
+  U29789/ZN (NAND2_X1)                                    0.16       0.34 r
+  U29700/ZN (INV_X4)                                      0.18       0.51 f
+  U29770/ZN (NOR2_X1)                                     0.20       0.71 r
+  U30543/ZN (NAND2_X1)                                    0.16       0.87 f
+  U29758/ZN (INV_X1)                                      0.16       1.04 r
+  U36559/ZN (NAND2_X1)                                    0.07       1.11 f
+  U36597/ZN (NAND3_X1)                                    0.10       1.20 r
+  U30548/ZN (INV_X1)                                      0.08       1.29 f
+  U36694/ZN (OAI22_X1)                                    0.15       1.44 r
+  U37850/ZN (OAI221_X1)                                   0.12       1.56 f
+  U30321/ZN (INV_X1)                                      0.07       1.63 r
+  U37851/ZN (OAI221_X1)                                   0.05       1.68 f
+  U37852/ZN (OAI21_X1)                                    0.04       1.72 r
+  U38173/S (HA_X1)                                        0.05       1.77 f
+  U38174/CO (FA_X1)                                       0.10       1.87 f
+  U38540/CO (FA_X1)                                       0.09       1.96 f
+  U38858/CO (FA_X1)                                       0.09       2.05 f
+  U39187/CO (FA_X1)                                       0.09       2.15 f
+  U39469/CO (FA_X1)                                       0.09       2.24 f
+  U39673/CO (FA_X1)                                       0.09       2.33 f
+  U39850/CO (FA_X1)                                       0.09       2.42 f
+  U40023/CO (FA_X1)                                       0.09       2.51 f
+  U40070/CO (FA_X1)                                       0.09       2.60 f
+  U40119/CO (FA_X1)                                       0.09       2.69 f
+  U40157/CO (FA_X1)                                       0.09       2.78 f
+  U40160/ZN (XNOR2_X1)                                    0.05       2.83 f
+  U30953/ZN (AND2_X1)                                     0.04       2.87 f
+  MAC_6/Reg_mpy/data_out_reg[14]/D (DFF_X1)               0.01       2.88 f
+  data arrival time                                                  2.88
+
+  clock MY_CLK (rise edge)                                3.00       3.00
+  clock network delay (ideal)                             0.00       3.00
+  clock uncertainty                                      -0.07       2.93
+  MAC_6/Reg_mpy/data_out_reg[14]/CK (DFF_X1)              0.00       2.93 r
+  library setup time                                     -0.04       2.89
+  data required time                                                 2.89
+  --------------------------------------------------------------------------
+  data required time                                                 2.89
+  data arrival time                                                 -2.88
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.01
+
+
+1
